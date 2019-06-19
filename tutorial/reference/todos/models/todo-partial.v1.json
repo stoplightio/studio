@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Todo Partial",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "completed": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "completed"
+  ],
+  "x-tags": [
+    "Todos"
+  ]
+}

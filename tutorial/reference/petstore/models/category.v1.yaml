@@ -1,0 +1,11 @@
+$schema: 'http://json-schema.org/draft-04/schema#'
+title: Category
+type: object
+description: ''
+properties:
+  name:
+    type: string
+required:
+  - name
+x-tags:
+  - Pets

@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Todo Full",
+  "allOf": [
+    {
+      "$ref": "./todo-partial.v1.json"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000000
+        },
+        "completed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "user": {
+          "$ref": "./user.v1.json"
+        }
+      },
+      "required": [
+        "id",
+        "user"
+      ]
+    }
+  ],
+  "x-tags": [
+    "Todos"
+  ]
+}
