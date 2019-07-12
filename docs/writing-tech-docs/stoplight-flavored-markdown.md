@@ -4,7 +4,7 @@ tags: []
 
 # Using Markdown in Documentation  
 
-All of the notes, descriptions, and content fields in the Stoplight editors supports use of [GitHub flavored Markdown](https://github.github.com/gfm/) and raw HTML. You can use Markdown to easily format your text content into beautiful documentation. 
+All of the notes, descriptions, and content fields in the Stoplight editors supports the use of [GitHub flavored Markdown](https://github.github.com/gfm/) and raw HTML. You can use Markdown to easily format your text content into beautiful documentation. 
 
 ### What is Markdown? 
 
