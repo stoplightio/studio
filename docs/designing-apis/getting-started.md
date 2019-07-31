@@ -16,9 +16,9 @@ Designing (also known as Modeling) your API involves describing all of the input
 
 ## How does it fit into Stoplight? 
 
-The Stoplight design module is where you and your team will maintain the single source of truth that describes the inputs and outputs of your API. 
+Stoplight Studio is where you and your team will maintain the single source of truth that describes the inputs and outputs of your API. 
 
-Once you have your API described in the Stoplight design module, you can: 
+Once you have your API described in Stoplight Studio, you can: 
 
 - Publish all or part of your API 
 - Create API tests from your designs 
@@ -28,7 +28,7 @@ Once you have your API described in the Stoplight design module, you can:
 
 ## Getting Started 
 
-There are a few ways to get started designing your API with the Stoplight design module:
+There are a few ways to get started designing your API with Stoplight Studio:
 
 - Create an API from scratch []()
 - [Reference another API Spec]()
