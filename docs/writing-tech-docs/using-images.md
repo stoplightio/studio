@@ -11,13 +11,15 @@ Using and uploading images in Stoplight is now easier than ever. Upload images t
 
 ## How 
 
-### Upload Images
+### Upload Images 
 1. Select the **+** button in the top left 
 2. Select **Image** from the dropdown 
 3. Select the image you want to upload from the file explorer 
 4. Click **Open** 
 
-> By default, the image will be uploaded to ```assets/images``` in your file tree 
+> Alternatively, you can right click the Images folder and select **Import Image** 
+
+> By default, uploaded images will be stored in the ```assets/images``` folder in your file tree 
 
 ### Place Images in Markdown Files 
 1. Select the markdown file you wish to add images to 
