@@ -19,7 +19,7 @@ Create hyperlinks to other markdown files to create additional navigation within
 > Example: ```[create a model using Studio](./model-masking-reference.md)```
 
 ### Anchor Links 
-2. Input ```[Display Text](#headertext)
+2. Input ```[Display Text](#headertext)```
 
-> Example: ```[linking between articles](#linking-between-articles)
+> Example: ```[linking between articles](#linking-between-articles)```
 
