@@ -1,43 +1,49 @@
----
-tags: []
----
-
 # Documentation Quickstart Guide 
 
-Want to publish documentation? This quick start guide will provide you with the necessary steps to get you from API Specification to published API Documentation in 5 minutes flat. 
+Want to publish documentation? This quick start guide will provide you with the necessary steps to get you from API Specification to ready-to-publish API Documentation in 5 minutes flat. 
 
-## 1. Open [Stoplight Studio](link to download)
+## 1. Open [Stoplight Studio](https://stoplight.io/p/studio)
 The opening page of Stoplight Studio contains three options: create a **New Personal Project**, Open Git Project, and Open Existing Folder. 
 
 ## 2. Create a **New Personal Project** 
-Create a New Personal Project by inputting a **Name**, select **Include Example Files**, and then click **Create**. 
+Create a New Personal Project by inputting a **Name**, select **Include Example Files”, and then click **Create. 
 
 > “Include Example Files” will populate your Project with example files to help get you started 
 
 ![Image or Opening Screen]()
 
-Once you have created a New Personal Project, the first thing you will see is the APIs filetree on the left and the design panel taking up the bulk of the screen space to the right. 
+Once you have created a New Personal Project, the first thing you will see is the APIs file tree on the left and the design panel taking up the bulk of the screen space to the right. 
 
 ![Image of Initial Screens]()
 
-The filetree to the left is where all of Stoplight Design files (API Specification: endpoints, models, paths, etc.) are stored and the main panel contains the [API Design GUI and Code View](link to switching panel view types). For more on API design, check out the [API Design Quick Start Guide](). 
+The file tree to the left is where all of Stoplight’s Design files (API Specification: endpoints, models, paths, etc.) are stored and the main panel contains the [Table of Contents, API Design GUI, Read View, and Code View](link to switching panel view types). For more on API design, check out the [API Design Quick Start Guide](). 
 
 ## 3. Select Docs 
 
 ![Select Docs tab]()
 
-From Studio Home, select the filetree’s **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation related files (markdown files and image files) can be created, managed, modified, and deleted. Since you selected “Include Example Files,” the left hand filetree will be populated by three folders: markdown, welcome and at the bottom, an Assets folder: Images. 
+From Studio Home, select the file tree’s **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation related files (markdown files and image files) can be created, managed, modified, and deleted. Since you selected “Include Example Files,” the left hand file tree will be populated by two folders: markdown and welcome and an Assets folder: Images. 
 
 ## 4. Modify Existing Markdown Files 
 > Learn [how to create new Markdown files]() 
 
-Open the markdown folder and select **Markdown Basics**. The main panel will switch to a split panel with the markdown code on the left, and a Preview on the right. You can modify the existing content within the left panel which will then be rendered in the Preview Panel. Select Save to make changes permanent. 
+Open the markdown folder and select **Markdown Basics**. The main panel will switch to the markdown editor where you can modify existing content and create new content. Select Save to make changes permanent. You can switch to Read View to preview the file you have selected by selecting Read View in the top right toggle of the main panel.
+
+![Toggle View Modes]()  
 
 >For more on panel customization, check out [Panels]()
 
-## 5. Publishing (Web App Only)
+## 5. Docs Preview 
 
-Coming Soon! Waiting on Release. 
+To preview your documentation in its entirety, select the **Docs** toggle in the top right of the application. 
+
+![Docs Preview]()
+
+## 6. Publishing (Web App Only)
+
+> Publishing is only available in the web app. For information on how to publish documentation 
+
+
 
 
 
