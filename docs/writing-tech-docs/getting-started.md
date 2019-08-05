@@ -41,7 +41,9 @@ To preview your documentation in its entirety, select the **Docs** toggle in the
 
 ## 6. Publishing (Web App Only)
 
-> Publishing is only available in the web app. For information on how to publish documentation 
+> Publishing is only available in the web app. 
+
+Move on to the [next article for help documentation on the publishing process]().   
 
 
 
