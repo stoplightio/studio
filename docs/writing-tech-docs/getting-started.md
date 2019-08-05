@@ -6,7 +6,7 @@ Want to publish documentation? This quick start guide will provide you with the 
 The opening page of Stoplight Studio contains three options: create a **New Personal Project**, Open Git Project, and Open Existing Folder. 
 
 ## 2. Create a **New Personal Project** 
-Create a New Personal Project by inputting a **Name**, select **Include Example Files”, and then click **Create. 
+Create a New Personal Project by inputting a **Name**, select **Include Tutorial Files**, and then click **Create**. 
 
 > “Include Example Files” will populate your Project with example files to help get you started 
 
@@ -22,7 +22,7 @@ The file tree to the left is where all of Stoplight’s Design files (API Specif
 
 ![Select Docs tab](../../assets/images/docs-tab-markdown-folder.png)
 
-From Studio Home, select the file tree’s **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation related files (markdown files and image files) can be created, managed, modified, and deleted. Since you selected “Include Example Files,” the left hand file tree will be populated by two folders: markdown and welcome and an Assets folder: Images. 
+From Studio Home, select the file tree’s **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation related files (markdown files and image files) can be created, managed, modified, and deleted. Since you selected “Include Tutorial Files,” the left hand file tree will be populated by two folders: markdown and welcome and an Assets folder: Images. 
 
 ## 4. Modify Existing Markdown Files 
 > Learn [how to create new Markdown files]() 
@@ -33,7 +33,7 @@ Open the markdown folder and select **Markdown Basics**. The main panel will swi
 
 >For more on panel customization, check out [Panels]()
 
-## 5. Docs Preview 
+## 5. Docs Preview (Web App Only)
 
 To preview your documentation in its entirety, select the **Docs** toggle in the top right of the application. 
 
