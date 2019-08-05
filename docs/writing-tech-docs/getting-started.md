@@ -14,7 +14,7 @@ Create a New Personal Project by inputting a **Name**, select **Include Example 
 
 Once you have created a New Personal Project, the first thing you will see is the APIs file tree on the left and the design panel taking up the bulk of the screen space to the right. 
 
-![Image of Initial Screens]()
+![New Project Menu](../../assets/images/initial-onboarding-screen.png)
 
 The file tree to the left is where all of Stoplight’s Design files (API Specification: endpoints, models, paths, etc.) are stored and the main panel contains the [Table of Contents, API Design GUI, Read View, and Code View](link to switching panel view types). For more on API design, check out the [API Design Quick Start Guide](). 
 
