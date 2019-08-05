@@ -8,11 +8,11 @@ tags: []
 
 ## What 
 Studio supports 5 key API Design and Documentation files in multiple formats. The general categories for these files is located within the file creation dropdown (**+**). They include:
-- API: API Specification 
-- Endpoint: Individual Paths & Operations 
-- Model: Reusable API Components 
-- Article: Supplemental Markdown FIles 
-- Image: Supplemental Images 
+- **API**: API Specification 
+- **Endpoint**: Individual Paths & Operations 
+- **Model**: Reusable API Components 
+- **Article**: Supplemental Markdown FIles 
+- **Image**: Supplemental Images 
 
 > There are also three other categories of files listed in the file creation dropdown: File (generic file creation), Folder (used for organizing content in your Git repository and Studio), & New Project (create a new Project)
 
