@@ -8,7 +8,7 @@ The opening page of Stoplight Studio contains three options: create a **New Pers
 ## 2. Create a **New Personal Project** 
 Create a New Personal Project by inputting a **Name**, select **Include Tutorial Files**, and then click **Create**. 
 
-> “Include Example Files” will populate your Project with example files to help get you started 
+> “Include Tutorial Files” will populate your Project with example files to help get you started 
 
 ![New Project Menu](../../assets/images/initial-onboarding-screen.png)
 
