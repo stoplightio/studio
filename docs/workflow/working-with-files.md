@@ -4,7 +4,11 @@ tags: []
 
 # Working with Files 
 
-![]()
+![Create New File](../../assets/images/create-file.png)
+
+1. **+**: Create New File 
+2. **Create New File Menu**
+3. **Alternate Create New File Menu**: Only displays when no file is selected 
 
 ## What 
 Studio supports 5 key API Design and Documentation files in multiple formats. The general categories for these files is located within the file creation dropdown (**+**). They include:
