@@ -6,6 +6,10 @@ tags: []
 
 ![]()
 
+1. **Docs File tree**
+2. **Create a New File** 
+3. **Files File tree** 
+
 ## What 
 
 ### Files Created Within Studio
