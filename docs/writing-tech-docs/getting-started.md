@@ -2,8 +2,8 @@
 
 Want to publish documentation? This quick start guide will provide you with the necessary steps to get you from API Specification to ready-to-publish API Documentation in 5 minutes flat. 
 
-## 1. Open [Stoplight Studio](https://stoplight.io/p/studio)
-The opening page of Stoplight Studio contains three options: create a **New Personal Project**, Open Git Project, and Open Existing Folder. 
+## 1. Open Stoplight Studio
+The opening page of [Stoplight Studio](https://stoplight.io/p/studio) contains three options: create a **New Personal Project**, Open Git Project, and Open Existing Folder. 
 
 ## 2. Create a **New Personal Project** 
 Create a New Personal Project by inputting a **Name**, select **Include Tutorial Files**, and then click **Create**. 
