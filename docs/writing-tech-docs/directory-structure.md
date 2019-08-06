@@ -16,7 +16,7 @@ tags: []
 Stoplight Studio’s directory structure (aka file tree structure) organizes and displays accessible files in Studio. Documentation specific files (markdown and image files) can be viewed within the File tree **Docs** tab and all files can be viewed within the **Files** tab.
 
 ### Files Uploaded to Studio
-To publish and modify Markdown files created outside of the Studio UI , they must be stored within the **docs** folder. To publish and modify images created outside of the Studio UI, they must be stored within the **assets/images** folder. 
+To publish and modify Markdown files created outside of Studio, they must be stored within the **docs** folder. To publish and modify images created outside of Studio, they must be stored within the **assets/images** folder. 
 
 ## How 
 
