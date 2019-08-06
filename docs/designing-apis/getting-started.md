@@ -21,16 +21,16 @@ Stoplight Studio is where you and your team will maintain the single source of t
 Once you have your API described in Stoplight Studio, you can: 
 
 - Publish all or part of your API 
-- Create API tests from your designs 
 - Send requests to your API to debug it 
 - Create a mock API based on your design
+- Validate your API spec with Spectral, our open source API description linter 
 - ...and much more 
 
 ## Getting Started 
 
 There are a few ways to get started designing your API with Stoplight Studio:
 
-- Create an API from scratch []()
-- [Reference another API Spec]()
-- [Send HTTP Requests]()
+- [Create an API from scratch](../workflow/working-with-files.md)
+- [Reference another API Spec](using-references.md)
+- [Send HTTP Requests](http-endpoints.md)
 - [Validate your API Spec]()
