@@ -11,7 +11,7 @@ Referencing another specification allows for cleaner and more organized code. So
 
 * Generate API documentation 
 * De-duplicate common structures like responses or shared parameters in Modeling
-* Setup a mock server for an API in Prism
+* Setup a mock server for an API 
 
 ## How 
 1. Select an **endpoint** or **model** 
