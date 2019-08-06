@@ -4,7 +4,7 @@ tags: []
 
 # Using References
 
-![]()
+![Using References](../../assets/images/ref-model.png)
 
 ## What 
 Referencing another specification allows for cleaner and more organized code. Some common use cases are as follows:
