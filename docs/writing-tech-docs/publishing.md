@@ -12,9 +12,15 @@
 Instantly Publish API Specifications, Models, and supplemental markdown files and images. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation. 
 
 ## How 
-1. 
+1. Open an existing **Git Project** or create a new Git Project  
+2. Click the **Docs** button in the top right to preview your docs 
+3. Click **Publish** to publish your documentation 
+
+## Published Documentation URL 
+```https://stoplightio/p/docs/gh/{org}/{project}```
 
 ## Documentation Hierarchy/Structure 
+How files in Studio will be displayed in your documentation.
 
 ### I. Markdown
 ```
