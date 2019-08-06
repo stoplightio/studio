@@ -4,7 +4,7 @@ tags: []
 
 # Customize Style & Validation Rules
 
-![Customize Style and Validation Rules]()
+![Customize Style and Validation Rules](../../assets/images/spectral.png)
 
 ## What
 
