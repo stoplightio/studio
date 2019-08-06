@@ -4,7 +4,7 @@ tags: []
 
 # Directory Structure (Documentation) 
 
-![]()
+![Docs Directory Structure](../../assets/images/docs-directory.png)
 
 1. **Docs File tree**
 2. **Create a New File** 
