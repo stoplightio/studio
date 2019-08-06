@@ -1,6 +1,7 @@
 # Publishing in Studio 
 
 > Only Available in the Web Application
+
 > Files **Must** be stored in a Git Repository to be published
 
 ![]()
