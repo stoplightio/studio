@@ -24,7 +24,7 @@ responses.
 
 ## Using the Editor
 
-![]()
+![Crud Builder Editor](../../assets/images/crud-builder.png)
 
 We created the CRUD builder editor to make data structure creation as simple as
 possible. You can find the CRUD builder editor within any model or endpoint while [**Form View**](../workflow/customize-interface.md) is selected.
@@ -82,7 +82,7 @@ To start utilizing the editor:
 
 ## Editing the Raw JSON Schema
 
-![]()
+![Write View](../../assets/images/write-view.png)
 
 While not for the faint hearted, you can also edit the raw JSON schema directly
 if you are familiar with the format, or have a pre-existing JSON schema
