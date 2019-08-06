@@ -13,8 +13,8 @@ Instantly Publish API Specifications, Models, and supplemental markdown files an
 
 ## How 
 1. Open an existing **Git Project** or create a new Git Project  
-2. Click the **Docs** button in the top right to preview your docs 
-3. Click **Publish** to publish your documentation 
+2. Click the **Docs** button in the top right to preview your docs (optional)
+3. Click **Publish** within Studio to publish your documentation 
 
 ## Published Documentation URL 
 ```https://stoplightio/p/docs/gh/{org}/{project}```
