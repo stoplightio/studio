@@ -1,6 +1,6 @@
 # Customize Interface Panels 
 
-![]()
+![Panel Overview](../../assets/images/panel-overview.png)
 
 1. **File tree Panel**: Displays API Specifications, Endpoints, & Models (APIs Tab), Markdown & Image Files (Docs Tab), All Files (Files Tab) 
 2. **Main Panel**: Displays Form View, Read View, or Write View 
