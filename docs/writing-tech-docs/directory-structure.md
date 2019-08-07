@@ -22,16 +22,16 @@ To publish and modify Markdown files created outside of Studio, they must be sto
 
 ### Files Created Within Studio 
 1. [Add a markdown or image file via the UI](../workflow/working-with-files.md)
-2. The file will be visible within the Docs file tree tab
+2. The file will be visible within the **Docs** file tree tab
 3. Switch to the **File** file tree (**optional**)
 4. Open the **docs** folder to view created markdown file 
 5. Open the **assets/images** folder to view uploaded images
 
 ### Markdown Files Uploaded to Studio 
 1. [Clone your Git Repository](../workflow/working-with-git.md)
-2. From the **Docs** file tree, click the **+** button and select **Folder** from the dropdown 
+2. Click the **+** button and select **Folder** from the dropdown 
 
-> Alternative Solution: Right-click on the Docs file tree and select **New Directory** 
+> Alternative Solution: Right-click on the file tree and select **New Directory** 
 
 3. Input **docs** for the new folder/directory name 
 4. Drag drop existing markdown files into the newly created **docs** folder 
@@ -39,9 +39,9 @@ To publish and modify Markdown files created outside of Studio, they must be sto
 
 ### Image Files Uploaded to Studio 
 1. [Clone your Git Repository](../workflow/working-with-git.md)
-2. From the **Docs** file tree, click the **+** button and select **Folder** from the dropdown 
+2. Click the **+** button and select **Folder** from the dropdown 
 
-> Alternative Solution: Right-click on the Docs file tree and select **New Directory** 
+> Alternative Solution: Right-click on the file tree and select **New Directory** 
 
 3. Input **assets/images** for the new folder/directory name 
 4. Drag drop existing image files into the newly created **assets/images** folder 
