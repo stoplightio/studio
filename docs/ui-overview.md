@@ -1,8 +1,8 @@
 # UI Overview
 
-![UI Overview](../../assets/images/ui-overview.png)
+![UI Overview](../assets/images/ui-overview.png)
 
-1. ** Project Selector**: Displays the currently selected project. Click to select a different project from the dropdown menu, search for a project, or create a new project. 
+1. **Project Selector**: Displays the currently selected project. Click to select a different project from the dropdown menu, search for a project, or create a new project. 
 
 2. **Project Actions**: Contains actions to help you add new assets to your project. This includes creating new: APIs, Endpoints, Models, Articles, Images, Files, Folders, and Projects. 
 
