@@ -43,7 +43,7 @@ To preview your documentation in its entirety, select the **Docs** toggle in the
 
 > Publishing is only available in the web app. 
 
-Move on to the [next article for help documentation on the publishing process]().   
+Move on to the [next article for help documentation on the publishing process](publishing.md).   
 
 
 
