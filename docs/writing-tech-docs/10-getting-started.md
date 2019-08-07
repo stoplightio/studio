@@ -5,7 +5,7 @@ Want to publish documentation? This quick start guide will provide you with the 
 ## 1. Open Stoplight Studio
 The opening page of [Stoplight Studio](https://stoplight.io/p/studio) contains three options: create a **New Personal Project**, Open Git Project, and Open Existing Folder. 
 
-## 2. Create a **New Personal Project** 
+## 2. Create a New Personal Project 
 Create a New Personal Project by inputting a **Name**, select **Include Tutorial Files**, and then click **Create**. 
 
 > “Include Tutorial Files” will populate your Project with example files to help get you started 
