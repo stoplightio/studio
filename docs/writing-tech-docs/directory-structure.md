@@ -35,7 +35,7 @@ To publish and modify Markdown files created outside of Studio, they must be sto
 
 3. Input **docs** for the new folder/directory name 
 4. Drag drop existing markdown files into the newly created **docs** folder 
-5. Those markdown files will now be accessible in Studio’s Docs filetree 
+5. Those markdown files will now be accessible in Studio’s Docs file tree 
 
 ### Image Files Uploaded to Studio 
 1. [Clone your Git Repository](../workflow/working-with-git.md)
