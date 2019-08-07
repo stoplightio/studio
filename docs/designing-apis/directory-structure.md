@@ -1,6 +1,6 @@
 # Project Structure (Design & Modeling) 
 
-![]()
+![Project Structure](../../assets/images/directory-structure-design.md)
 
 ## What 
 
@@ -8,7 +8,7 @@
 Stoplight Studio’s directory structure (aka file tree structure) organizes and displays accessible files in Studio. API specific files (API specifications and models) can be viewed within the **APIs** file tree tab and all files can be viewed within the **Files** tab. 
 
 ### Files Uploaded to Studio 
-To publish and modify API specifications created outside of Studio, they must be stored within `reference/{API-title}/`. Models must be stored within `reference/{API-title}/models . Common models must be stored within `reference/common`.
+To publish and modify API specifications created outside of Studio, they must be stored within `reference/{API-title}/`. Models must be stored within `reference/{API-title}/models` . Common models must be stored within `reference/common`.
 
 ## How 
 
@@ -32,13 +32,6 @@ To publish and modify API specifications created outside of Studio, they must be
 6. Drag drop existing API Specification file into the **APIs name** folder 
 7. That API Specification will now be accessible in Studio’s APIs file tree
 
-> Example: 
-```
-reference
-	  petstore 
-		    petstore.v1.json
-```
-
 ### Model Files Uploaded to Studio 
 1. [Clone your Git Repository](../workflow/working-with-git.md)
 2. Click the **+** button and select **Folder** from the dropdown
@@ -53,14 +46,6 @@ reference
 8. Drag drop existing models into the **models** folder 
 9. Those models are now accessible in Studio’s APIs file tree 
 
-> Example: 
-```
-reference
-	  petstore 
-		    models
-            pet.v1.json	
-```
-
 ### Common Models Uploaded to Studio 
 1. [Clone your Git Repository](../workflow/working-with-git.md)
 2. Click the **+** button and select **Folder** from the dropdown
@@ -73,10 +58,4 @@ reference
 6. Drag drop existing common models into the **common/models** folder 
 7. Those common models are now accessible in Studio’s APIs file tree 
 
-Example: 
-```
-reference
-    common
-        models
-            pet.v1.json
-```
+
