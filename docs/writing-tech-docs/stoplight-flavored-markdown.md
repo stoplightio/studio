@@ -320,10 +320,10 @@ Most of this information was pulled from [Adam Pritchard's Mardkown Cheatsheet](
 ---
 **Related Articles**
 - [Documentation with Hubs](/documentation/introduction)
-- [Routing](/documentation/getting-started/routing)
-- [Headers](/documentation/getting-started/header-footer)
-- [Pages](/documentation/getting-started/pages)
-- [Subpages](/documentation/getting-started/subpages)
+- [Routing](/documentation/10-getting-started/routing)
+- [Headers](/documentation/10-getting-started/header-footer)
+- [Pages](/documentation/10-getting-started/pages)
+- [Subpages](/documentation/10-getting-started/subpages)
 - [Blocks](/documentation/blocks)
 - [Referencing Other Data Sources](/documentation/referencing-other-data-sources)
 - [Publishing](/documentation/publishing)

@@ -2,17 +2,17 @@
 tags: []
 ---
 
-# Using the CRUD Builder
+# Working with Models
 
-Stoplight's CRUD builder allows you to easily design and model data structures
-used by your API. The CRUD builder is especially useful for:
+Stoplight's JSON Schema editor allows you to easily design and model data structures
+used by your API. The JSON Schema editor is especially useful for:
 
 * Drafting API requests and response bodies under an API endpoint
 * Creating [models](models.md) for your API
 
 There are two different methods for generating a CRUD model:
 
-* Using the CRUD builder **editor**, which allows you to create data structures
+* Using the JSON Schema **editor**, which allows you to create data structures
   in an easy-to-use, graphical format
 
 * Using the **Raw Schema** editor, if you would prefer to modify the data
@@ -24,10 +24,10 @@ responses.
 
 ## Using the Editor
 
-![Crud Builder Editor](../../assets/images/crud-builder.png)
+![JSON Schema Editor](../../assets/images/crud-builder.png)
 
-We created the CRUD builder editor to make data structure creation as simple as
-possible. You can find the CRUD builder editor within any model or endpoint while [**Form View**](../workflow/customize-interface.md) is selected.
+We created the JSON Schema editor to make data structure creation as simple as
+possible. You can find the JSON Schema editor within any model or endpoint while [**Form View**](../workflow/customize-interface.md) is selected.
 
 To start utilizing the editor:
 
@@ -93,3 +93,10 @@ tab. This will open a text box with the JSON schema of the current object. From
 there, you can either edit or copy and paste contents directly into the text box
 to update the data structure.
 
+## Best Practices 
+
+### Avoid Cluttered APIs
+When you have several endpoints with the same structure, objects, and properties, your API design is untidy. Ensure that you extract reusable artifacts and build them as pragmatic models referenced by other resources within your API project. 
+
+### Use a Design First Approach
+A design first approach helps create neat and consistent models. It will take longer, but it ensures you built an effective API that is easy to understand and maintain. 
