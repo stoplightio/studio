@@ -1,6 +1,6 @@
 # Project Structure (Design & Modeling) 
 
-![Project Structure](../../assets/images/directory-structure-design.md)
+![Project Structure](../../assets/images/directory-structure-design.png)
 
 ## What 
 
