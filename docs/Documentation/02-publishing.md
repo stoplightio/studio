@@ -1,25 +1,25 @@
 # Publishing in Studio 
 
 <!-- theme: warning -->
-> Only Available in the Web Application
+> This functionality is only available in the **web** version of Stoplight Studio
 
 <!-- theme: danger -->
-> Files **Must** be stored in a Git Repository to be published
+> Files **must** be stored in a Git repository to be published
 
 ![Publishing Preview](../../assets/images/publishing.png)
 
-## What 
+## What
 Instantly Publish API Specifications, Models, and supplemental markdown files and images. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation. 
 
-## How 
+## How
 1. Open an existing **Git Project** or create a new Git Project  
 2. Click the **Docs** button in the top right to preview your docs (optional)
 3. Click **Publish** within Studio to publish your documentation 
 
-## Published Documentation URL 
+## Published Documentation URL
 ```https://stoplightio/p/docs/gh/{org}/{project}```
 
-## Documentation Hierarchy/Structure 
+## Documentation Hierarchy/Structure
 How files in Studio will be displayed in your documentation.
 
 ### I. Markdown
