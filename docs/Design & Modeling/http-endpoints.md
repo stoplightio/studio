@@ -27,7 +27,7 @@ responses.
 ![JSON Schema Editor](../../assets/images/crud-builder.png)
 
 We created the JSON Schema editor to make data structure creation as simple as
-possible. You can find the JSON Schema editor within any model or endpoint while [**Form View**](../workflow/customize-interface.md) is selected.
+possible. You can find the JSON Schema editor within any model or endpoint while [**Form View**](../Workflow/customize-interface.md) is selected.
 
 To start utilizing the editor:
 
@@ -88,7 +88,7 @@ While not for the faint hearted, you can also edit the raw JSON schema directly
 if you are familiar with the format, or have a pre-existing JSON schema
 representation of your data structure.
 
-To edit the raw JSON schema, [switch to the **Write View** tab](../workflows/customize-interface.md) next to the **Form View**
+To edit the raw JSON schema, [switch to the **Write View** tab](../Workflows/customize-interface.md) next to the **Form View**
 tab. This will open a text box with the JSON schema of the current object. From
 there, you can either edit or copy and paste contents directly into the text box
 to update the data structure.
