@@ -4,7 +4,7 @@ tags: []
 
 # Using Images 
 
-![Create New Image](../../assets/images/create-image.png)
+![Create New Image](../../assets/images/images.png)
 
 ## What 
 Using and uploading images in Stoplight is now easier than ever. Upload images to Studio to create beautiful documentation layouts that supplement text content. 
