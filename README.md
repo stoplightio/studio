@@ -40,7 +40,7 @@ Write and store documentation alongside your API specification (and even your co
 
 You can even host the files in your own Git repository, and then publish when you're ready to show off your latest and greatest. 
 
-To find out more about writing technical documentation in Studio, see our getting started guide [here](writing-tech-docs/10-getting-started).
+To find out more about writing technical documentation in Studio, see our getting started guide [here](Documentation/10-getting-started).
 
 ## Stoplight-Flavored Markdown
 
@@ -50,7 +50,7 @@ Stoplight-flavored markdown (SMD) is a lightweight variation on the standard [Co
 
 All defined in simple and unintrusive for for ultimate portability. 
 
-To find out more about the SMD format and how you can use it to improve your documentation, see [here](writing-tech-docs/stoplight-flavored-markdown).
+To find out more about the SMD format and how you can use it to improve your documentation, see [here](Documentation/stoplight-flavored-markdown).
 
 ## Style Guides and Validation
 

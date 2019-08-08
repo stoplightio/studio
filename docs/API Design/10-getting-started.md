@@ -30,7 +30,7 @@ Once you have your API described in Stoplight Studio, you can:
 
 There are a few ways to get started designing your API with Stoplight Studio:
 
-- [Create an API from scratch](../workflow/working-with-files.md)
+- [Create an API from scratch](../Workflow/working-with-files.md)
 - [Reference another API Spec](using-references.md)
 - [Working with Models](http-endpoints.md)
 - [Validate your API Spec](validation-style-guide.md)
