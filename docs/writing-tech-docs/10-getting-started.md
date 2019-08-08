@@ -37,7 +37,7 @@ Open the markdown folder and select **Markdown Basics**. The main panel will swi
 
 To preview your documentation in its entirety, select the **Docs** toggle in the top right of the web application. 
 
-![Docs Preview]()
+![Docs Preview](../../assets/images/publishing.png)
 
 ## 6. Publishing (Web App Only)
 
