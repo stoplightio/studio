@@ -6,7 +6,7 @@
 <!-- theme: danger -->
 > Files **Must** be stored in a Git Repository to be published
 
-![]()
+![Publishing Preview](../../assets/images/publishing.png)
 
 ## What 
 Instantly Publish API Specifications, Models, and supplemental markdown files and images. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation. 
