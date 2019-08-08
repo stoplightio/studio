@@ -20,7 +20,7 @@ Studio supports 5 key API Design and Documentation files in multiple formats. Th
 
 > There are also three other categories of files listed in the file creation dropdown: File (generic file creation), Folder (used for organizing content in your Git repository and Studio), & New Project (create a new Project)
 
-> Folders are critical for [accessing API Specification, Markdown, and Image files that aren’t formatted for Studio]()
+> Folders are critical for accessing API Specification, Markdown, and Image files that aren’t formatted for Studio
  
 ## How 
 1. **Create a New Project** or **Open an Existing Project** 
