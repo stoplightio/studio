@@ -48,14 +48,14 @@ Studio supports 5 key API Design and Documentation files in multiple formats. Th
 5. Click **Create** 
 
 ### Article
-1. Input a **Title for your markdown file 
+1. Input a **Title** for your markdown file 
 2. Add a **Tag** to group similar markdown files together 
 3. Click **Create** 
 
 ### Image 
 1. Select an image file from local disk 
 
-### FIle 
+### File 
 1. Input a filename 
 2. Press Enter 
 
