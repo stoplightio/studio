@@ -18,7 +18,7 @@ Assuming everything went to plan, you should now see a page resembling the one b
 
 > Note that the screenshot above was taken from the Studio web interface, so there may be some slight differences if you are using the Studio desktop application.
 
-You have just created your first project! Be sure to review the [UI overview](./ui-overview) for quick highlights on the Studio user interface.
+You have just created your first project! Be sure to review the [UI Overview](./ui-overview.md) for quick highlights on the Studio user interface.
 
 ## Creating an API
 

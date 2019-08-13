@@ -30,7 +30,7 @@ When it comes to API modeling, avoiding duplication of effort can be the differe
 
 Studio allows you to quickly and easily find and reuse the objects you need, as you need them. No more recreating models for different endpoints, no more having to update dozens of different endpoints because a new field was added.
 
-To find out more about how you can leverage references to scale your API consistency, see [here](designing-apis/using-references).
+To find out more about how you can leverage references to scale your API consistency, see [here](Design-and-Modeling/using-references.md).
 
 ## Technical Documentation
 
@@ -40,7 +40,7 @@ Mix API Reference Documentation and Markdown-based guides, how-tos, getting star
 
 You can even host the files in your own Git repository, and then publish when you're ready to show off your latest and greatest. 
 
-To find out more about writing technical documentation in Studio, see our getting started guide [here](Documentation/10-getting-started).
+To find out more about writing technical documentation in Studio, see our getting started guide [here](Documentation/01-getting-started.md).
 
 ## Stoplight-Flavored Markdown
 
@@ -48,7 +48,7 @@ Stoplight-flavored Markdown (SMD) is a fully compatible superset of [CommonMark]
 
 ![](assets/images/markdown1.png)
 
-To find out more about the SMD format and how you can use it to improve your documentation, see [here](Documentation/stoplight-flavored-markdown).
+To find out more about the SMD format and how you can use it to improve your documentation, see [here](Documentation/stoplight-flavored-markdown.md).
 
 ## Style Guides and Validation
 
@@ -58,7 +58,7 @@ Enforce correctness and best practices with native [Spectral](https://stoplight.
 
 Clicking on errors or warnings also brings you to exactly where they are located in the document, making it easy to fix errors at the source. 
 
-To find out more about Spectral and how validations can improve your API design workflow, see [here](designing-apis/validation-style-guide).
+To find out more about Spectral and how validations can improve your API design workflow, see [here](Design-and-Modeling/validation-style-guide.md).
 
 ## Built-in Mocking
 
@@ -66,7 +66,7 @@ When running locally, Studio will automatically start a local [Prism mock server
 
 ![](assets/images/studio-mocking.png)
 
-To find out more about Prism and how mocking can be used to streamline your API development process, see [here](designing-apis/mocking).
+To find out more about Prism and how mocking can be used to streamline your API development process, see [here](Design-and-Modeling/mocking.md).
 
 ## Bring Your Own Repository
 

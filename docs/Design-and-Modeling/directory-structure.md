@@ -13,7 +13,7 @@ To publish and modify API description created outside of Studio, they must be st
 ## How 
 
 ### Files Created Within Studio 
-1. [Add an API, Endpoint, or Model via the UI](../workflow/working-with-files.md)
+1. [Add an API, Endpoint, or Model via the UI](../Basics/working-with-files.md)
 2. The file will be visible within the **APIs** file tree tab 
 3. Switch to the **File** file tree (**optional**)
 4. Open the **reference** folder to view created API folders 
@@ -21,7 +21,7 @@ To publish and modify API description created outside of Studio, they must be st
 6. Open individual API folders to view API description documents and API specific models folder 
 
 ### API Description Documents Uploaded to Studio 
-1. [Clone your Git Repository](../workflow/working-with-git.md)
+1. [Clone your Git Repository](../Basics/working-with-git.md)
 2. Click the **+** button and select **Folder** from the dropdown
 
 > Alternative Solution: Right-click on the file tree and select **New Directory** 
