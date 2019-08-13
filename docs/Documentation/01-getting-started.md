@@ -16,7 +16,7 @@ Once you have created a New Personal Project, the first thing you will see is th
 
 ![Welcome Screen](../../assets/images/panel-general.png)
 
-The file tree to the left is where all of Stoplight’s Design files (API Specification: endpoints, models, paths, etc.) are stored and the main panel contains the [Table of Contents, API Design GUI, Read View, and Write View](../.../ui-overview.md). For more on API design, check out the [API Design Quick Start Guide](../design-and-modeling/10-getting-started.md). 
+The file tree to the left is where all of Stoplight’s Design files (API Specification: endpoints, models, paths, etc.) are stored and the main panel contains the [Table of Contents, API Design GUI, Read View, and Write View](../.../ui-overview.md). For more on API design, check out the [API Design Quick Start Guide](../design-and-modeling/01-getting-started.md). 
 
 ## 3. Select Docs 
 
@@ -44,10 +44,3 @@ To preview your documentation in its entirety, select the **Docs** toggle in the
 > Publishing is only available in the web app. 
 
 Move on to the [next article for help documentation on the publishing process](publishing.md).   
-
-
-
-
-
-
-
