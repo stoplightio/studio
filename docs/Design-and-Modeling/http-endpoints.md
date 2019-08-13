@@ -7,8 +7,8 @@ tags: []
 Stoplight's JSON Schema editor allows you to easily design and model data structures
 used by your API. The JSON Schema editor is especially useful for:
 
-* Drafting API requests and response bodies under an API endpoint
-* Creating [models](models.md) for your API
+* Drafting API request and response bodies under an API endpoint
+* Creating models for your API
 
 There are two different methods for generating a CRUD model:
 
@@ -89,9 +89,7 @@ if you are familiar with the format, or have a pre-existing JSON schema
 representation of your data structure.
 
 To edit the raw JSON schema, [switch to the **Write View** tab](../Workflows/customize-interface.md) next to the **Form View**
-tab. This will open a text box with the JSON schema of the current object. From
-there, you can either edit or copy and paste contents directly into the text box
-to update the data structure.
+tab. This will switch you over to the Write view which will allow you to make edits directly in the raw schema.
 
 ## Best Practices 
 
