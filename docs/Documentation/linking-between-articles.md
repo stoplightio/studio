@@ -13,6 +13,4 @@ Create hyperlinks to other markdown files to create additional navigation within
 
 2. Input ```[Display Text](Hyperlink URL/File Location)```
 
-> Example: ```[API Design Quickstart Guide](../designing-apis/10-getting-started.md)```
-
-
+> Example: ```[API Design Quickstart Guide](../designing-apis/01-getting-started.md)```

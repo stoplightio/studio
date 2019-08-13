@@ -10,9 +10,9 @@ Studio is our next generation app for API design, modeling, and technical writin
 
 Here is some of what it can do:
 
-- **OpenAPI v2 AND v3:** Form based design mode means you don't need to be an OpenAPI expert to get started. Studio also supports OpenAPI autocomplete in write mode, a read mode to visualize HTTP operations and models, mocking, and linting for OpenAPI v2 and v3.
+- **OpenAPI v2 _and_ v3:** Form based design mode means you don't need to be an OpenAPI expert to get started. Studio also supports OpenAPI autocomplete in write mode, a read mode to visualize HTTP operations and models, mocking, and linting for OpenAPI v2 and v3.
 - **Standalone JSON Schema Modeling:** Studio encourages you to split your models into separate files, and then makes it easy to create `$refs` between them.
-- **Stoplight Flavored Markdown:** SMD is an optional, lightweight extension to regular markdown. It enables a few advanced features such as tabs and callouts.
+- **Stoplight Flavored Markdown:** SMD is an optional, lightweight extension CommonMark (a standard form of Markdown). It enables a few advanced features such as tabs and call-outs.
 - **Combine Reference and Implementation:** Since Studio works with your local filesystem, you can open up your API projects and start adding docs and designs alongside the actual implementation they are meant to describe. Once you're done, check it all into Git with your favorite Git client!
 - **Manage Mock Servers:** When Prism is enabled (via experimental features setting), Studio will automatically start a local mock server for every API defined in your project, and keep that mock server up to date as you change your designs.
 

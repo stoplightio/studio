@@ -14,7 +14,7 @@ Form-based designing means you don't need to be an OpenAPI expert to get started
 
 ![](assets/images/form-editor.png)
 
-To find out more about how you can quickly design and prototype APIs without writing a single line of JSON or YAML, see [here](designing-apis/10-getting-started).
+To find out more about how you can quickly design and prototype APIs without writing a single line of JSON or YAML, see [here](./Design-and-Modeling/01-getting-started.md).
 
 ## JSON Schema Modeling
 

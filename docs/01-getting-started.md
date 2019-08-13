@@ -34,4 +34,4 @@ From there you can name your API, and then optionally set the specification vers
 
 After clicking "Create", a new API description document will be created and added to the project. From there you can then set the global information about the API and get started adding your first operation.
 
-Continue on to the [API Design Guide](./API\ Design/10-getting-started) to get started designing APIs.
+Continue on to the [API Design Guide](./Design-and-Modeling/01-getting-started.md) to get started designing APIs.
