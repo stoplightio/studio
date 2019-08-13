@@ -14,7 +14,7 @@ Form-based designing means you don't need to be an OpenAPI expert to get started
 
 ![](assets/images/form-editor.png)
 
-To find out more about how you can quickly draft and design APIs without writing a single line of JSON or YAML, see [here](designing-apis/10-getting-started).
+To find out more about how you can quickly design and prototype APIs without writing a single line of JSON or YAML, see [here](designing-apis/10-getting-started).
 
 ## JSON Schema Modeling
 
@@ -34,7 +34,7 @@ To find out more about how you can leverage references to scale your API consist
 
 ## Technical Documentation
 
-Write and store documentation alongside your API specification (and even your code!). Studio includes a built-in markdown editor, image manager, and the ability to publish public API documentation to Stoplight’s new documentation platform.
+Mix API Reference Documentation and Markdown-based guides, how-tos, getting started information, etc. All of your documentation can live together in the same project. Studio includes a built-in Markdown editor, image manager, and the ability to publish documentation to Stoplight’s new documentation platform.
 
 ![](assets/images/technical-documentation.png)
 
@@ -47,8 +47,6 @@ To find out more about writing technical documentation in Studio, see our gettin
 Stoplight-flavored Markdown (SMD) is a fully compatible superset of [CommonMark](https://commonmark.org/), the popular Markdown specification. SMD enables a few advanced block types that will enrich your user’s documentation experience, and includes options such as call-outs, tabs, JSON Schema elements, and HTTP "try it out" blocks.
 
 ![](assets/images/markdown1.png)
-
-All defined in simple and unintrusive for for ultimate portability. 
 
 To find out more about the SMD format and how you can use it to improve your documentation, see [here](Documentation/stoplight-flavored-markdown).
 
