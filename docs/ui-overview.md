@@ -8,7 +8,7 @@ This article provides a high-level overview of the Stoplight Studio User Interfa
 
 2. **Project Actions**: Contains actions to help you add new assets to your project. This includes creating new: APIs, Endpoints, Models, Articles, Images, Files, Folders, and Projects.
 
-3. **Project Sidebar**: Displays an overview of the project in different ways. Can toggle between the **APIs** view (displays APIs, endpoints, and models), the **Docs** view (for markdown and image files), the **Files** view (displaying all project files), and a **Git** view (for pushing/pulling changes to the connected Git repository).
+3. **Project Sidebar**: Displays an overview of the project in different menu formats. Can toggle between **APIs** (displays APIs, endpoints, and models), **Docs** (for markdown and image files), **Files** (displaying all project files), and **Git** (for pushing/pulling changes to the connected Git repository).
 
 4. **Primary Panel**: Main editor panel. Can switch between different "views" via the toggle in the top right of the panel (not shown, must hover over panel for toggle to appear).
 
