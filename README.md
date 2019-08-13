@@ -10,7 +10,7 @@ Studio comes with full support for the OpenAPI versions 2 and 3 specification fo
 
 ## Graphical API Design
 
-Form-based designing means you don't need to be an OpenAPI expert to get started. Studio also supports OpenAPI autocomplete in "write" (code) mode, and a "read" mode for visualizing HTTP operations and models.
+Form-based designing means you don't need to be an OpenAPI expert to get started. Studio has a "write" (code) mode with full OpenAPI autocomplete, and a "read" mode for visualizing HTTP operations and models.
 
 ![](assets/images/form-editor.png)
 
@@ -18,7 +18,7 @@ To find out more about how you can quickly draft and design APIs without writing
 
 ## JSON Schema Modeling
 
-Studio is not just for APIs, you can also create and modify standalone JSON schema files for storing data models. Did we mention that this is also powered by a graphical interface? No more searching for the matching bracket or the missing space, and no need to be familiar with the in's and out's of JSON schema.
+Studio is not just for APIs, you can also create and modify standalone JSON Schema files for storing data models. Did we mention that this is also powered by the graphical interface? No more searching for the matching bracket or the missing space, and no need to be familiar with the in's and out's of JSON Schema.
 
 ![](assets/images/jse-sample.png)
 
@@ -44,7 +44,7 @@ To find out more about writing technical documentation in Studio, see our gettin
 
 ## Stoplight-Flavored Markdown
 
-Stoplight-flavored markdown (SMD) is a lightweight variation on the standard [Commonmark](https://commonmark.org/) markdown syntax. SMD enables a few advanced block types that will enrich your user’s documentation experience, and includes options such as callouts, tabs, JSON schema elements, and HTTP "try it out" blocks.
+Stoplight-flavored Markdown (SMD) is a fully compatible superset of [CommonMark](https://commonmark.org/), the popular Markdown specification. SMD enables a few advanced block types that will enrich your user’s documentation experience, and includes options such as call-outs, tabs, JSON Schema elements, and HTTP "try it out" blocks.
 
 ![](assets/images/markdown1.png)
 
@@ -73,5 +73,3 @@ To find out more about Prism and how mocking can be used to streamline your API 
 ## Bring Your Own Repository
 
 Since Studio works with your local filesystem, you can open up your API projects and start adding docs and designs alongside the actual implementation they are meant to describe. Once you're done, check it all into Git with your favorite Git client!
-
-
