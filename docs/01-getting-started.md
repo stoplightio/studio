@@ -32,6 +32,6 @@ From there you can name your API, and then optionally set the specification vers
 
 > Be sure to check with any other vendors or tools that you may be integrating with prior to settling on a specification version or format. While OpenAPI version 3 may be the latest available, some tools and vendors do not yet offer full support.
 
-After clicking "Create", a new API specification file will be created and added to the project. From there you can then set the global information about the API and get started adding your first operation.
+After clicking "Create", a new API description document will be created and added to the project. From there you can then set the global information about the API and get started adding your first operation.
 
 Continue on to the [API Design Guide](./API\ Design/10-getting-started) to get started designing APIs.
