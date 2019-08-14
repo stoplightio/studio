@@ -9,7 +9,7 @@ jobs:
       - run: yarn install
       - run:
           name: Check links in docs
-          command: "OUTPUT=$(yarn run link-check); [[ $OUTPUT != *ERROR* ]] && echo \"$OUTPUT\" && exit 1"
+          command: "yarn run link-check"
 
 
 workflows:
