@@ -1,0 +1,18 @@
+version: 2.1
+
+jobs:
+  test:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: yarn install
+      - run:
+          name: Check links in docs
+          command: "OUTPUT=$(yarn run link-check); [[ $OUTPUT != *ERROR* ]] && echo \"$OUTPUT\" && exit 1"
+
+
+workflows:
+  commit:
+    jobs:
+      - test
