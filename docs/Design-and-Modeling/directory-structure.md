@@ -13,7 +13,7 @@ To publish and modify API description created outside of Studio, they must be st
 ## How 
 
 ### Files Created Within Studio 
-1. [Add an API, Endpoint, or Model via the UI](../Basics/working-with-files.md)
+1. [Add an API, Endpoint, or Model via the UI](../Basics/02-working-with-files.md)
 2. The file will be visible within the **APIs** file tree tab 
 3. Switch to the **File** file tree (**optional**)
 4. Open the **reference** folder to view created API folders 

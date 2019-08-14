@@ -22,7 +22,7 @@ This article provides a high-level overview of the Stoplight Studio User Interfa
 
 9. **Search**: Search through all Project specific files.  
 
-## Customizing the Interface Panels 
+## Customizing the Interface Panels
 
 ![Panel Overview](../assets/images/panel-overview.png)
 
@@ -38,8 +38,3 @@ Studio provides a customizable two panel (smaller screens) or three panel (large
 1. Select an endpoint, model, or markdown file. 
 2. Hover over the **Main** or **Secondary Panel**
 3. Switch between view modes via the **View Toggle** buttons in the top right of the panel  
-
-
-
-
-
