@@ -47,7 +47,7 @@ To publish and modify API description created outside of Studio, they must be st
 9. Those models are now accessible in Studio’s APIs file tree 
 
 ### Common Models Uploaded to Studio 
-1. [Clone your Git Repository](../workflow/working-with-git.md)
+1. [Clone your Git Repository](../Basics/01-working-with-projects.md)
 2. Click the **+** button and select **Folder** from the dropdown
 
 > Alternative Solution: Right-click on the file tree and select **New Directory** 
