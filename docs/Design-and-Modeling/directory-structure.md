@@ -21,7 +21,7 @@ To publish and modify API description created outside of Studio, they must be st
 6. Open individual API folders to view API description documents and API specific models folder 
 
 ### API Description Documents Uploaded to Studio 
-1. [Clone your Git Repository](../Basics/working-with-git.md)
+1. [Clone your Git Repository](../Basics/01-working-with-projects.md)
 2. Click the **+** button and select **Folder** from the dropdown
 
 > Alternative Solution: Right-click on the file tree and select **New Directory** 
@@ -33,7 +33,7 @@ To publish and modify API description created outside of Studio, they must be st
 7. That API description will now be accessible in Studio’s APIs file tree
 
 ### Model Files Uploaded to Studio 
-1. [Clone your Git Repository](../workflow/working-with-git.md)
+1. [Clone your Git Repository](../Basics/01-working-with-projects.md)
 2. Click the **+** button and select **Folder** from the dropdown
 
 > Alternative Solution: Right-click on the file tree and select **New Directory** 
@@ -47,7 +47,7 @@ To publish and modify API description created outside of Studio, they must be st
 9. Those models are now accessible in Studio’s APIs file tree 
 
 ### Common Models Uploaded to Studio 
-1. [Clone your Git Repository](../workflow/working-with-git.md)
+1. [Clone your Git Repository](../Basics/01-working-with-projects.md)
 2. Click the **+** button and select **Folder** from the dropdown
 
 > Alternative Solution: Right-click on the file tree and select **New Directory** 
