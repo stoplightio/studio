@@ -8,6 +8,6 @@ Spectral, Stoplight’s linting tool, can be configured to create custom ruleset
 ## How 
 1. Select a **project** 
 2. Click **+** and select **File** from the dropdown 
-3. Input ```.spectral.yml``` for the file name 
+3. Input ```.spectral.json``` for the file name 
 4. Select the newly created ```.spectral.yml``` file 
 5. Customize the ruleset via **Write** View 
