@@ -1,5 +1,7 @@
 # Download a Project 
 
+> Only Available in the Web App 
+
 ![Download a Project](../assets/images/download-project.png)
 
 ## What 
