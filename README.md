@@ -40,7 +40,7 @@ Mix API Reference Documentation and Markdown-based guides, how-tos, getting star
 
 You can even host the files in your own Git repository, and then publish when you're ready to show off your latest and greatest. 
 
-To find out more about writing technical documentation in Studio, see our getting started guide [here](Documentation/01-getting-started.md).
+To find out more about writing technical documentation in Studio, see our getting started guide [here](Documentation/01-getting-started.md)..
 
 ## Stoplight-Flavored Markdown
 
