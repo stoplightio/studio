@@ -40,7 +40,7 @@ Mix API Reference Documentation and Markdown-based guides, how-tos, getting star
 
 You can even host the files in your own Git repository, and then publish when you're ready to show off your latest and greatest. 
 
-To find out more about writing technical documentation in Studio, see our getting started guide [here](Documentation/01-getting-started.md).
+To find out more about writing technical documentation in Studio, see our getting started guide [here](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/01-getting-started.md).
 
 ## Stoplight-Flavored Markdown
 
@@ -48,7 +48,7 @@ Stoplight-flavored Markdown (SMD) is a fully compatible superset of [CommonMark]
 
 ![Different themed elements are now supported with SMD](assets/images/markdown1.png)
 
-To find out more about the SMD format and how you can use it to improve your documentation, see [here](Documentation/stoplight-flavored-markdown.md).
+To find out more about the SMD format and how you can use it to improve your documentation, see [here](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/stoplight-flavored-markdown.md).
 
 ## Style Guides and Validation
 
@@ -66,7 +66,7 @@ When running locally, Studio will automatically start a local [Prism mock server
 
 ![Mocking allows you to quickly test the look and feel of your API before jumping into the code](assets/images/studio-mocking.png)
 
-To find out more about Prism and how mocking can be used to streamline your API development process, see [here](Design-and-Modeling/mocking.md).
+To find out more about Prism and how mocking can be used to streamline your API development process, see [here](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Design-and-Modeling/mock-servers.md).
 
 ## Bring Your Own Repository
 
