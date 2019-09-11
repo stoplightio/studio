@@ -1,14 +1,17 @@
-# Download a Project 
+# Downloading Projects
 
-> Only Available in the Web App 
+> Note that this functionality is only available in the **web version** of Studio.
 
-![Download a Project](../assets/images/download-project.png)
+If you ever need to save the contents of your project without pushing to a Git repository,
+you can download a zip file of the current project directly from the Studio settings menu.
 
-## What 
-Download a zip file of the contents of any of your projects. 
+![Download a Project](../../assets/images/download-project-as-zip.gif)
 
-## How 
-1. Select the **project** you want to download 
-2. Select the **Settings cog** in the top right of the application 
-3. Select **Project Settings** 
-4. Click **Download Project** 
+To download a project:
+
+1. If you haven't already, select the project you would like to download from the Studio landing screen
+2. Navigate to the settings menu using the cog wheel at the left bottom corner of the screen
+3. Select the **Project Settings** option from the menu
+4. Click the **Download Project** button, which will start the download
+
+> This functionality was added with v1.1.0 of Stoplight Studio.
