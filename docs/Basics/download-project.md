@@ -5,7 +5,7 @@
 If you ever need to save the contents of your project without pushing to a Git repository,
 you can download a zip file of the current project directly from the Studio settings menu.
 
-![Download a Project](../assets/images/download-project-as-zip.gif)
+![Download a Project](../../assets/images/download-project-as-zip.gif)
 
 To download a project:
 
