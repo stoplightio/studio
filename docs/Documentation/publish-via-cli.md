@@ -1,6 +1,6 @@
 # Publish from Command Line 
 
-![]()
+![Publish Via CLI](../../assets/images/publish-via-cli.png)
 
 1. Install the @stoplight/cli package from NPM 
 
