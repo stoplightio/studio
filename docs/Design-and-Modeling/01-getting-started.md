@@ -31,6 +31,6 @@ Once you have your API described in Stoplight Studio, you can:
 There are a few ways to get started designing your API with Stoplight Studio:
 
 - [Create an API from scratch](../Basics/02-working-with-files.md)
-- [Reference another API Spec](using-references.md)
-- [Working with Models](http-endpoints.md)
-- [Validate your API Spec](validation-style-guide.md)
+- [Reference another API Spec](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Design-and-Modeling/using-references.md)
+- [Working with Models](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Design-and-Modeling/http-endpoints.md)
+- [Validate your API Spec](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Design-and-Modeling/validation-style-guide.md)
