@@ -7,7 +7,7 @@ and surface errors at design time directly in the editor.
 Customizing the lint rules allow you to enable/disable built-in rules,
 add your own rules, and even change rule severities.
 
-![Configure Spectral](../assets/images/spectral-config.png)
+![Configure Spectral](../../assets/images/spectral-config.png)
 
 To configure custom lint and validation rules for a project:
 
