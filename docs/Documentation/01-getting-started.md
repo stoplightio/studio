@@ -43,4 +43,4 @@ To preview your documentation in its entirety, select the **Docs** toggle in the
 
 > Publishing is only available in the web app. 
 
-Move on to the [next article for help documentation on the publishing process](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/02-publishing.md).   
+Move on to the [next article for help documentation on the publishing process](./02-publishing.md).
