@@ -1,5 +1,7 @@
 # Publish from Command Line 
 
+> Preferred Method for Continuous Integration 
+
 ![Publish Via CLI](../../assets/images/publish-via-cli.png)
 
 1. Install the @stoplight/cli package from NPM 
