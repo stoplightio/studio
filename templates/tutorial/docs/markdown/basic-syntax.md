@@ -4,7 +4,7 @@ tags: [01. Using Markdown]
 
 # Markdown Basics
 
-All of the notes, descriptions, and content fields in the Stoplight editors support use of [Stoplight Flavored Markdown](./stoplight-flavored-markdown.md).
+All of the notes, descriptions, and content fields in the Stoplight editors support use of [Stoplight Flavored Markdown](./03-stoplight-flavored-markdown.md).
 
 ### What is Markdown?
 
@@ -73,7 +73,7 @@ There are two ways to create links:
 
 [Hover over me to see my link title](https://www.google.com "Google's Homepage")
 
-[I'm a relative link to the ./stoplight-flavored-markdown.md file](./stoplight-flavored-markdown.md)
+[I'm a relative link to the ./stoplight-flavored-markdown.md file](./03-stoplight-flavored-markdown.md)
 
 ## Images
 

@@ -48,7 +48,7 @@ Stoplight-flavored Markdown (SMD) is a fully compatible superset of [CommonMark]
 
 ![Different themed elements are now supported with SMD](assets/images/markdown1.png)
 
-To find out more about the SMD format and how you can use it to improve your documentation, see [here](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/stoplight-flavored-markdown.md).
+To find out more about the SMD format and how you can use it to improve your documentation, see [here](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/03-stoplight-flavored-markdown.md).
 
 ## Style Guides and Validation
 
