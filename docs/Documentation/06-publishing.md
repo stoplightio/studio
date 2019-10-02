@@ -18,7 +18,10 @@ Instantly Publish API Specifications, Models, and supplemental markdown files an
 4. Select **Publish** in the bottom right of the docs preview page
 
 ## Published Documentation URL
-```https://stoplightio/p/docs/gh/{org}/{project}```
+
+```
+https://stoplightio/p/docs/gh/{org}/{project}
+```
 
 ## Documentation Hierarchy/Structure
 How files in Studio will be displayed in your documentation.
@@ -39,5 +42,4 @@ How files in Studio will be displayed in your documentation.
     c. Untagged Models  (placed in ```Other``` Group, ordered alphabetically by filename)
 ```
 
-
-
+Read about [publishing via Continuous Integration](./03-publish-via-ci.md).
