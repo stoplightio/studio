@@ -6,7 +6,7 @@ Stoplight Studio is available in two different formats: desktop and web. Studio 
 The Studio Web interface is ideal for collaboration and working real time with existing hosted git repositories. IT is also where you will manage all your documentation.  
 
 ### Web-Only Features 
-- [Publishing](../Documentation/02-publishing.md) documentation is currently only available in Studio Web. 
+- [Publishing](../Documentation/06-publishing.md) documentation is currently only available in Studio Web, but Desktop users can set up [auto publishing from CI](../Documentation/07-publishing-via-cli.md). 
 - [Downloading your Project](./download-project.md) to your local harddrive. 
 
 ## Studio Desktop
@@ -15,4 +15,3 @@ The Studio Desktop application provides an offline-first, native interface for d
 ### Desktop-Only Features 
 - Access local files and folders directly 
 - Mock your APIs locally with [Prism](https://stoplight.io/prism)
- 
