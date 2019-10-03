@@ -1,0 +1,13 @@
+version: 2.1
+
+orbs:
+  stoplight: stoplight/cli@0.0.2
+
+workflows:
+  publish:
+    jobs:
+    - stoplight/analyze:
+        filters:
+          branches:
+            only:
+            - master
