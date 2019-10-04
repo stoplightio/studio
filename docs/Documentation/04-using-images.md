@@ -11,7 +11,7 @@ Using and uploading images in Stoplight is now easier than ever. Upload images t
 
 ## How 
 
->If you already have image files stored in a cloned Git Repository, adhere to the [Studio Directory Structure](directory-structure.md) to access those files in Studio
+>If you already have image files stored in a cloned Git Repository, adhere to the [Studio Directory Structure](02-directory-structure.md) to access those files in Studio
 
 ### Upload Images 
 1. Select the **+** button in the top left 
@@ -28,4 +28,3 @@ Using and uploading images in Stoplight is now easier than ever. Upload images t
 2. Input ```![Alt Text](File Location)``` to place the image 
 
 > Example: ```![Ref a model](../../assets/images/ref-customer.png)```
-

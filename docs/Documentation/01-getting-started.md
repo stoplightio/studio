@@ -18,11 +18,17 @@ Once you have created a New Personal Project, the first thing you will see is th
 
 The file tree to the left is where all of Stoplight’s Design files (API Specification: endpoints, models, paths, etc.) are stored and the main panel contains the [Table of Contents, API Design GUI, Read View, and Write View](../ui-overview.md). For more on API design, check out the [API Design Quick Start Guide](../Design-and-Modeling/01-getting-started.md). 
 
+## 2. Directory Structure
+
+Studio has some conventions around where API files and documentation files should live. 
+
+Learn about [Studio Directory Structure](./02-directory-structure.md).
+
 ## 3. Select Docs 
 
 ![Select Docs tab](../../assets/images/docs-tab-markdown-folder.png)
 
-From Studio Home, select the file tree’s **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation related files (markdown files and image files) can be created, managed, modified, and deleted. Since you selected “Include Tutorial Files,” the left hand file tree will be populated by two folders: markdown and welcome and an Assets folder: Images. 
+From Studio, select the file tree’s **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation related files (markdown files and image files) can be created, managed, modified, and deleted. Since you selected “Include Tutorial Files,” the left hand file tree will be populated by two folders: markdown and welcome and an Assets folder: Images. 
 
 ## 4. Modify Existing Markdown Files 
 > Learn [how to create new Markdown files](../Basics/02-working-with-files.md) 
@@ -38,9 +44,3 @@ Open the markdown folder and select **Markdown Basics**. The main panel will swi
 To preview your documentation in its entirety, select the **Docs** toggle in the top right of the web application. 
 
 ![Docs Preview](../../assets/images/publishing.png)
-
-## 6. Publishing (Web App Only)
-
-> Publishing is only available in the web app. 
-
-Move on to the [next article for help documentation on the publishing process](./02-publishing.md).
