@@ -64,4 +64,4 @@ You can then select the folder you would like to use as a project.
 
 ![Delete Project](../../assets/images/delete-project.png)
 
-To delete a project, select the Settings Cog in the bottom left corner of the screen. Then select Project Settings from the dropdown, then click **Delete Project**. 
+To delete a Project, select the Settings Cog in the bottom left corner of the screen. Then select Project Settings from the dropdown, then click **Delete Project**. 
