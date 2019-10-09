@@ -59,3 +59,8 @@ You can also create projects from an existing directory/folder on your computer,
 ![Start from an existing Git repo](../../assets/images/studio-project-existing-folder.png)
 
 You can then select the folder you would like to use as a project.
+
+## Deleting Projects
+![Delete Project](../../assets/images/delete-project.png)
+
+To delete a Project, select the Settings Cog in the bottom left corner of the screen. Then select Project Settings from the dropdown, then click **Delete Project**. 
