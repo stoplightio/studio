@@ -27,6 +27,8 @@ Below is a quick reference of all the Markdown syntax that is supported by Stopl
 - [Horizontal Rule](#horizontal-rule)
 - [Line Breaks](#line-breaks)
 - [Videos](#videos)
+- [JSON Schema](#json-schema)
+- [Tabs](#tabs)
 
 ## Headers 
 
@@ -314,6 +316,169 @@ Here's a line for us to start with.
 This line is separated from the one above by two new lines, so it will be a *separate paragraph*.
 
 ---
+
+## JSON Schema
+
+A JSON schema block is a `json` code block with an additional `json_schema` language tag. The contents of the code fence should be the JSON schema object to be rendered. The primary language tag can be `yaml`, `yml`, or `json`.
+
+```json json_schema
+{
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "description": "The user's full name."
+    },
+    "age": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 150
+    }    
+  },
+  "required": [
+    "id",
+    "name"
+  ]
+}
+```
+
+````markdown
+```json json_schema
+{
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "description": "The user's full name."
+    },
+    "age": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 150
+    }    
+  },
+  "required": [
+    "id",
+    "name"
+  ]
+}
+```
+````
+
+---
+
+
+## Tabs
+
+A tab container is a `tab` annotation, followed by the tab content, and closed by a final `tab-end` annotation.
+
+<!-- theme: danger -->
+
+> Tab containers cannot be nested.
+
+<!--
+type: tab
+title: Schema
+-->
+
+```json json_schema
+{
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "description": "The user's full name."
+    },
+    "age": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 150
+    }    
+  },
+  "required": [
+    "id",
+    "name"
+  ]
+}
+```
+
+<!--
+type: tab
+title: Example
+-->
+
+```json
+{
+  "id": "xxx",
+  "name": "Chris",
+  "age": 27
+}
+```
+
+<!-- type: tab-end -->
+
+````markdown
+
+<!--
+type: tab
+title: Schema
+-->
+
+```json json_schema
+{
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "description": "The user's full name."
+    },
+    "age": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 150
+    }    
+  },
+  "required": [
+    "id",
+    "name"
+  ]
+}
+```
+
+<!--
+type: tab
+title: Example
+-->
+
+```json
+{
+  "id": "xxx",
+  "name": "Chris",
+  "age": 27
+}
+```
+
+<!-- type: tab-end -->
+````
+
+---
+
 ### Credits 
 Most of this information was pulled from [Adam Pritchard's Mardkown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Thank you Adam for putting together this cheatsheet! 
 
