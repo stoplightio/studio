@@ -14,7 +14,7 @@ Form-based designing means you don't need to be an OpenAPI expert to get started
 
 ![Graphical Design for OpenAPI](assets/images/form-editor.png)
 
-To find out more about how you can quickly design and prototype APIs without writing a single line of JSON or YAML, see [here](./Design-and-Modeling/01-getting-started.md).
+To find out more about how you can quickly design and prototype APIs without writing a single line of JSON or YAML, see [here](./docs/Design-and-Modeling/01-getting-started.md).
 
 ## JSON Schema Modeling
 
@@ -30,7 +30,7 @@ When it comes to API modeling, avoiding duplication of effort can be the differe
 
 Studio allows you to quickly and easily find and reuse the objects you need, as you need them. No more recreating models for different endpoints, no more having to update dozens of different endpoints because a new field was added.
 
-To find out more about how you can leverage references to scale your API consistency, see [here](Design-and-Modeling/using-references.md).
+To find out more about how you can leverage references to scale your API consistency, see [here](./docs/Design-and-Modeling/using-references.md).
 
 ## Technical Documentation
 
@@ -38,7 +38,7 @@ Mix API Reference Documentation and Markdown-based guides, how-tos, getting star
 
 ![Create beautiful and easy-to-use API reference documentation](assets/images/technical-documentation.png)
 
-You can even host the files in your own Git repository, and then publish when you're ready to show off your latest and greatest. 
+You can even host the files in your own Git repository, and then publish when you're ready to show off your latest and greatest.
 
 To find out more about writing technical documentation in Studio, see our getting started guide [here](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/01-getting-started.md).
 
@@ -56,9 +56,9 @@ Enforce correctness and best practices with the native [Spectral](https://stopli
 
 ![Spectral validates and lints your APIs to ensure they are correct and functional](assets/images/spectral1.png)
 
-Clicking on errors or warnings also brings you to exactly where they are located in the document, making it easy to fix errors at the source. 
+Clicking on errors or warnings also brings you to exactly where they are located in the document, making it easy to fix errors at the source.
 
-To find out more about Spectral and how validations can improve your API design workflow, see [here](Design-and-Modeling/validation-style-guide.md).
+To find out more about Spectral and how validations can improve your API design workflow, see [here](./docs/Design-and-Modeling/validation-style-guide.md).
 
 ## Built-in Mocking
 

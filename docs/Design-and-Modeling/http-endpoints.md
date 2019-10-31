@@ -7,15 +7,15 @@ tags: []
 Stoplight's JSON Schema editor allows you to easily design and model data structures
 used by your API. The JSON Schema editor is especially useful for:
 
-* Drafting API request and response bodies under an API endpoint
-* Creating models for your API
+- Drafting API request and response bodies under an API endpoint
+- Creating models for your API
 
 There are two different methods for generating a CRUD model:
 
-* Using the JSON Schema **editor**, which allows you to create data structures
+- Using the JSON Schema **editor**, which allows you to create data structures
   in an easy-to-use, graphical format
 
-* Using the **Raw Schema** editor, if you would prefer to modify the data
+- Using the **Raw Schema** editor, if you would prefer to modify the data
   structure with raw JSON
 
 While each method can be used individually, you will most likely find yourself
@@ -31,42 +31,42 @@ possible. You can find the JSON Schema editor within any model or endpoint while
 
 To start utilizing the editor:
 
-* Click **+ Add Body** or **+ Response** within a model or endpoint 
+- Click **+ Add Body** or **+ Response** within a model or endpoint
 
-* Click the **+** (plus) icon next to the root **object** to start adding fields
+- Click the **+** (plus) icon next to the root **object** to start adding fields
   to the data structure. The plus icon can also be used on nested objects to
   create a hierarchy of arbitrarily-nested data structures
 
-* Set the **field name** (or _key_) of a data field by clicking the text label
+- Set the **field name** (or _key_) of a data field by clicking the text label
   to the left of the newly-created field. Field names can be composed of any
   alpha-numeric characters, but can only be specified once. You will receive an
   error if you try to re-use field names multiple times on the same level
   (though they can be re-used on nested objects)
 
-* Set the **type** of a field by clicking the _string_ label to the right of
+- Set the **type** of a field by clicking the _string_ label to the right of
   the field name. The default type for a newly-created field is 'string',
   however other types include:
 
-  * objects (for nesting objects)
-  * arrays
-  * numbers
-  * integers
-  * booleans
-  * nulls
-  * [references](using-references.md)
+  - objects (for nesting objects)
+  - arrays
+  - numbers
+  - integers
+  - booleans
+  - nulls
+  - [references](using-references.md)
 
   Field types can also include _Combination Types_, which include 'allOf',
   'oneOf', and 'anyOf'. These special types allow for object inheritance from
   other data structures and models.
 
-* Optionally, you can set extra validations on the field, for example:
+- Optionally, you can set extra validations on the field, for example:
 
-  * **Enumerations** (or _enums_ for short) allow you to restrict the contents
+  - **Enumerations** (or _enums_ for short) allow you to restrict the contents
     of the field to be specific values. For example, if you are creating a
     'color' field of type string, you may want to restrict the strings used in
     that field to specific colors (red, blue, green, etc).
 
-  * **Format** allows for validating the field value is of a specific format. A
+  - **Format** allows for validating the field value is of a specific format. A
     few common format validations include: date, time, date-time, URI, and
     email.
 
@@ -76,9 +76,8 @@ To start utilizing the editor:
   For numbers, you can set minimum/maximum values and even validate that the
   numeric value is a multiple.
 
-* Optionally, you can specify a field as **required**, which ensures that the
+- Optionally, you can specify a field as **required**, which ensures that the
   field is present in all requests (and an error is thrown otherwise).
-
 
 ## Editing the Raw JSON Schema
 
@@ -91,10 +90,12 @@ representation of your data structure.
 To edit the raw JSON schema, [switch to the **Write View** tab](../ui-overview.md) next to the **Form View**
 tab. This will switch you over to the Write view which will allow you to make edits directly in the raw schema.
 
-## Best Practices 
+## Best Practices
 
 ### Avoid Cluttered APIs
-When you have several endpoints with the same structure, objects, and properties, your API design is untidy. Ensure that you extract reusable artifacts and build them as pragmatic models referenced by other resources within your API project. 
+
+When you have several endpoints with the same structure, objects, and properties, your API design is untidy. Ensure that you extract reusable artifacts and build them as pragmatic models referenced by other resources within your API project.
 
 ### Use a Design First Approach
-A design first approach helps create neat and consistent models. It will take longer, but it ensures you built an effective API that is easy to understand and maintain. 
+
+A design first approach helps create neat and consistent models. It will take longer, but it ensures you built an effective API that is easy to understand and maintain.

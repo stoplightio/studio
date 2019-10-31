@@ -2,23 +2,23 @@
 tags: []
 ---
 
-# Using Markdown in Documentation  
+# Using Markdown in Documentation
 
-All of the notes, descriptions, and content fields in the Stoplight editors supports the use of [GitHub flavored Markdown](https://github.github.com/gfm/) and raw HTML. You can use Markdown to easily format your text content into beautiful documentation. 
+All of the notes, descriptions, and content fields in the Stoplight editors supports the use of [GitHub flavored Markdown](https://github.github.com/gfm/) and raw HTML. You can use Markdown to easily format your text content into beautiful documentation.
 
-### What is Markdown? 
+### What is Markdown?
 
-> Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML). 
+> Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
-For example, this entire page was created using Markdown and HTML! 
+For example, this entire page was created using Markdown and HTML!
 
-Below is a quick reference of all the Markdown syntax that is supported by Stoplight. 
+Below is a quick reference of all the Markdown syntax that is supported by Stoplight.
 
-### Table of Contents 
+### Table of Contents
 
 - [Headers](#headers)
 - [Emphasis](#emphasis)
-- [Lists](#lists) 
+- [Lists](#lists)
 - [Images](#images)
 - [Code and Syntax Highlighting](#code-and-syntax-highlighting)
 - [Tables](#tables)
@@ -30,7 +30,7 @@ Below is a quick reference of all the Markdown syntax that is supported by Stopl
 - [JSON Schema](#json-schema)
 - [Tabs](#tabs)
 
-## Headers 
+## Headers
 
 ```
 # H1
@@ -42,16 +42,21 @@ Below is a quick reference of all the Markdown syntax that is supported by Stopl
 ```
 
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 
-## Emphasis 
+## Emphasis
 
 ```
-Emphasis, aka italics, with *asterisks* or _underscores_. 
+Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
@@ -60,53 +65,56 @@ Combined emphasis with **asterisks and _underscores_**.
 Strikethrough uses two tildes. ~~Scratch this.~~
 ```
 
-Emphasis, aka italics, with *asterisks* or _underscores_. 
+Emphasis, aka italics, with _asterisks_ or _underscores_.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__. 
+Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
-Combined emphasis with **asterisks and _underscores_**. 
+Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-## Lists 
+## Lists
 
 (In this example, leading and trailing spaces are shown with dots: ⋅⋅⋅)
 
 ```
 1. First ordered list item
-2. Another item 
-⋅⋅⋅* Unordered sub-list 
-1. Actual numbers don’t matter, just that it’s a number 
-⋅⋅⋅1. Ordered sub-list 
-4. And another item 
+2. Another item
+⋅⋅⋅* Unordered sub-list
+1. Actual numbers don’t matter, just that it’s a number
+⋅⋅⋅1. Ordered sub-list
+4. And another item
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown). 
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).
 
 ⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
 ⋅⋅⋅Note that this lien is separate, but within the same paragraph.⋅⋅
 ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
-* Unordered lists can use asterisks 
-- Or minuses 
-+ Or pluses 
+* Unordered lists can use asterisks
+- Or minuses
++ Or pluses
 ```
-1. First ordered list item 
-2. Another item 
-   * Unordered sub-list
-1. Actual numbers don’t matter, just that it’s a number 
-   1. Ordered sub-list 
+
+1. First ordered list item
+2. Another item
+   - Unordered sub-list
+3. Actual numbers don’t matter, just that it’s a number
+   1. Ordered sub-list
 4. And another item
 
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown). 
-   To have a line break without a paragraph, you will need to use two trailing spaces.    
+   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).
+   To have a line break without a paragraph, you will need to use two trailing spaces.
 
-* Unordered list can use asterisks 
-- Or minuses
-+ Or pluses 
+- Unordered list can use asterisks
 
-## Links 
+* Or minuses
 
-There are two ways to create links 
+- Or pluses
+
+## Links
+
+There are two ways to create links
 
 ```
 [I’m an inline-style link](https://www.google.com)
@@ -119,13 +127,13 @@ There are two ways to create links
 
 [You can use numbers for reference-style link definitions](1)
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes example.com (but not on GitHub, for example). 
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes example.com (but not on GitHub, for example).
 
-Some text to show that the reference links can follow later. 
+Some text to show that the reference links can follow later.
 
-[arbitrary case-insensitive reference text] : https://www.mozilla.org 
-[1] : https://slashdot.org 
+[arbitrary case-insensitive reference text] : https://www.mozilla.org
+[1] : https://slashdot.org
 [link text itself] : http://www.reddit.com
 ```
 
@@ -135,48 +143,49 @@ Some text to show that the reference links can follow later.
 
 [I’m a reference-style link](Arbitrary case-insensitive reference text)
 
-[I’m a relative reference to a repository file](../blob/master/LICENSE)
+[I’m a relative reference to a repository file](../ui-overview.md)
 
-[You can use numbers for reference-style link definitions](1)
+[You can use numbers for reference-style link definitions][1]
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes example.com (but not on GitHub, for example). 
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes example.com (but not on GitHub, for example).
 
-Some text to show that the reference links can follow later. 
+Some text to show that the reference links can follow later.
 
-[arbitrary case-insensitive reference text]:https://www.mozilla.org 
+[arbitrary case-insensitive reference text] : https://www.mozilla.org
 
-[1] : https://slashdot.org 
+[1] : https://slashdot.org
 
 [link text itself] : http://www.reddit.com
 
-## Images 
+## Images
 
 ```
-Here’s our logo (hover to see the title text) : 
+Here’s our logo (hover to see the title text) :
 
 Inline-style :
 ![alt text](https://pbs.twimg.com/profile_images/641056907474538498/qIbg0pZP_bigger.png)
 ```
-Here’s our logo (hover to see the title text) : 
+
+Here’s our logo (hover to see the title text) :
 
 Inline-style : ![alt text](https://pbs.twimg.com/profile_images/641056907474538498/qIbg0pZP_bigger.png)
 
-
-## Code and Syntax Highlighting 
-
-```
-Inline ‘code’ has ‘back-ticks around’ it. 
-```
-Inline ‘code’ has ‘back-ticks around’ it. 
-
-Blocks of code are either fenced by lines with three back-ticks, or are indented with four spaces. We recommend only using the fenced code blocks -- they’re easier to use and support syntax highlighting. 
+## Code and Syntax Highlighting
 
 ```
-```javascript 
+Inline ‘code’ has ‘back-ticks around’ it.
+```
+
+Inline ‘code’ has ‘back-ticks around’ it.
+
+Blocks of code are either fenced by lines with three back-ticks, or are indented with four spaces. We recommend only using the fenced code blocks -- they’re easier to use and support syntax highlighting.
+
+````
+```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
-```
+````
 
 ```json
 {
@@ -187,12 +196,13 @@ alert(s);
 ```
 No language indicated, so no syntax highlighting.
 ```
-```
 
-```javascript 
+````
+
+```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
-```
+````
 
 ```json
 {
@@ -205,8 +215,9 @@ No language indicated, so no syntax highlighting.
 ```
 
 ## Tables
+
 ```
-Colons can be used to align columns. 
+Colons can be used to align columns.
 
 | Tables        | Are             | Cool   |
 | ------------- | :-------------: | -----: |
@@ -214,70 +225,77 @@ Colons can be used to align columns.
 | col 2 is      | centered        |   $12  |
 | zebra stripes | are neat        |    $1  |
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown. 
+There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
 
-Markdown | Less | Pretty 
+Markdown | Less | Pretty
 --- | --- | ---
 *Still* | 'renders' | **nicely**
-1 | 2 | 3 
+1 | 2 | 3
 ```
-Colons can be used to align columns. 
 
-| Tables        | Are             | Cool   |
-| ------------- | :-------------: | -----: |
-| col 3 is      | right-aligned   | $1600  |
-| col 2 is      | centered        |   $12  |
-| zebra stripes | are neat        |    $1  |
+Colons can be used to align columns.
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown. 
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
 
-Markdown | Less | Pretty 
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3 
+There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
 
-## Blockquotes 
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| _Still_  | `renders` | **nicely** |
+| 1        | 2         | 3          |
+
+## Blockquotes
+
 ```
-> Blockquotes are very handy in email to emulate reply text. 
-> This line is part of the same quote. 
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
 
-Quote break. 
+Quote break.
 
 > This is a very lonbg line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 ```
-> Blockquotes are very handy in email to emulate reply text. 
-> This line is part of the same quote. 
 
-Quote break. 
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+Quote break.
 
-## Inline HTML 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
+
+## Inline HTML
+
+You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
+
 ```
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
-  
+
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 ```
+
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
-  
+
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-## Horizontal Rule 
+## Horizontal Rule
+
 ```
 Three or more...
 
 ---
 
-Hyphens 
+Hyphens
 
 ***
 
@@ -287,33 +305,32 @@ ___
 
 Underscores
 ```
+
 Three or more...
 
 ---
 
-Hyphens 
+Hyphens
 
-***
+---
 
 Asterisks
 
-___
+---
 
 Underscores
 
-## Line Breaks 
-Our basic recommendation for learning how line breaks work is to experiment and discover -- hit return twice. You'll soon learn to get what you want. 
+## Line Breaks
 
-Here are some things to try out: 
-```
-Here's a line for us to start with. 
+Our basic recommendation for learning how line breaks work is to experiment and discover -- hit return twice. You'll soon learn to get what you want.
 
-This line is separated from the one above by two new lines, so it will be a *separate paragraph*.
+Here are some things to try out:
 
-```
-Here's a line for us to start with. 
+# Here's a line for us to start with.
 
-This line is separated from the one above by two new lines, so it will be a *separate paragraph*.
+---
+
+This line is separated from the one above by two new lines, so it will be a _separate paragraph_.
 
 ---
 
@@ -337,12 +354,9 @@ A JSON schema block is a `json` code block with an additional `json_schema` lang
       "type": "number",
       "minimum": 0,
       "maximum": 150
-    }    
+    }
   },
-  "required": [
-    "id",
-    "name"
-  ]
+  "required": ["id", "name"]
 }
 ```
 
@@ -363,18 +377,14 @@ A JSON schema block is a `json` code block with an additional `json_schema` lang
       "type": "number",
       "minimum": 0,
       "maximum": 150
-    }    
+    }
   },
-  "required": [
-    "id",
-    "name"
-  ]
+  "required": ["id", "name"]
 }
 ```
 ````
 
 ---
-
 
 ## Tabs
 
@@ -405,12 +415,9 @@ title: Schema
       "type": "number",
       "minimum": 0,
       "maximum": 150
-    }    
+    }
   },
-  "required": [
-    "id",
-    "name"
-  ]
+  "required": ["id", "name"]
 }
 ```
 
@@ -430,7 +437,6 @@ title: Example
 <!-- type: tab-end -->
 
 ````markdown
-
 <!--
 type: tab
 title: Schema
@@ -452,12 +458,9 @@ title: Schema
       "type": "number",
       "minimum": 0,
       "maximum": 150
-    }    
+    }
   },
-  "required": [
-    "id",
-    "name"
-  ]
+  "required": ["id", "name"]
 }
 ```
 
@@ -477,11 +480,6 @@ title: Example
 <!-- type: tab-end -->
 ````
 
----
+### Credits
 
-### Credits 
-Most of this information was pulled from [Adam Pritchard's Mardkown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Thank you Adam for putting together this cheatsheet! 
-
-
-
-
+Most of this information was pulled from [Adam Pritchard's Mardkown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Thank you Adam for putting together this cheatsheet!

@@ -19,18 +19,18 @@ To configure custom lint and validation rules for a project:
 
    ```json
    {
-      "extends": "spectral:oas",
-      "rules": {
-         "my-rule-name": {
-            "description": "Tags should have a description.",
-            "given": "$.tags[*]",
-            "recommended": true,
-            "then": {
-               "field": "description",
-               "function": "truthy"
-            }
+     "extends": "spectral:oas",
+     "rules": {
+       "my-rule-name": {
+         "description": "Tags should have a description.",
+         "given": "$.tags[*]",
+         "recommended": true,
+         "then": {
+           "field": "description",
+           "function": "truthy"
          }
-      }
+       }
+     }
    }
    ```
 

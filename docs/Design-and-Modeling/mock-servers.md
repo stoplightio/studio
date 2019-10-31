@@ -4,19 +4,19 @@ tags: [Mocking]
 
 # Mock Servers
 
-A mock API is a fake API based on your API descriptions. It  returns realistic data, validates incoming data, checks for the  existence of headers, security schemes, and does everything it can other than try to guess internal business logic.
+A mock API is a fake API based on your API descriptions. It returns realistic data, validates incoming data, checks for the existence of headers, security schemes, and does everything it can other than try to guess internal business logic.
 
-Having a mock server can be really handy throughout the design phase of an API for making sure API descriptions contain the right sort of information. 
+Having a mock server can be really handy throughout the design phase of an API for making sure API descriptions contain the right sort of information.
 
 Stoplight Studio's mock API simulates a real API by providing endpoints and validation rules described in your API description document. This allows client developers to begin writing code for frontend services like web, mobile, or other backend applications, whilst the API developers are still writing their code. This can help find and solve problems early on, before the API is built, because changing all that code can be expensive (time is money).
 
-## Questions a Mock Server can help answer: 
+## Questions a Mock Server can help answer:
 
-- Does the API contain the information the client needs? 
+- Does the API contain the information the client needs?
 
-- Is that data in the format the client needs? 
+- Is that data in the format the client needs?
 
-- Are the resources too "normalized" and data-centric (instead of being use-case centric) that the client has to 3292375 calls to get all the data? 
+- Are the resources too "normalized" and data-centric (instead of being use-case centric) that the client has to 3292375 calls to get all the data?
 
 - Is there enough time left for feedback to be implemented?
 

@@ -42,7 +42,7 @@ When running from the desktop application, projects created within Studio's "New
 
 ### From Git
 
-Projects typically map directly to a __Git repository__. Git allows you to easily version files, track changes, and collaborate with others in a distributed manner. Studio offers native Git integration, allowing you to create projects directly from your existing repositories in Github, Bitbucket, GitLab, and any other source control provider that speaks the Git protocol.
+Projects typically map directly to a **Git repository**. Git allows you to easily version files, track changes, and collaborate with others in a distributed manner. Studio offers native Git integration, allowing you to create projects directly from your existing repositories in Github, Bitbucket, GitLab, and any other source control provider that speaks the Git protocol.
 
 To create a project from an existing Git repository, simply enter the repository URL in the "Open Git Project" dialog in the Studio startup screen and click "Clone":
 
@@ -61,6 +61,7 @@ You can also create projects from an existing directory/folder on your computer,
 You can then select the folder you would like to use as a project.
 
 ## Deleting Projects
+
 ![Delete Project](../../assets/images/delete-project.png)
 
-To delete a Project, select the Settings Cog in the bottom left corner of the screen. Then select Project Settings from the dropdown, then click **Delete Project**. 
+To delete a Project, select the Settings Cog in the bottom left corner of the screen. Then select Project Settings from the dropdown, then click **Delete Project**.

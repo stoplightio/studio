@@ -4,12 +4,12 @@ tags: [01. Using Markdown]
 
 # Markdown Basics
 
-All of the notes, descriptions, and content fields in the Stoplight editors support use of [Stoplight Flavored Markdown](./03-stoplight-flavored-markdown.md).
+All of the notes, descriptions, and content fields in the Stoplight editors support use of [Stoplight Flavored Markdown](../../../../docs/Documentation/03-stoplight-flavored-markdown.md).
 
 ### What is Markdown?
 
 > Markdown is a text-to-HTML conversion tool for web writers.
-> 
+>
 > Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
 For example, this entire page was created using Markdown and HTML!
@@ -58,12 +58,12 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 1. First ordered list item
 2. Another item
-    - Unordered sub-list
-3.  Actual numbers don't matter, just that it's a number
-    1.  Ordered sub-list
-4.  And another item
+   - Unordered sub-list
+3. Actual numbers don't matter, just that it's a number
+   1. Ordered sub-list
+4. And another item
 
-    You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
 ## Links
 
@@ -73,7 +73,7 @@ There are two ways to create links:
 
 [Hover over me to see my link title](https://www.google.com "Google's Homepage")
 
-[I'm a relative link to the ./stoplight-flavored-markdown.md file](./03-stoplight-flavored-markdown.md)
+[I'm a relative link to the ./stoplight-flavored-markdown.md file](./stoplight-flavored-markdown.md)
 
 ## Images
 
@@ -104,11 +104,11 @@ Use language tags to change the syntax highlighting:
 
 Colons can be used to align columns.
 
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |    centered   |   $12 |
-| zebra stripes |    are neat   |    $1 |
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
 
 There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
 
@@ -142,7 +142,7 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 Three or more asterisks or hyphens...
 
-* * *
+---
 
 ### Credits
 
