@@ -55,10 +55,12 @@ highlightLines: [[1,2], [4,5]]
 -->
 
 ```javascript
-function fibonacci(num){
-  var a = 1, b = 0, temp;
+function fibonacci(num) {
+  var a = 1,
+    b = 0,
+    temp;
 
-  while (num >= 0){
+  while (num >= 0) {
     temp = a;
     a = a + b;
     b = temp;
@@ -89,12 +91,9 @@ The smd json schema block is a md code block with an additional `json_schema` la
       "type": "number",
       "minimum": 0,
       "maximum": 150
-    }    
+    }
   },
-  "required": [
-    "id",
-    "name"
-  ]
+  "required": ["id", "name"]
 }
 ```
 
@@ -104,11 +103,11 @@ Use a type annotation to add a title to a table.
 
 <!-- title: My Table Title -->
 
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |    centered   |   $12 |
-| zebra stripes |    are neat   |    $1 |
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
 
 ## Tabs
 
@@ -136,4 +135,4 @@ The contents of tab 2.
 
 ---
 
-*FIN.*
+_FIN._

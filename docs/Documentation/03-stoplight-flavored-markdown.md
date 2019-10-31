@@ -143,7 +143,7 @@ Some text to show that the reference links can follow later.
 
 [I’m a reference-style link](Arbitrary case-insensitive reference text)
 
-[I’m a relative reference to a repository file](../LICENSE)
+[I’m a relative reference to a repository file](../ui-overview.md)
 
 [You can use numbers for reference-style link definitions][1]
 
@@ -283,7 +283,7 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
-  
+
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
@@ -326,8 +326,8 @@ Our basic recommendation for learning how line breaks work is to experiment and 
 
 Here are some things to try out:
 
-Here's a line for us to start with.
-=======
+# Here's a line for us to start with.
+
 ---
 
 This line is separated from the one above by two new lines, so it will be a _separate paragraph_.
@@ -354,12 +354,9 @@ A JSON schema block is a `json` code block with an additional `json_schema` lang
       "type": "number",
       "minimum": 0,
       "maximum": 150
-    }    
+    }
   },
-  "required": [
-    "id",
-    "name"
-  ]
+  "required": ["id", "name"]
 }
 ```
 
@@ -380,18 +377,14 @@ A JSON schema block is a `json` code block with an additional `json_schema` lang
       "type": "number",
       "minimum": 0,
       "maximum": 150
-    }    
+    }
   },
-  "required": [
-    "id",
-    "name"
-  ]
+  "required": ["id", "name"]
 }
 ```
 ````
 
 ---
-
 
 ## Tabs
 
@@ -422,12 +415,9 @@ title: Schema
       "type": "number",
       "minimum": 0,
       "maximum": 150
-    }    
+    }
   },
-  "required": [
-    "id",
-    "name"
-  ]
+  "required": ["id", "name"]
 }
 ```
 
@@ -447,7 +437,6 @@ title: Example
 <!-- type: tab-end -->
 
 ````markdown
-
 <!--
 type: tab
 title: Schema
@@ -469,12 +458,9 @@ title: Schema
       "type": "number",
       "minimum": 0,
       "maximum": 150
-    }    
+    }
   },
-  "required": [
-    "id",
-    "name"
-  ]
+  "required": ["id", "name"]
 }
 ```
 
@@ -493,7 +479,6 @@ title: Example
 
 <!-- type: tab-end -->
 ````
-
 
 ### Credits
 

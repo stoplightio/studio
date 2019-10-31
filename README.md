@@ -14,7 +14,7 @@ Form-based designing means you don't need to be an OpenAPI expert to get started
 
 ![Graphical Design for OpenAPI](assets/images/form-editor.png)
 
-To find out more about how you can quickly design and prototype APIs without writing a single line of JSON or YAML, see [here](/Docs/Design-and-Modeling/01-getting-started.md).
+To find out more about how you can quickly design and prototype APIs without writing a single line of JSON or YAML, see [here](./docs/Design-and-Modeling/01-getting-started.md).
 
 ## JSON Schema Modeling
 
@@ -30,7 +30,7 @@ When it comes to API modeling, avoiding duplication of effort can be the differe
 
 Studio allows you to quickly and easily find and reuse the objects you need, as you need them. No more recreating models for different endpoints, no more having to update dozens of different endpoints because a new field was added.
 
-To find out more about how you can leverage references to scale your API consistency, see [here](Design-and-Modeling/using-references.md).
+To find out more about how you can leverage references to scale your API consistency, see [here](./docs/Design-and-Modeling/using-references.md).
 
 ## Technical Documentation
 
@@ -58,7 +58,7 @@ Enforce correctness and best practices with the native [Spectral](https://stopli
 
 Clicking on errors or warnings also brings you to exactly where they are located in the document, making it easy to fix errors at the source.
 
-To find out more about Spectral and how validations can improve your API design workflow, see [here](/Docs/Design-and-Modeling/validation-style-guide.md).
+To find out more about Spectral and how validations can improve your API design workflow, see [here](./docs/Design-and-Modeling/validation-style-guide.md).
 
 ## Built-in Mocking
 

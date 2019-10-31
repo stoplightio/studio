@@ -4,7 +4,7 @@ tags: [01. Using Markdown]
 
 # Markdown Basics
 
-All of the notes, descriptions, and content fields in the Stoplight editors support use of [Stoplight Flavored Markdown](../../../../Docs/Documentation/03-stoplight-flavored-markdown.md).
+All of the notes, descriptions, and content fields in the Stoplight editors support use of [Stoplight Flavored Markdown](../../../../docs/Documentation/03-stoplight-flavored-markdown.md).
 
 ### What is Markdown?
 
@@ -73,13 +73,13 @@ There are two ways to create links:
 
 [Hover over me to see my link title](https://www.google.com "Google's Homepage")
 
-[I'm a relative link to the ./stoplight-flavored-markdown.md file](./03-stoplight-flavored-markdown.md)
+[I'm a relative link to the ./stoplight-flavored-markdown.md file](./stoplight-flavored-markdown.md)
 
 ## Images
 
 Here's our logo (hover to see the title text):
 
-![Stoplight Logo](https://pbs.twimg.com/profile_images/641056907474538498/qIbg0pZP_bigger.png 'Stoplight Logo')
+![Stoplight Logo](https://pbs.twimg.com/profile_images/641056907474538498/qIbg0pZP_bigger.png "Stoplight Logo")
 
 ## Code and Syntax Highlighting
 
@@ -88,7 +88,7 @@ Inline `code` has `back-ticks` around it.
 Blocks of code are either fenced by lines with three back-ticks, or are indented with four spaces. We recommend only using the fenced code blocks -- they're easier to use and support syntax highlighting.
 
 ```javascript
-var s = 'JavaScript syntax highlighting';
+var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 
