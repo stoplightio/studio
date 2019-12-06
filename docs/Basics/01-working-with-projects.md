@@ -12,13 +12,13 @@ Projects in Studio provide a place for you to manage collections of APIs, articl
 
 Studio projects assume a specific structure in order to group files efficiently as well as to not interfere with existing files if you are importing an existing repository. The structure is:
 
-- `/docs` - Where articles (markdown files) are stored
+- `/docs` - Where articles (Markdown files) are stored
 
 - `/reference` - Where API specifications and JSON schema files are stored
 
 - `/assets/images` - Where images are stored
 
-> If you have an existing repository with markdown, image, or API specification files that does not adhere to the format above, you will need to move the files to their corresponding directories in order for Studio to recognize them.
+> If you have an existing repository with Markdown, image, or API specification files that does not adhere to the format above, you will need to move the files to their corresponding directories in order for Studio to recognize them.
 
 ## Ways to Create a Project
 

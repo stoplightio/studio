@@ -8,7 +8,7 @@ tags: []
 
 ## What
 
-In Stoplight Studio, you can validate and lint your API specifiation during the design process. This provides a practical method for enforcing API design rules over multiple APIs. You can monitor and validate things like your API, operations, markdown, parameters, paths, and references. Spectral, our spec validator, will trigger either a warning (denoted by a yellow exclamation icon) or an error (denoted by a red exclamation icon) if the rules conditions are not met.
+In Stoplight Studio, you can validate and lint your API specifiation during the design process. This provides a practical method for enforcing API design rules over multiple APIs. You can monitor and validate things like your API, operations, Markdown, parameters, paths, and references. Spectral, our spec validator, will trigger either a warning (denoted by a yellow exclamation icon) or an error (denoted by a red exclamation icon) if the rules conditions are not met.
 
 ### Style Rules
 

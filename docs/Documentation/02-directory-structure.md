@@ -24,10 +24,10 @@ To publish and modify Markdown files created outside of Studio, they must be sto
 
 ### Files Created Within Studio
 
-1. [Add a markdown or image file via the UI](../Basics/02-working-with-files.md)
+1. [Add a Markdown or image file via the UI](../Basics/02-working-with-files.md)
 2. The file will be visible within the **Docs** file tree tab
 3. Switch to the **File** file tree (**optional**)
-4. Open the **docs** folder to view created markdown file
+4. Open the **docs** folder to view created Markdown file
 5. Open the **assets/images** folder to view uploaded images
 
 ### Markdown Files Uploaded to Studio
@@ -38,8 +38,8 @@ To publish and modify Markdown files created outside of Studio, they must be sto
 > Alternative Solution: Right-click on the file tree and select **New Directory**
 
 3. Input **docs** for the new folder/directory name
-4. Drag drop existing markdown files into the newly created **docs** folder
-5. Those markdown files will now be accessible in Studio’s Docs file tree
+4. Drag drop existing Markdown files into the newly created **docs** folder
+5. Those Markdown files will now be accessible in Studio’s Docs file tree
 
 ### Image Files Uploaded to Studio
 

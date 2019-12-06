@@ -30,13 +30,13 @@ Learn about [Studio Directory Structure](./02-directory-structure.md).
 
 ![Select Docs tab](../../assets/images/docs-tab-markdown-folder.png)
 
-From Studio, select the file tree’s **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation related files (markdown files and image files) can be created, managed, modified, and deleted. Since you selected “Include Tutorial Files,” the left hand file tree will be populated by two folders: markdown and welcome and an Assets folder: Images.
+From Studio, select the file tree’s **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation related files (Markdown files and image files) can be created, managed, modified, and deleted. Since you selected “Include Tutorial Files,” the left hand file tree will be populated by two folders: Markdown and welcome and an Assets folder: Images.
 
 ## 4. Modify Existing Markdown Files
 
 > Learn [how to create new Markdown files](../Basics/02-working-with-files.md)
 
-Open the markdown folder and select **Markdown Basics**. The main panel will switch to the markdown editor where you can modify existing content and create new content. Select Save to make changes permanent. You can switch to Read View to preview the file you have selected by selecting Read View in the top right toggle of the main panel.
+Open the Markdown folder and select **Markdown Basics**. The main panel will switch to the Markdown editor where you can modify existing content and create new content. Select Save to make changes permanent. You can switch to Read View to preview the file you have selected by selecting Read View in the top right toggle of the main panel.
 
 ![Toggle View Modes](../../assets/images/main-panel-view-toggle.png)
 

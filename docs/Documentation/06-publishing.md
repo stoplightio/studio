@@ -12,7 +12,7 @@
 
 ## What
 
-Instantly Publish API Specifications, Models, and supplemental markdown files and images. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation.
+Instantly Publish API Specifications, Models, and supplemental Markdown files and images. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation.
 
 ## How
 
@@ -34,9 +34,9 @@ How files in Studio will be displayed in your documentation.
 ### I. Markdown
 
 ```
-1. Untagged markdown files (ordered alphabetically by filename)
+1. Untagged Markdown files (ordered alphabetically by filename)
 2. Markdown Groups (ordered alphabetically by tag name)
-    a. Tagged markdown files (ordered alphabetically by filename)
+    a. Tagged Markdown files (ordered alphabetically by filename)
 ```
 
 ### II. API References
