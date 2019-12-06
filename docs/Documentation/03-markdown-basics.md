@@ -10,7 +10,7 @@ For example, this entire page was created using Markdown!
 
 Below is a quick reference of all the Markdown syntax that is supported by Stoplight.
 
-_All of the notes, descriptions, and content fields in the Stoplight editors support use of [Stoplight Flavored Markdown](./03a-stoplight-flavored-markdown.md). SMD supports more advanced features like themable callouts and embedded json schema models._
+_All of the notes, descriptions, and content fields in the Stoplight editors support use of [Stoplight Flavored Markdown](./03a-stoplight-flavored-markdown.md). SMD extends CommonMark adding more advanced features like themable callouts and embedded JSON Schema models._
 
 ### Table of Contents
 
