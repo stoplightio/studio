@@ -317,7 +317,7 @@ With more mind-blowing material. Really. Just amazing, grade-A stuff.
 
 The HTTP Request Maker block allows you to embed example HTTP requests directly in your documentation. The HTTP Request Maker block is a `json` or `yaml` code block, along with an additional `http` language tag. 
 
-The contents of the code fence should be a HTTP Request Object (described below). The Stoplight Studio markdown preview panel includes an embedded editor to help you put together
+The contents of the code fence should be a HTTP Request Object (described below). The Stoplight Studio Markdown "Preview" panel includes a sample HTTP Request Maker that you can use to help compose the Request Object automatically.
 
 ```md
 ```yaml http
