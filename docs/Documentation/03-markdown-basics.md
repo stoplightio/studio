@@ -57,7 +57,7 @@ _All of the notes, descriptions, and content fields in the Stoplight editors sup
 ## Emphasis
 
 ```md
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
