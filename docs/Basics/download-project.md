@@ -13,5 +13,3 @@ To download a project:
 2. Navigate to the settings menu using the cog wheel at the left bottom corner of the screen
 3. Select the **Project Settings** option from the menu
 4. Click the **Download Project** button, which will start the download
-
-> This functionality was added with v1.1.0 of Stoplight Studio.
