@@ -18,7 +18,7 @@ This article provides a high-level overview of the Stoplight Studio User Interfa
 
 7. **Validation and Linting**: Displays issues related to your API Specification (powered by Spectral). Click to expand window and view error and warning details and locations.
 
-8. **Publish**: Click to publish documentation. Only available in the web application.
+8. **Publish**: Click to publish documentation. 
 
 9. **Search**: Search through all Project specific files.
 

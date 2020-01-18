@@ -36,7 +36,7 @@ To find out more about how you can leverage references to scale your API consist
 
 ## Technical Documentation
 
-Mix API Reference Documentation and Markdown-based guides, how-tos, getting started information, etc. All of your documentation can live together in the same project. Studio includes a built-in Markdown editor, image manager, and the ability to publish documentation to Stoplight’s new documentation platform.
+Mix API Reference Documentation and Markdown-based guides, how-tos, getting started information, etc. All of your documentation can live together in the same project. Studio includes a built-in Markdown editor, image manager, and the ability to publish documentation to Stoplight's new documentation platform.
 
 ![Create beautiful and easy-to-use API reference documentation](assets/images/technical-documentation.png)
 
