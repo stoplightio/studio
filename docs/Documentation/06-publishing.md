@@ -1,9 +1,5 @@
 # Publishing in Studio
 
-<!-- theme: warning -->
-
-> This functionality is only available in the **web** version of Stoplight Studio
-
 <!-- theme: danger -->
 
 > Files **must** be stored in a Git repository to be published
@@ -17,9 +13,9 @@ Instantly Publish API Specifications, Models, and supplemental Markdown files an
 ## How
 
 1. Open an existing **Git Project** or create a new Git Project
-2. Click the **Docs** button in the top right to preview your docs (optional)
-3. Click the **Publish** button on the top nav bar
-4. Select **Publish** in the bottom right of the docs preview page
+2. Click the **Publish** button on the top nav bar
+3. Enable the **Show Preview** option to see how things will look (optional)
+4. Click the **Publish** button
 
 ## Published Documentation URL
 
@@ -42,7 +38,7 @@ How files in Studio will be displayed in your documentation.
 ### II. API References
 
 ````
-1. API Specification files (ordered alphabetically by filename)
+1. API Description Documents (ordered alphabetically by filename)
     a. Tagged Endpoint Groups (ordered alphabetically by tag name)
         i. Tagged Endpoints (Get, Post, Put, Patch, Delete, then additional operations as they occur in the spec)
         ii. Tagged Models (ordered alphabetically by filename)
