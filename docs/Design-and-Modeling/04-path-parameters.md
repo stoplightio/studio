@@ -2,7 +2,7 @@
 
 In the OpenAPI format, "path parameters" are used to signify variables that are located in the path of an API endpoint. You can create, modify, or remove path parameters using Studio's "Forms" editor when viewing an API endpoint or method.
 
-![Path Parameters](../../assets/images/path-params.png)
+![Screenshot showing type dropdown next to the path param input box, which allows the selection of no type (any), string, number, integer, boolean or array](../../assets/images/path-params.png)
 
 To modify path parameters within the Forms editor in Studio:
 

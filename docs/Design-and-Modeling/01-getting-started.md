@@ -21,8 +21,8 @@ Once you have your API described in Stoplight Studio, you can:
 
 - Publish all or part of your API
 - Send requests to your API to debug it
-- Create a mock API based on your design
-- Validate your API spec with Spectral, our open source API description linter
+- Create a mock API based on your descriptions
+- Validate your files with Spectral, our open-source API description linter
 - ...and much more
 
 ## Getting Started
@@ -30,6 +30,7 @@ Once you have your API described in Stoplight Studio, you can:
 There are a few ways to get started designing your API with Stoplight Studio:
 
 - [Create an API from scratch](../Basics/02-working-with-files.md)
-- [Reference another API Spec](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Design-and-Modeling/using-references.md)
-- [Working with Models](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Design-and-Modeling/http-endpoints.md)
-- [Validate your API Spec](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Design-and-Modeling/validation-style-guide.md)
+- [Understanding the Directory Structure](./02-directory-structure.md)
+- [Working with Models](./03-http-endpoints.md)
+- [Using References](./07-using-references.md)
+- [Validation and Linting](./08-validation-style-guide.md)
