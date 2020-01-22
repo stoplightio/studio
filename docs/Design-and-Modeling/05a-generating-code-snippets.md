@@ -42,14 +42,14 @@ Python | Requests
 Powershell | WebRequest
 Powershell | RestMethod
 R | httpr
-Ruby | 
-Go | 
-C | 
-C# | 
-Obj-C | 
-Swift | 
-OCaml | 
-HAR | 
+Ruby | |
+Go | |
+C | |
+C# | |
+Obj-C | |
+Swift | |
+OCaml | |
+HAR | |
 
 > These code snippets come from the open-source package [httpsnippet](https://github.com/Kong/httpsnippet), so if you'd like to contribute more, first send them a pull request then open an issue on [our GitHub repository](https://github.com/stoplightio/studio/issues).
 
