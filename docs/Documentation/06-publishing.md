@@ -8,7 +8,7 @@
 
 ## What
 
-Instantly Publish API Specifications, Models, and supplemental Markdown files and images. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation.
+Instantly Publish API Descriptions, Models, and supplemental Markdown files and images. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation.
 
 ## How
 

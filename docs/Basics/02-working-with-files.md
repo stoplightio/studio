@@ -12,17 +12,19 @@ tags: []
 
 ## What
 
-Studio supports 5 key API Design and Documentation files in multiple formats. The general categories for these files is located within the file creation dropdown (**+**). They include:
+Studio supports 5 key API Design and Documentation files in multiple formats. The general categories for these files are located within the file creation dropdown (**+**). They include:
 
-- **API**: API Description Documents
-- **Endpoint**: Individual Paths & Operations
-- **Model**: Reusable API Components
-- **Article**: Supplemental Markdown Files
-- **Image**: Supplemental Images
+- **API:** API Description Documents
+- **Endpoint:** Individual Paths & Operations
+- **Model:** Reusable API Components
+- **Article:** Supplemental Markdown Files
+- **Image:** Supplemental Images
 
-> There are also three other categories of files listed in the file creation dropdown: File (generic file creation), Folder (used for organizing content in your Git repository and Studio), & New Project (create a new Project)
+There are also three other categories of files listed in the file creation dropdown:
 
-> Folders are critical for accessing API Specification, Markdown, and Image files that aren’t formatted for Studio
+- **File:** Generic file creation
+- **Folder:** For organizing content in your Git repository and Studio
+- **Style Guides:** For customizing the [validation and linting](../Design-and-Modeling/08-validation-style-guide.md)
 
 ## How
 

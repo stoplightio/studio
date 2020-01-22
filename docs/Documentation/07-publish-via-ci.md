@@ -2,7 +2,7 @@
 
 The "Publish" button in Studio is a quick and convenient way to publish changes (e.g.: updating documentation), but if you are working with a whole team of people, it can become a bit of a bother. Maybe they commit some changes to master and forget to publish them after their pull request is merged.
 
-To handle this, we have a handy CLI package which can automate publishing changes happening via Git.
+To solve this problem, we have a handy CLI package which can automate publishing changes happening via Git.
 
 1. Install the `@stoplight/cli` package from NPM
 

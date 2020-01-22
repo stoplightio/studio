@@ -53,7 +53,7 @@ To start utilizing the editor:
   - integers
   - booleans
   - nulls
-  - [references](using-references.md)
+  - [references](07-using-references.md)
 
   Field types can also include _Combination Types_, which include 'allOf',
   'oneOf', and 'anyOf'. These special types allow for object inheritance from
@@ -90,12 +90,6 @@ representation of your data structure.
 To edit the raw JSON schema, [switch to the **Write View** tab](../ui-overview.md) next to the **Form View**
 tab. This will switch you over to the Write view which will allow you to make edits directly in the raw schema.
 
-## Best Practices
+## Try it Out
 
-### Avoid Cluttered APIs
-
-When you have several endpoints with the same structure, objects, and properties, your API design is untidy. Ensure that you extract reusable artifacts and build them as pragmatic models referenced by other resources within your API project.
-
-### Use a Design First Approach
-
-A design first approach helps create neat and consistent models. It will take longer, but it ensures you built an effective API that is easy to understand and maintain.
+When modeling endpoints, you can use [our built in HTTP client](./05-request-maker.md) to hit either a real API (a development server, production, etc) or a [mock server](./06-mock-servers.md).
