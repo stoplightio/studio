@@ -1,6 +1,6 @@
 # Generating Code Snippets
 
-When you are happy with the requests you've made in [Request Haker](./05-request-maker.md) (our HTTP client), you can turn the requests into actual code for pasting into your codebase.
+When you are happy with the requests you've made in [Request Maker](./05-request-maker.md) (our HTTP client), you can turn the requests into actual code for pasting into your codebase.
 
 ![](../../assets/images/code-generation-tab.png)
 
