@@ -8,7 +8,7 @@ The Studio Web interface is ideal for collaboration and working real time with e
 
 ### Web-Only Features
 
-- [Publishing](../Documentation/06-publishing.md) documentation ~is currently only available in Studio Web, but Desktop users can set up [auto publishing from CI](../Documentation/07-publish-via-ci.md).~ was [made available in Studio Desktop v1.6.0](https://support.stoplight.io/hc/en-us/articles/360036953211-Studio-v1-6-0). 
+- [Publishing](../Documentation/06-publishing.md) documentation was only available for Web, but was [made available in Studio Desktop v1.6.0](https://support.stoplight.io/hc/en-us/articles/360036953211-Studio-v1-6-0). 
 - [Downloading your Project](./download-project.md) to your local harddrive.
 
 ## Studio Desktop
