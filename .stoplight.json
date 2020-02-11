@@ -1,3 +1,18 @@
 {
-  "exclude": [".github"]
+  "formats": {
+    "openapi": {
+      "rootDir": "reference"
+    },
+    "markdown": {
+      "rootDir": "docs",
+      "include": ["README.md", "docs/**"]
+    },
+    "image": {
+      "rootDir": "assets/images",
+      "include": ["**"]
+    },
+    "json_schema": {
+      "rootDir": "models"
+    }
+  }
 }
