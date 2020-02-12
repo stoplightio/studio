@@ -28,6 +28,6 @@ stoplight analyze --token {project-token}
 
 > You can add the `--dry-run` flag to the analyze command to see what will be sent to Stoplight, without actually sending the data.
 
-To find this token, head to `https://stoplight.io/p/settings/gh/{org}/{project}` in your browser, and click "Publish".
+To find this token, head to `https://stoplight.io/p/settings/publish/gh/{org}/{project}` in your browser. The CI token is shown in the example.
 
 ![A preview of the Publish project settings](../../assets/images/publish-via-cli.png)
