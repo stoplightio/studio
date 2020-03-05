@@ -28,20 +28,31 @@ Hit enter or click the "(+)" icon and you've switched (a.k.a "checked out") the 
 
 ## 3. Make Changes, Commit, & Push
 
-We Dont have ANY DOCS for comitting and pushing!? 
+When you're done making changes, [commit them, then push](./09-working-with-projects.md) send the branch up to the repository.
 
-## 4. Publish the branch 
+## 4. Publish Branch on Stoplight
 
-manually in Studio, automatically via continuous integration, and soon via a Git webhook 🙌)
+There are a few ways to Publish documentation:
+
+- [Manually via Studio](../Documentation/06-publishing.md)
+- [Automatically via Continuos Integration](../Documentation/07-publish-via-ci.md)
+- _**Coming Soon:** Git webhooks for autopublish!_
 
 ## 5. Open a Pull Request
 
-in GitHub, Gitea, BitBucket, etc.
+How you create a pull request depends on where the project's repository is hosted:
 
+- **BitBucket:** [Create a Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
+- **Gitea:** [Create a Pull Request](https://docs.gitea.io/en-us/pull-request/)
+- **GitHub:** [Create a Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+- **GitLab:** [Create a Merge Request](https://docs.gitlab.com/ee/user/project/merge_requests/)
 
+## 6. Link to Branch Documentation
 
-## 6. Link to Branch Documentation in Pull Request
-   
-There are plans to refine this process, to make you not need to jump over to the version control system interface. For example, soon you will be able to create pull requests right from the Studio interface. Another improvement: pull requests will automatically show a link to the branches documentation, making the review part very simple. 
+Once you
 
-Design Reviews will become more accessible for non-technical people, but for now your technical writers and review people can use the standard pull-request flow for your VCS of choice.
+## Future Simplifications
+
+There are plans to refine this process, to make people not need to flip between Studio and the version control system interface. For example, soon you will be able to create pull requests right from the Studio interface, publishing will happen automatically via webhooks, and Stoplight will automatically add links to the branches documentation on the pull request, to save people manually doing that bit.
+
+This all means Design Reviews will become more accessible for non-technical people, and a litle less combersome for technical people. For now though, at least the process is very familiar for developers, and follows the standard pull-request flow for your VCS of choice.
