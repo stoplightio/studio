@@ -10,15 +10,13 @@ Projects in Studio provide a place for you to manage collections of APIs, articl
 
 ## Project Structure
 
-Studio projects assume a specific structure in order to group files efficiently as well as to not interfere with existing files if you are importing an existing repository. The structure is:
+Studio projects default to using a specific structure to not interfere with existing files. This default structure is:
 
 - `/docs` - Where articles (Markdown files) are stored
-
 - `/reference` - Where API specifications and JSON schema files are stored
-
 - `/assets/images` - Where images are stored
 
-> If you have an existing repository with Markdown, image, or API specification files that does not adhere to the format above, you will need to move the files to their corresponding directories in order for Studio to recognize them.
+If you have an existing repository with Markdown, image, or API description documents that do not adhere to the format above, you will need to move the files to their corresponding directories in order for Studio to recognize them, or create a [Stoplight Configuration file](../Basics/03-stoplight-config.md) to change them.
 
 ## Ways to Create a Project
 
