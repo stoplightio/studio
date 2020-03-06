@@ -1,21 +1,15 @@
 # Studio Desktop vs. Studio Web
 
-Stoplight Studio is available in two different formats: desktop and web. Studio Desktop is an offline-first application that runs locally on your computer. Studio web is a web application that runs purely in your browser. There are a few differences that are outlined below:
+Stoplight Studio is available in two different formats: desktop and web. Studio Desktop is an offline-first application that runs locally on your computer. Studio web is a web application that runs purely in your browser. 
 
 ## Studio Web
 
-The Studio Web interface is ideal for collaboration and working real time with existing hosted git repositories. IT is also where you will manage all your documentation.
-
-### Web-Only Features
-
-- [Publishing](../Documentation/06-publishing.md) documentation was only available for Web, but was [made available in Studio Desktop v1.6.0](https://support.stoplight.io/hc/en-us/articles/360036953211-Studio-v1-6-0). 
-- [Downloading your Project](./download-project.md) to your local harddrive.
+The Studio Web interface is ideal for collaboration and working real time with existing hosted git repositories. It is also where you will manage all your documentation.
 
 ## Studio Desktop
 
 The Studio Desktop application provides an offline-first, native interface for designing and modeling your APIs. It also allows you to work directly with local files and folders on your computer.
 
-### Desktop-Only Features
+## Differences
 
-- Access local files and folders directly
-- Mock your APIs locally with [Prism](https://stoplight.io/prism)
+There used to be a few differences in previous versions, e.g.: publishing was web only and mocking was desktop only, but now they are at feature parity for everything that matters. Studio Web will let you download a project to your computer, but Studio Desktop doesn't need to as the files are already on your computer.
