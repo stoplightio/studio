@@ -57,26 +57,27 @@ Any file or directory matching the pattern listed in exclude won't be indexed by
 Maybe a project has multiple APIs in a `apis` directory, some test files that should not be indexed, and some models in a `schemas` directory which you also use for [contract testing](https://apisyouwonthate.com/blog/writing-documentation-via-contract-testing).
 
 ```
-/project
-  /article.md
-  /apis/petstore.openapi.yaml
-  /apis/address.openapi.json
-  /test/todos.openapi.yaml
-  /schemas/user.json
-  /.stoplight.json
+help/article.md
+apis/petstore.openapi.yaml
+apis/address.openapi.json
+test/todos.openapi.yaml
+schemas/user.json
+.stoplight.json
 ```
 
-To exclude the test files and make it clear which other files are which, the following config can be used:
+To exclude the test files and make it clear which other files are which, the following `.stoplight.json` could be used:
 
 ```json
-// .stoplight.json
 {
   "formats": {
     "openapi": {
-      "rootDir": "reference"
+      "rootDir": "apis"
     },
     "json_schema": {
-      "rootDir": "models"
+      "rootDir": "schemas"
+    },
+    "markdown": {
+      "rootDir": "help"
     },
   },
   "exclude": ["test"]

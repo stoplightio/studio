@@ -8,12 +8,14 @@ Projects in Studio provide a place for you to manage collections of APIs, articl
 
 ![Studio New Project Screen](../../assets/images/studio-project-screen.png)
 
+A project can be a Git repository, or if you're using Studio Desktop it could just be any local folder on your computer.
+
 ## Project Structure
 
-Studio projects default to using a specific structure to not interfere with existing files. This default structure is:
+Studio projects default to using a specific structure to not interfere with existing files.
 
 - `/docs` - Where articles (Markdown files) are stored
-- `/reference` - Where API specifications and JSON schema files are stored
+- `/reference` - Where API descriptions documents (OpenAPI and JSON Schema) are stored
 - `/assets/images` - Where images are stored
 
 If you have an existing repository with Markdown, image, or API description documents that do not adhere to the format above, you will need to move the files to their corresponding directories in order for Studio to recognize them, or create a [Stoplight Configuration file](../Basics/03-stoplight-config.md) to change them.
@@ -50,7 +52,7 @@ Once the project is retrieved from the provider, you can make changes, create ne
 
 ### From an Existing Folder
 
-> This section only applies to the Studio desktop application
+> This section only applies to Studio Desktop.
 
 You can also create projects from an existing directory/folder on your computer, no Git or source control required. To do this, simply select the "Open Existing Folder" dialog from the Studio startup screen.
 
