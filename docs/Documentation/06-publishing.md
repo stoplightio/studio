@@ -1,6 +1,6 @@
 # Publishing in Studio
 
-Instantly Publish API Descriptions, Models, and supplemental Markdown files and images. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation.
+Instantly Publish API Descriptions, Models, and supplemental Markdown files. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation.
 
 ![Publishing Preview](../../assets/images/publishing.png)
 
