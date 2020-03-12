@@ -51,7 +51,7 @@ You can publish from any branch, so click "Publish" and once the docs are publis
 https://stoplight.io/p/docs/gh/your-org/your-project?group=your-branch
 ```
 
-Put that link into the pull request you've just made so people can eyeball the documents instead of reading a bunch of YAML, making the reivew process much easier.
+Put that link into the pull request you've just made so people can eyeball the documents instead of reading a bunch of YAML, making the review process much easier.
 
 ## 7. Review & Merge
 
