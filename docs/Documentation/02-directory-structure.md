@@ -2,7 +2,7 @@
 tags: []
 ---
 
-# Directory Structure (Documentation)
+# Directory Structure
 
 ![Docs Directory Structure](../../assets/images/docs-directory.png)
 

@@ -1,14 +1,8 @@
 # Publishing in Studio
 
-<!-- theme: danger -->
-
-> Files **must** be stored in a Git repository to be published
+Instantly Publish API Descriptions, Models, and supplemental Markdown files. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation.
 
 ![Publishing Preview](../../assets/images/publishing.png)
-
-## What
-
-Instantly Publish API Descriptions, Models, and supplemental Markdown files and images. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation.
 
 ## How
 
@@ -20,7 +14,7 @@ Instantly Publish API Descriptions, Models, and supplemental Markdown files and 
 ## Published Documentation URL
 
 ```
-https://stoplightio/p/docs/gh/{org}/{project}
+https://stoplight.io/p/docs/gh/{org}/{project}
 ```
 
 ## Documentation Hierarchy/Structure

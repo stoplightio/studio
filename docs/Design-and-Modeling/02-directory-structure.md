@@ -1,4 +1,4 @@
-# Project Structure (Design & Modeling)
+# Project Structure
 
 ![](../../assets/images/directory-structure-design.png)
 
