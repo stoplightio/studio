@@ -53,7 +53,7 @@ https://stoplight.io/p/docs/gh/your-org/your-project?group=your-branch
 
 Put that link into the pull request you've just made so people can eyeball the documents instead of reading a bunch of YAML, making the reivew process much easier.
 
-## 7. Link to Branch Documentation
+## 7. Review & Merge
 
 Reviewers can then give feedback on the pull request, you go back to step 3 to make changes, then push and publish, and when the changes are approved you're done! Merge that pull request.
 
