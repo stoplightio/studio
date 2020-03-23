@@ -39,6 +39,8 @@ Projects with no config file will act as though they had this config:
 
 Any files with the `openapi` and `json_schema` formats will go under the "APIs" panel, and any files with `markdown` or `images` formats will go under "Docs".
 
+The funny looking stars in the `"include"` are a [glob](https://en.wikipedia.org/wiki/Glob_(programming)) pattern, for finding files based on a pattern. More specifically, we're using an open-source library called [micromatch](https://github.com/micromatch/micromatch ). 
+
 ## Reference
 
 ### `exclude`
