@@ -82,6 +82,6 @@ To exclude the test files and make it clear which other files are which, the fol
       "rootDir": "help"
     },
   },
-  "exclude": ["test"]
+  "exclude": ["/test"]
 }
 ```
