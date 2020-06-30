@@ -36,4 +36,4 @@ Catching problems early on while you're still just tweaking the API descriptions
 
 ## Stoplight Mock Servers
 
-Coming soon...
+[Stoplight Platform](https://stoplight.io/welcome) users can enjoy the same built-in mocking functionality as well as [free hosted mock servers](https://meta.stoplight.io/docs/platform/3.-design/d.setting-up-a-mock-server.md).

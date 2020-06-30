@@ -4,13 +4,15 @@
 
 Studio is Stoplight's next generation application for API design, modeling, and technical writing. A primary goal of Studio is to enrich, not replace, your existing workflows. When running locally it works fully offline, with folders and files on your computer just like your favorite IDE. When running in the browser, the web-native Git support allows you to effortlessly work with your existing repositories safely and efficiently.
 
-## Full Support for OpenAPI v2 and v3
+## Features
+
+### Full Support for OpenAPI v2 and v3
 
 Studio comes with full support for the OpenAPI versions 2 and 3 specification formats for all functionality. That means full validation, mocking, and modeling support for both versions of the OpenAPI specification.
 
 ![Studio loves Swagger + OpenAPI](assets/images/openapi_swagger_equal_heart.png)
 
-## Graphical API Design
+### Graphical API Design
 
 Form-based designing means you don't need to be an OpenAPI expert to get started. Studio has a "write" (code) mode with full OpenAPI autocomplete, and a "read" mode for visualizing HTTP operations and models.
 
@@ -18,13 +20,13 @@ Form-based designing means you don't need to be an OpenAPI expert to get started
 
 To find out more about how you can quickly design and prototype APIs without writing a single line of JSON or YAML, see [here](./docs/Design-and-Modeling/01-getting-started.md).
 
-## JSON Schema Modeling
+### JSON Schema Modeling
 
 Studio is not just for APIs, you can also create and modify standalone JSON Schema files for storing data models. Did we mention that this is also powered by the graphical interface? No more searching for the matching bracket or the missing space, and no need to be familiar with the in's and out's of JSON Schema.
 
 ![](assets/images/jse-sample.png)
 
-## Encourage Reuse, Avoid Duplication
+### Encourage Reuse, Avoid Duplication
 
 When it comes to API modeling, avoiding duplication of effort can be the difference between success and failure. How can you enforce consistency if all of your endpoints re-create the same model in slightly different ways? (hint, you can't)
 
@@ -34,7 +36,7 @@ Studio allows you to quickly and easily find and reuse the objects you need, as 
 
 To find out more about how you can leverage references to scale your API consistency, see [here](./docs/Design-and-Modeling/07-using-references.md).
 
-## Technical Documentation
+### Technical Documentation
 
 Mix API Reference Documentation and Markdown-based guides, how-tos, getting started information, etc. All of your documentation can live together in the same project. Studio includes a built-in Markdown editor, image manager, and the ability to publish documentation to Stoplight's new documentation platform.
 
@@ -44,15 +46,7 @@ You can even host the files in your own Git repository, and then publish when yo
 
 To find out more about writing technical documentation in Studio, see our getting started guide [here](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/01-getting-started.md).
 
-## Stoplight-Flavored Markdown
-
-Stoplight-flavored Markdown (SMD) is a fully compatible superset of [CommonMark](https://commonmark.org/), the popular Markdown specification. SMD enables a few advanced block types that will enrich your user’s documentation experience, and includes options such as call-outs, tabs, JSON Schema elements, and HTTP "try it out" blocks.
-
-![Different themed elements are now supported with SMD](assets/images/markdown1.png)
-
-To find out more about the SMD format and how you can use it to improve your documentation, see [here](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/03-stoplight-flavored-markdown.md).
-
-## Style Guides and Validation
+### Style Guides and Validation
 
 Enforce correctness and best practices with the native [Spectral](https://stoplight.io/spectral/) integration that alerts you to errors the moment they are created.
 
@@ -62,7 +56,7 @@ Clicking on errors or warnings also brings you to exactly where they are located
 
 To find out more about Spectral and how validations can improve your API design workflow, see [here](./docs/Design-and-Modeling/08-validation-style-guide.md).
 
-## Built-in Mocking
+### Built-in Mocking
 
 When running locally, Studio will automatically start a local [Prism mock server](https://stoplight.io/prism/) for every API defined in your project, and keep that mock server up to date as you change your designs.
 
@@ -70,6 +64,10 @@ When running locally, Studio will automatically start a local [Prism mock server
 
 To find out more about Prism and how mocking can be used to streamline your API development process, see [here](./docs/Design-and-Modeling/06-mock-servers.md).
 
-## Bring Your Own Repository
+### Bring Your Own Repository
 
 Since Studio works with your local filesystem, you can open up your API projects and start adding docs and designs alongside the actual implementation they are meant to describe. Once you're done, check it all into Git with your favorite Git client!
+
+## License
+
+<a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Stoplight Studio</span> by <a xmlns:cc="https://creativecommons.org/ns#" href="https://stoplight.io/studio" property="cc:attributionName" rel="cc:attributionURL">Stoplight.io</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
