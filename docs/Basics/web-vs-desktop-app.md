@@ -4,12 +4,12 @@ Stoplight Studio is available in two different formats: desktop and web. Studio 
 
 ## Studio Web
 
-The Studio Web interface is ideal for collaboration and working real time with existing hosted git repositories. It is also where you will manage all your documentation.
+The Studio Web interface is ideal for collaboration and working real time with existing hosted git repositories. 
+
+In the past it was a standalone tool, but it is now part of the larger [Stoplight Platform](https://stoplight.io/welcome) ecosystem, which provides hosted documentation, an Explorer for searching across multiple APIs, a design library, and all sorts of other powerful stuff.
 
 ## Studio Desktop
 
-The Studio Desktop application provides an offline-first, native interface for designing and modeling your APIs. It also allows you to work directly with local files and folders on your computer.
+The [Studio Desktop](https://stoplight.io/studio/) application provides an offline-first, native interface for designing and modeling your APIs. It also allows you to work directly with local files and folders on your computer.
 
-## Differences
-
-There used to be a few differences in previous versions, e.g.: publishing was web only and mocking was desktop only, but now they are at feature parity for everything that matters. Studio Web will let you download a project to your computer, but Studio Desktop doesn't need to as the files are already on your computer.
+This standalone tool can be used to edit the contents of any projects, whether they're linked to Stoplight Platform or not. 
