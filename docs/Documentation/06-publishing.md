@@ -1,43 +1,21 @@
 # Publishing in Studio
 
-Instantly Publish API Descriptions, Models, and supplemental Markdown files. One-click publish significantly reduces time to production and produces beautiful, modern, developer-centric documentation.
+Whenever changes are made to your API descriptions or Markdown documentation, whether that is done in Stoplight Studio or anywhere else, you want to get those changes reflected in Documentation, Mock Servers, Explorer, the Design Library, etc.
 
-![Publishing Preview](../../assets/images/publishing.png)
-
-## How
-
-1. Open an existing **Git Project** or create a new Git Project
-2. Click the **Publish** button on the top nav bar
-3. Enable the **Show Preview** option to see how things will look (optional)
-4. Click the **Publish** button
+In Studio v1.x publishing was done by clicking the "Publish" button, but with the launch of Stoplight Platform publishing can be [automated using Webhooks, or Continuous Integration](https://meta.stoplight.io/docs/platform/2.-workspaces/g.automating-publishing.md). 
 
 ## Published Documentation URL
+
+If you click the Publish button in Studio Desktop v1.x, your documentation will go here:
 
 ```
 https://stoplight.io/p/docs/gh/{org}/{project}
 ```
 
-## Documentation Hierarchy/Structure
-
-How files in Studio will be displayed in your documentation.
-
-### I. Markdown
+If you have created a workspace on [Stoplight Platform](https://stoplight.io/welcome) then you no longer need to click that button (it'll be gone when you upgrade to Studio Desktop v2.0 anyway) and the documentation will instead be over here.
 
 ```
-1. Untagged Markdown files (ordered alphabetically by filename)
-2. Markdown Groups (ordered alphabetically by tag name)
-    a. Tagged Markdown files (ordered alphabetically by filename)
+https://{workspace}.stoplight.io/docs/{project}
 ```
 
-### II. API References
-
-````
-1. API Description Documents (ordered alphabetically by filename)
-    a. Tagged Endpoint Groups (ordered alphabetically by tag name)
-        i. Tagged Endpoints (Get, Post, Put, Patch, Delete, then additional operations as they occur in the spec)
-        ii. Tagged Models (ordered alphabetically by filename)
-    b. Untagged Endpoints (placed in ```Other``` Group, Get, Post, Put, Patch, Delete, then additional operations as they occur in the spec)
-    c. Untagged Models  (placed in ```Other``` Group, ordered alphabetically by filename)
-````
-
-Read about [publishing via Continuous Integration](./07-publish-via-ci.md).
+_If you need any help migrating from the old documentation to the new documentation, please [contact support](mailto:support@stoplight.io)._
