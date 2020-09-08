@@ -6,6 +6,8 @@ If you are new to Git, it's a version control system which can help a bunch of d
 
 You don't need to know too much about the complexities of Git in order to get things done in Studio, but the following actions are worth knowing about.
 
+Get yo credentials sorted out.
+
 ## Committing Changes
 
 When working on files you want to save them to persist the changes to your computer (or "local storage" in the browser if you're using Studio Web). This will not update those changes in the Git repository, because that would cause anarchy and lost work every time somebody hit save.
