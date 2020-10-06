@@ -1,4 +1,4 @@
-# Commit & Push Changes
+# Common Git Tasks
 
 Projects using Git as the source of truth have a bunch of extra functionality enabled, as Stoplight Studio has first-class support for common Git tasks like pushing, pulling, creating/switching branches, comparing differences, etc.
 
@@ -10,13 +10,13 @@ You don't need to know too much about the complexities of Git in order to get th
 
 When working on files you want to save them to persist the changes to your computer (or "local storage" in the browser if you're using Studio Web). This will not update those changes in the Git repository, because that would cause anarchy and lost work every time somebody hit save.
 
-Git has two concepts known as "Commit" and "Push". Commit is the act of staging a bunch of changes into one grouping of changes along with a commit message. Commits can then be pushed to the repository, and so long as there are no conflicts the commit will be pushed successfully.
+Git has two concepts known as "Commit" and "Push". Commit is the act of staging a bunch of changes into one grouping of changes along with a commit message. Commits can then be pushed to the repository, and so long as there are no conflicts the commit will be pushed successfully. Studio will always ask you to push a commit, because non-pushed commits can sit around on your computer, unshared with others, and that can lead to confusion and lost work.
 
-![Clicking the commit button, top left of Studio, will pop up a little modal where you can enter a message and hit a Push button.](../../assets/images/git-commit.png)
+![Clicking the push button, top left of Studio, will pop up a little modal where you can enter a commit message, then Push the commit to the repository.](../../assets/images/git-commit.png)
 
-Careful not to click that red button. I know it's tempting, but discarding all your changes will reset files back to how they were in the last commit, meaning even saved changes will be gone.
+_Careful not to click that red discard button. Discarding all your changes will reset files back to how they were in the last commit, meaning even saved changes will be gone._
 
-When a commit has been pushed, people using the same branch can then pull your changes down.
+When a commit has been pushed, people who are switched to the same branch can "pull" your changes down.
 
 ## Pulling Changes
 
