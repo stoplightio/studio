@@ -16,13 +16,15 @@ You should be asked to add credentials for a provider the first time you add tha
 
 3. Click the Cog icon bottom left to open Project Settings, click Project Settings, and click the "+ Credential" button.
 
-- **Host URL:** "https://github.com/"
-- **Username:** Your GitHub username
+- **Host URL:** `https://github.com/`
+- **Username:** Your GitHub username, e.g.: `janesmith123`
 - **Password:** The Personal Access Token you just created
-- **Author Name:** A display name, usually a full name like "Jane Smith"
+- **Author Name:** A display name, usually a full name, e.g.: `Jane Smith`
 - **Author Email:** Your GitHub email address
 
 Job done! You should now be able to push to GitHub.
+
+> Keep in mind that these credentials are stored on your local computer as a security measure, so if you switch computers you'll need to repeat this step.
 
 ## Other Git Providers
 
@@ -32,4 +34,4 @@ If they support personal access tokens you can use that instead of entering your
 
 ## Working with Git
 
-Once this is done, check out our guide on [Common Git Tasks](Basics/04-common-git-tasks.md).
+Once this is done, check out our guide on [Common Git Tasks](Basics/04-common-git-tasks.md) to get pushing, pulling, switching branches and all sorts of other Git magic.
