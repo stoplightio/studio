@@ -2,7 +2,7 @@
 
 ## Creating Your First Project
 
-The quickest way to get up and running with Studio is to clone an existing Git repository. If you're running Studio Desktop then this could be choosing a location on your computer where a repository already exists. If you're running Studio Web you could copy the URL to any GitHub, Bitbucket, GitLab, Gitea, or other Git repository. 
+The quickest way to get up and running with Studio is to clone an existing Git repository. If you're running Studio Desktop then this could be choosing a location on your computer where a repository already exists, or you could copy the URL to any GitHub, Bitbucket, GitLab, Gitea, or other Git repository.
 
 Give it a shot with our sample project: 
 
