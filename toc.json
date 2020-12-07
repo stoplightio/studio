@@ -1,0 +1,161 @@
+{
+  "items": [
+    {
+      "type": "item",
+      "title": "Stoplight Studio",
+      "uri": "README.md"
+    },
+    {
+      "type": "item",
+      "title": "Getting Started",
+      "uri": "docs/01-getting-started.md"
+    },
+    {
+      "type": "item",
+      "title": "Git Credentials",
+      "uri": "docs/02-git-credentials.md"
+    },
+    {
+      "type": "item",
+      "title": "UI Overview",
+      "uri": "docs/ui-overview.md"
+    },
+    {
+      "type": "divider",
+      "title": "Basics"
+    },
+    {
+      "type": "item",
+      "title": "Working with Projects",
+      "uri": "docs/Basics/01-working-with-projects.md"
+    },
+    {
+      "type": "item",
+      "title": "Working with Files",
+      "uri": "docs/Basics/02-working-with-files.md"
+    },
+    {
+      "type": "item",
+      "title": "Project Config",
+      "uri": "docs/Basics/03-stoplight-config.md"
+    },
+    {
+      "type": "item",
+      "title": "Common Git Tasks",
+      "uri": "docs/Basics/04-common-git-tasks.md"
+    },
+    {
+      "type": "item",
+      "title": "Downloading Projects",
+      "uri": "docs/Basics/download-project.md"
+    },
+    {
+      "type": "item",
+      "title": "Studio Desktop vs. Studio Web",
+      "uri": "docs/Basics/web-vs-desktop-app.md"
+    },
+    {
+      "type": "divider",
+      "title": "Design-and-Modeling"
+    },
+    {
+      "type": "item",
+      "title": "Modeling Introduction",
+      "uri": "docs/Design-and-Modeling/01-getting-started.md"
+    },
+    {
+      "type": "item",
+      "title": "Project Structure",
+      "uri": "docs/Design-and-Modeling/02-directory-structure.md"
+    },
+    {
+      "type": "item",
+      "title": "Working with Models",
+      "uri": "docs/Design-and-Modeling/03-http-endpoints.md"
+    },
+    {
+      "type": "item",
+      "title": "Setting Path Parameters",
+      "uri": "docs/Design-and-Modeling/04-path-parameters.md"
+    },
+    {
+      "type": "item",
+      "title": "Request Maker",
+      "uri": "docs/Design-and-Modeling/05-request-maker.md"
+    },
+    {
+      "type": "item",
+      "title": "Generating Code Snippets",
+      "uri": "docs/Design-and-Modeling/05a-generating-code-snippets.md"
+    },
+    {
+      "type": "item",
+      "title": "Mock Servers",
+      "uri": "docs/Design-and-Modeling/06-mock-servers.md"
+    },
+    {
+      "type": "item",
+      "title": "Using References",
+      "uri": "docs/Design-and-Modeling/07-using-references.md"
+    },
+    {
+      "type": "item",
+      "title": "Validation and Linting",
+      "uri": "docs/Design-and-Modeling/08-validation-style-guide.md"
+    },
+    {
+      "type": "item",
+      "title": "Using Custom Lint Rules",
+      "uri": "docs/Design-and-Modeling/08a-configure-spectral.md"
+    },
+    {
+      "type": "item",
+      "title": "Design Review Process",
+      "uri": "docs/Design-and-Modeling/09-review-process.md"
+    },
+    {
+      "type": "item",
+      "title": "API Security",
+      "uri": "docs/Design-and-Modeling/10-api-security.md"
+    },
+    {
+      "type": "divider",
+      "title": "Documentation"
+    },
+    {
+      "type": "item",
+      "title": "Documentation Quickstart Guide",
+      "uri": "docs/Documentation/01-getting-started.md"
+    },
+    {
+      "type": "item",
+      "title": "Directory Structure",
+      "uri": "docs/Documentation/02-directory-structure.md"
+    },
+    {
+      "type": "item",
+      "title": "Using Markdown in Documentation",
+      "uri": "docs/Documentation/03-markdown-basics.md"
+    },
+    {
+      "type": "item",
+      "title": "Stoplight Flavored Markdown",
+      "uri": "docs/Documentation/03a-stoplight-flavored-markdown.md"
+    },
+    {
+      "type": "item",
+      "title": "Using Images",
+      "uri": "docs/Documentation/04-using-images.md"
+    },
+    {
+      "type": "item",
+      "title": "Linking Between Articles",
+      "uri": "docs/Documentation/05-linking-between-articles.md"
+    },
+    {
+      "type": "item",
+      "title": "Publishing in Studio",
+      "uri": "docs/Documentation/06-publishing.md"
+    }
+  ]
+}
