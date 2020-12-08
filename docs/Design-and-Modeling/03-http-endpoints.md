@@ -4,8 +4,8 @@ tags: []
 
 # Working with Models
 
-Stoplight's JSON Schema editor allows you to easily design and model data structures
-used by your API. The JSON Schema editor is especially useful for:
+Stoplight's schema editor allows you to easily design and model data structures
+used by your API. The schema editor is especially useful for:
 
 - Drafting API request and response bodies under an API endpoint
 - Creating models for your API
@@ -13,10 +13,10 @@ used by your API. The JSON Schema editor is especially useful for:
 There are two different methods for generating a CRUD model:
 
 - Using the JSON Schema **editor**, which allows you to create data structures
-  in an easy-to-use, graphical format
+  in an easy-to-use, graphical format.
 
 - Using the **Raw Schema** editor, if you would prefer to modify the data
-  structure with raw JSON
+  structure with raw JSON Schema.
 
 While each method can be used individually, you will most likely find yourself
 using a combination of both methods while drafting API endpoints, models, and
@@ -53,7 +53,7 @@ To start utilizing the editor:
   - integers
   - booleans
   - nulls
-  - [references](07-using-references.md)
+  - [references](07-using-references.md) (a.k.a. `$ref`)
 
   Field types can also include _Combination Types_, which include 'allOf',
   'oneOf', and 'anyOf'. These special types allow for object inheritance from
@@ -66,13 +66,12 @@ To start utilizing the editor:
     'color' field of type string, you may want to restrict the strings used in
     that field to specific colors (red, blue, green, etc).
 
-  - **Format** allows for validating the field value is of a specific format. A
-    few common format validations include: date, time, date-time, URI, and
-    email.
+  - **Format** allows for describing the specific format of a field, like a
+    date, time, IP address, URI, email, etc.
 
   In addition to the validations listed above, there are also per-type
   validations that can be used depending on the type of the field. For example,
-  string validations include setting a minimum/maximum length and regex pattern.
+  string validations include setting a minimum/maximum length, and regex pattern.
   For numbers, you can set minimum/maximum values and even validate that the
   numeric value is a multiple.
 
