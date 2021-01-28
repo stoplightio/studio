@@ -2,21 +2,24 @@
 # Shared Components
 
 When using Stoplight, or OpenAPI in general, there are various different
-components that can be defined within specific endpoints, or reused between
-multiple endpoints. To help reduce extra work (and the chance of introducing
+components that can be either defined within an endpoint, or reused between
+multiple endpoints. To help reduce repetition (and the chance of introducing
 errors), it is important to:
 
 * Identify endpoints with common parameters, schemas, or responses.
 * Use _shared components_ to reference the same component multiple times instead
   of rewriting the properties for each individual endpoint.
 
-Shared components in Stoplight come in three forms:
+Shared components in Stoplight come in several forms:
 
 * **Parameters** - Parts of the request: query string parameters, path parameters, headers, and cookies. 
 
+* **Responses** - Common responses like page not found, validation errors, etc. 
+
 * **Models** - Also known as "Schemas", these are the most common shared component. They describe the actual shape of the data for JSON requests and responses.
 
-* **Responses** - Common responses like page not found, validation errors, etc. 
+* **Examples** - Show how a request or response body might look. These can be generated from schemas automatically, but can also be made manually created for more complex scenarios.
+
 
 ## Shared Parameters
 
@@ -132,3 +135,14 @@ Once the shared response has been created, it can be referenced in any API endpo
 ![](../../assets/images/shared-response-select.png)
 
 Now whenever you update a response it will update in every endpoint using this response.
+
+## Shared Models
+
+While designing your APIs, you will often find yourself repeating structures in your endpoint request and response bodies. For example, you might have an API endpoint that returns a list of users, and another endpoint that returns a single user. The response structures of these two endpoints will be very similar - one is responding with an array of user objects, and one is responding with a single user object.
+
+Models allow us to describe these common structures (for example, a User object), and then reference the object from our endpoint definitions, or even from other models. Then, we only have one place to update if we need to change anything about the user object, instead of many places.
+
+## Shared Examples
+
+Shared Examples can be applied to a request body or a response body, or applied to another model so that it will show up anywhere. Defining an example gives you more power over how that model is displayed in mock servers and documentation tools. 
+
