@@ -2,7 +2,7 @@
 
 ## Overview
 
-Stoplight flavored markdown can be used to enhance existing markdown documentation with necessary documentation components like code blocks, images, diagrams e.t.c. 
+Stoplight Flavored Markdown can be used to enhance existing Markdown documentation with necessary documentation components like code blocks, images, diagrams e.t.c. 
 
 ### Components
 
@@ -24,10 +24,10 @@ Stoplight flavored markdown can be used to enhance existing markdown documentati
 
 ### The Approach
 
-1.  Stoplight flavored markdown extends GitHub flavor markdown with inline comment annotations.
-2.  The value inside of the annotations is a YAML object, and the annotation affects the markdown block that directly follows it in the document.
+1.  Stoplight Flavored Markdown extends GitHub Flavored Markdown with inline comment annotations.
+2.  The value inside of the annotations is a YAML object, and the annotation affects the Markdown block that directly follows it in the document.
 
-By leveraging comments to store annotations, Stoplight flavored markdown degrades gracefully to any other markdown
+By leveraging comments to store annotations, Stoplight Flavored Markdown degrades gracefully to any other Markdown
 renderer (Github, for example).
 
 
@@ -444,7 +444,7 @@ The contents of tab 2.
 
 ## HTML
 
-Most basic HTML is supported. **However, we highly recommend using the markdown equivalent whenever possible.
+Most basic HTML is supported. **However, we highly recommend using the Markdown equivalent whenever possible.
 **
 <table>
   <thead>
