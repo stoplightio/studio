@@ -269,7 +269,7 @@ bg: "#f78ae0"
 
 ## Graphs and Diagrams
 
-You can in graphs and diagrams in your markdown via the `mermaid` code block language tag. Here are some examples:
+You can add graphs and diagrams in your Markdown via the `mermaid` code block language tag. Here are some examples:
 
 <!-- theme: warning -->
 
