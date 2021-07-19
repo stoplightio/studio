@@ -112,7 +112,7 @@ A callout is an MD blockquote with an optional annotation that indicates intent.
 
 ## Code Blocks
 
-A SMD code block is an MD code fence with an optional annotation to tweak the presentation of the code block.
+An SMD code block is an MD code fence with an optional annotation to tweak the presentation of the code block.
 
 **Supported annotations**:
 - **title**: Title for the code snippet
