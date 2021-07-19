@@ -470,7 +470,7 @@ Most basic HTML is supported. **However, we highly recommend using the Markdown 
 
 > This hasn't been implemented yet. **[Vote for this feature](https://roadmap.stoplight.io/c/28-rich-embeds-such-as-code-samples-videos-etc)!**
 
-This is a youtube video:
+This is a YouTube video:
 
 https://www.youtube.com/watch?v=aoLhACqJCUg
 
