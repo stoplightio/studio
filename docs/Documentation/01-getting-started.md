@@ -4,7 +4,7 @@ Want to publish documentation? This quick start guide will provide you with the 
 
 ## 1. Open Stoplight Studio
 
-The opening page of [Stoplight Studio](https://stoplight.io/p/studio) contains three options: create a **New Personal Project**, Open Git Project, and Open Existing Folder.
+The opening page of Stoplight Studio contains three options: create a **New Personal Project**, Open Git Project, and Open Existing Folder.
 
 ## 2. Create a New Personal Project
 
