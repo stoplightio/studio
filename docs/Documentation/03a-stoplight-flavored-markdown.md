@@ -267,6 +267,18 @@ bg: "#f78ae0"
 ![Studio project share](https://i.imgur.com/ueOOL8X.png)
 ```
 
+**Good old plain images**
+
+<!-- focus: false -->
+![Studio project share](https://i.imgur.com/ueOOL8X.png)
+
+
+```md title="Try it out!"
+<!--
+focus: false
+-->
+```
+
 ## Graphs and Diagrams
 
 You can add graphs and diagrams in your Markdown via the `mermaid` code block language tag. Here are some examples:
