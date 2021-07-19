@@ -267,7 +267,7 @@ bg: "#f78ae0"
 ![Studio project share](https://i.imgur.com/ueOOL8X.png)
 ```
 
-**Good old plain images**
+**Good Old Plain Images**
 
 <!-- focus: false -->
 ![Studio project share](https://i.imgur.com/ueOOL8X.png)
