@@ -352,7 +352,7 @@ journey
 ## JSON Schema
 
 The SMD JSON schema block is an MD code block with an additional `json_schema` language tag. The contents of the code
-fence should be the JSON schema object to be rendered. The primary language tag can be `YAML, `YML`, or `JSON`.
+fence should be the JSON schema object to be rendered. The primary language tag can be `YAML`, `YML`, or `JSON`.
 
 ```json json_schema
 {
