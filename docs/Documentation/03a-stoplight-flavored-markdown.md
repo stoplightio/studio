@@ -28,7 +28,7 @@ Stoplight Flavored Markdown can be used to enhance existing Markdown documentati
 2.  The value inside of the annotations is a YAML object, and the annotation affects the Markdown block that directly follows it in the document.
 
 By leveraging comments to store annotations, Stoplight Flavored Markdown degrades gracefully to any other Markdown
-renderer (Github, for example).
+renderer (GitHub, for example).
 
 
 ## Callouts
