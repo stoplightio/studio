@@ -34,4 +34,4 @@ To configure custom lint and validation rules for a project:
    }
    ```
 
-For more information on how to customize Spectral rulesets, head over to the [Spectral documentation](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/getting-started/rulesets.md).
+For more information on how to customize Spectral rulesets, head over to the [Spectral documentation](https://meta.stoplight.io/docs/spectral/docs/getting-started/3-rulesets.md).

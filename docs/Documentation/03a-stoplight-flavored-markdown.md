@@ -1,149 +1,127 @@
-# Stoplight Flavored Markdown
+# Stoplight Flavored Markdown (SMD)
 
-Stoplight Flavored Markdown (or SMD, for short) with two guiding principles:
+## Overview
 
--   It must be **human readable**, where the raw Markdown source can be viewed and edited using standard, readily available text editors.
--   It must **degrade gracefully**, where rendering Stoplight Flavored Markdown _outside_ of Stoplight should still be usable, clean, and, most importantly, readable.
+Stoplight Flavored Markdown can be used to enhance existing Markdown documentation with necessary documentation components like code blocks, images, diagrams e.t.c. 
 
-**Our Approach**
+### Components
 
-Stoplight Flavored Markdown extends [CommonMark](https://commonmark.org/) with inline comment annotations, where the value of the annotations is a YAML object. These annotations tell Stoplight to render the following Markdown object in a specific way.
+- [Callouts](#callouts)
+- [Task Lists](#task-lists)
+- [Code Blocks](#code-blocks)
+- [Code Groups](#code-groups)
+- [Images](#images)
+- [Graphs and Diagrams](#graphs-and-diagrams)
+- [JSON Schema](#json-schema)
+- [Tabs](#tabs)
+- [HTML Support](#html)
+- [Embeds](#embeds)
 
-> By leveraging comments to store the annotations, Stoplight Flavored Markdown degrades gracefully when rendered in other CommonMark-compatible Markdown renderers (Github, for example).
+### The Two Laws
 
-## Block Types
+1.  SMD is human readable. A human with a simple text editor can easily read and write SMD.
+2.  SMD degrades gracefully. SMD documents rendered on `github.com` should be clean and readable.
 
-### Callouts
+### The Approach
 
-A callout is a Markdown block quote with an optional annotation that indicates the theme of the callout and intention of the message. The block annotation for a callout can include:
+1.  Stoplight Flavored Markdown extends GitHub Flavored Markdown with inline comment annotations.
+2.  The value inside of the annotations is a YAML object, and the annotation affects the Markdown block that directly follows it in the document.
 
--   `theme` (`string`), which must be one of the following values:
-    -   `info`
-    -   `success`
-    -   `warning`
-    -   `danger`
+By leveraging comments to store annotations, Stoplight Flavored Markdown degrades gracefully to any other Markdown
+renderer (GitHub, for example).
 
-#### Info
 
-To create an `info` block quote, use:
+## Callouts
 
-```md
-<!-- theme: info -->
+A callout is an MD blockquote with an optional annotation that indicates intent.
 
-> ### A thing to know
->
-> Here is my info callout
-```
+### Danger
 
-Which results in:
-
-<!-- theme: info -->
-
-> ### A thing to know
->
-> Here is my info callout
-
-#### Success
-
-To create an `success` block quote, use:
-
-```md
-<!-- theme: success -->
-
-> ### Mission Accomplished!
->
-> Here is my success callout!
-```
-
-Which results in:
-
-<!-- theme: success -->
-
-> ### Mission Accomplished!
->
-> Here is my success callout!
-
-#### Warning
-
-To create an `warning` block quote, use:
-
-```md
-<!-- theme: warning -->
-
-> ### Watch Out!
->
-> Here is my warning callout!
-```
-
-Which results in:
-
-<!-- theme: warning -->
-
-> ### Watch Out!
->
-> Here is my warning callout!
-
-#### Danger
-
-To create an `danger` block quote, use:
-
-```md
 <!-- theme: danger -->
 
-> ### Danger Will Robinson!
+> #### Danger Will Robinson!
+>
+> Here is my danger callout!
+
+```md title="Copy this code to try it out!"
+<!-- theme: danger -->
+
+> #### Danger Will Robinson!
 >
 > Here is my danger callout!
 ```
 
-Which results in:
-
-<!-- theme: danger -->
-
-> ### Danger Will Robinson!
->
-> Here is my danger callout!
-
-### Code Blocks
-
-A SMD code block is a Markdown code fence with an optional YAML annotation used to tweak the presentation of the code block. The annotation can include the following attributes:
-
--   `title` (`string`), which is a string title for the resulting block
--   `lineNumbers` (`true`\|`false`), which denotes whether line numbers should be included (defaults to `true`)
-
-For example the Markdown:
-
-````md
-<!--
-title: "My code snippet"
-lineNumbers: true
--->
-
-```javascript
-function fibonacci(num){
-  var a = 1, b = 0, temp;
-
-  while (num >= 0){
-    temp = a;
-    a = a + b;
-    b = temp;
-    num--;
-  }
-
-  return b;
-}
-\```
-````
+### Warning
 
 <!-- theme: warning -->
+> #### Watch Out!
+>
+> Here is my warning callout!
 
-> In the example above, be sure to remove the `\` that precedes the last three backticks at the end of the Javascript code fence. This was included for demonstration purposes only.
+```md title="Copy this code to try it out!"
+<!-- theme: warning -->
+> #### Watch Out!
+>
+> Here is my warning callout!
+```
 
-The example above results in:
+### Success
 
+<!-- theme: success -->
+
+> #### Mission Accomplished!
+>
+> Here is my success callout!
+
+```md title="Copy this code to try it out!"
+<!-- theme: success -->
+
+> #### Mission Accomplished!
+>
+> Here is my success callout!
+```
+
+### Info
+
+<!-- theme: info -->
+
+> #### A thing to know
+>
+> Here is my info callout
+
+```md title="Copy this code to try it out!"
+<!-- theme: info -->
+
+> #### A thing to know
+>
+> Here is my info callout
+```
+
+
+## Task Lists
+
+- [ ] one
+- [x] two
+- [ ] three
+
+```md title="Copy this code to try it out!"
+- [ ] one
+- [x] two
+- [ ] three
+```
+
+## Code Blocks
+
+An SMD code block is an MD code fence with an optional annotation to tweak the presentation of the code block.
+
+**Supported annotations**:
+- **title**: Title for the code snippet
+- **lineNumbers**: True/False to toggle line number visibility
+
+### Markdown Annotations
 <!--
-title: "My code snippet"
+title: "My code snippet passed via md annotations"
 lineNumbers: true
-highlightLines: [[1,3], [4,5]]
 -->
 
 ```javascript
@@ -163,72 +141,218 @@ function fibonacci(num) {
 }
 ```
 
-### Tables
-
-Tables can include an optional annotation to specify a title:
-
--   `title` (`string`), the title of the table block
-
-For example, the Markdown:
-
-```md
-<!-- title: My Table Title -->
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
+```example title="Try the annotations out!"
+<!--
+title: "My code snippet passed via md annotations"
+lineNumbers: true
+highlightLines: [[1,2], [4,5]]
+-->
 ```
 
-Results in:
+### Meta Tag Annotations
 
-<!-- title: My Table Title -->
+You can also pass the annotations via the code block meta tag.
 
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |    centered   |   $12 |
-| zebra stripes |    are neat   |    $1 |
-
-### JSON Schema
-
-A JSON Schema block is a code fence with either a `json`, `yaml`, or `yml` language tag, plus an additional `json_schema` language tag. The contents of the code fence should be the JSON Schema object to be rendered. 
-
-For example the Markdown:
-
-````md
-```json json_schema
+```json title="Passed via meta tag" lineNumbers
 {
-    "title": "User",
-    "type": "object",
-    "properties": {
-        "id": {
-            "type": "string"
-        },
-        "name": {
-            "type": "string",
-            "description": "The user's full name."
-        },
-        "age": {
-            "type": "number",
-            "minimum": 0,
-            "maximum": 150
-        }
-    },
-    "required": [
-        "id",
-        "name"
-    ]
+  "foo": "bar"
 }
-\```
-````
+```
+
+```example title="Try the annotations out!"
+json title="Passed via meta tag" lineNumbers
+```
+
+## Code Groups
+
+If you write multiple code blocks with no other content between them they will be grouped into a tabbed code
+group. This functionality is helpful for a variety of use cases, such as displaying code samples in a variety of
+languages.
+
+> Note that code groups cannot be nested in other elements like tabs.
+
+```js title="Code groups work with titles and other annotations!" lineNumbers
+// Install via npm
+npm install --save my-library
+```
+
+```ruby title="Lovely isn't it?"
+# Available as a gem
+sudo gem install my-library
+```
+
+```php title="Enjoy!"
+# Install the PHP library via Composer
+composer require my-library
+```
 
 <!-- theme: warning -->
 
-> In the example above, be sure to remove the `\` that precedes the last three backticks at the end of the code fence. This was included for demonstration purposes only.
+## Images
 
-The example above results in:
+Use annotations to frame up product images.
+
+**Default**
+
+The default setting adds an outline and click to zoom for images. 
+
+![Stoplight Logo](https://stoplight.io/images/home/logo-blue-black.png)
+
+```md title="Try it out!"
+![Stoplight Logo](https://stoplight.io/images/home/logo-blue-black.png)
+```
+
+**Center Focus**
+
+Make screenshots pop out with a center focus and a default background image. 
+
+<!-- focus: center -->
+
+![Dev portal settings](https://i.imgur.com/YCb6MWI.png)
+
+```md title="Try it out!"
+<!-- focus: center -->
+
+![Dev portal settings](https://i.imgur.com/YCb6MWI.png)
+```
+
+**Add a Caption**
+
+Add an optional caption to explain the screenshot further. 
+
+<!-- focus: top -->
+
+![Studio project share](https://i.imgur.com/ueOOL8X.png 'Can add an optional caption')
+
+```md title="Try it out!"
+<!-- focus: top -->
+
+![Studio project share](https://i.imgur.com/ueOOL8X.png 'Can add an optional caption')
+```
+
+**Try a Different BG Color**
+
+<!--
+focus: top
+bg: primary
+-->
+
+![Studio project share](https://i.imgur.com/ueOOL8X.png)
+
+```md title="Try it out!"
+<!--
+focus: top
+bg: primary
+-->
+
+![Studio project share](https://i.imgur.com/ueOOL8X.png 'Can add an optional caption')
+```
+
+**Use a hex BG Color**
+
+<!--
+focus: top
+bg: "#f78ae0"
+-->
+
+![Studio project share](https://i.imgur.com/ueOOL8X.png)
+
+
+```md title="Try it out!"
+<!--
+focus: top
+bg: "#f78ae0"
+-->
+
+![Studio project share](https://i.imgur.com/ueOOL8X.png)
+```
+
+## Graphs and Diagrams
+
+You can add graphs and diagrams in your Markdown via the `mermaid` code block language tag. Here are some examples:
+
+<!-- theme: warning -->
+
+> Note that diagrams cannot be nested in other elements like tabs or code groups.
+
+### Flowchart
+
+```mermaid
+graph TB
+    c1-->a2
+    subgraph ide1 [one]
+    a1-->a2
+    end
+```
+
+```example
+graph TB
+    c1-->a2
+    subgraph ide1 [one]
+    a1-->a2
+    end
+```
+
+
+### Sequence
+
+```mermaid
+sequenceDiagram
+    autonumber
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+```example
+sequenceDiagram
+    autonumber
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+### Journey
+
+```mermaid
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+```
+
+```example
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+```
+
+
+## JSON Schema
+
+The SMD JSON schema block is an MD code block with an additional `json_schema` language tag. The contents of the code
+fence should be the JSON schema object to be rendered. The primary language tag can be `YAML`, `YML`, or `JSON`.
 
 ```json json_schema
 {
@@ -251,132 +375,108 @@ The example above results in:
   "required": ["id", "name"]
 }
 ```
+Try it out with the example below:
 
-### Tabs
-
-A tab block allows you to create multiple pages of content nested within tabs. This block type requires **two** annotations, a leading annotation to denote the start of a tab block, which includes the following attributes:
-
--   `type` (`string`), which must equal `tab`
--   `title` (`string`), which is the title of the tab
-
-And a trailing annotation to denote the end of the tab block:
-
--   `type` (`string`), which must equal `tab-end`
-
-For example, using the raw Markdown:
-
-```md
-<!--
-type: tab
-title: Some Content
--->
-
-# Content!
-
-Sweet, beautiful content, ready to blow your readers' minds.
-
-<!--
-type: tab
-title: Some More Content
--->
-
-# More Content!
-
-With more mind-blowing material. Really. Just amazing, grade-A stuff.
-
-<!-- type: tab-end -->
-```
-
-Results in the following:
-
-<!--
-type: tab
-title: Some Content
--->
-
-# Content!
-
-Sweet, beautiful content, ready to blow your readers' minds.
-
-<!--
-type: tab
-title: Some More Content
--->
-
-# More Content!
-
-With more mind-blowing material. Really. Just amazing, grade-A stuff.
-
-<!-- type: tab-end -->
-
-<!-- theme: warning -->
-
-> Tab container start and end annotations are **required**, and cannot currently be nested.
-
-### HTTP Request Maker
-
-The HTTP Request Maker block allows you to embed example HTTP requests directly in your documentation. The HTTP Request Maker block is a `json` or `yaml` code block, along with an additional `http` language tag. 
-
-The contents of the code fence should be a HTTP Request Object (described below). The Stoplight Studio Markdown "Preview" panel includes a sample HTTP Request Maker that you can use to help compose the Request Object automatically.
-
-```md
-```yaml http
-{
-  "method": "get",
-  "url": "http://todos.stoplight.io/todos"
-}
-\```
-```
-
-<!-- theme: warning -->
-
-> In the example above, be sure to remove the `\` that precedes the last three backticks at the end of the `yaml` code fence before using.
-
-The Markdown above results in:
-
-```yaml http
-{
-  "method": "get",
-  "url": "http://todos.stoplight.io/todos"
-}
-```
-
-Which is a fully-functioning HTTP Request Maker, allowing users of your documentation to send requests directly from the browser. Go ahead and click "Send" to try it out!
-
-#### HTTP Request Object Format
-
-The HTTP Request Maker Block contents must include a JSON object compatible with the following format definition:
-
+```json title="Try it out!" 
 ```json json_schema
 {
-  "title": "HTTP Request Object",
-  "description": "This object describes the example request that you would like to embed.",
+  "title": "User",
   "type": "object",
   "properties": {
-    "method": {
-      "description": "The HTTP request method"
+    "id": {
+      "type": "string"
+    },
+    "name": {
       "type": "string",
-      "enum": ["get", "post", "put", "patch", "delete", "options", "head"],
-      "example": "get"
+      "description": "The user's full name."
     },
-    "url": {
-      "description": "The URL target for the request",
-      "type": "string",
-      "example": "http://example.com/my/object"
-    },
-    "query": {
-      "description": "Query parameters to include in the request",
-      "type": "object"
-    },
-    "headers": {
-      "description": "Headers to include in the request",
-      "type": "object"
-    },
-    "body": {
-      "description": "Body of the request",
-      "type": ["object", "string"]
+    "age": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 150
     }
   },
-  "required": ["method", "url"]
+  "required": ["id", "name"]
 }
 ```
+
+## Tabs
+
+An SMD tab container is a `tab` annotation, followed by the tab content, and closed by a final `tab-end` annotation.
+
+<!-- theme: danger -->
+
+> Tab containers cannot be nested.
+
+<!--
+type: tab
+title: My First Tab
+-->
+
+The contents of tab 1.
+
+<!--
+type: tab
+title: My Second Tab
+-->
+
+The contents of tab 2.
+
+<!-- type: tab-end -->
+
+```md title="Try it out!" 
+<!--
+type: tab
+title: My First Tab
+-->
+
+The contents of tab 1.
+
+<!--
+type: tab
+title: My Second Tab
+-->
+
+The contents of tab 2.
+
+<!-- type: tab-end -->
+```
+
+## HTML
+
+Most basic HTML is supported. **However, we highly recommend using the Markdown equivalent whenever possible.**
+<table>
+  <thead>
+    <tr>
+      <td>heading 1</td>
+      <td>heading 2</td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>hello</td>
+      <td>world</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Embeds
+
+<!-- theme: warning -->
+
+> This hasn't been implemented yet. **[Vote for this feature](https://roadmap.stoplight.io/c/28-rich-embeds-such-as-code-samples-videos-etc)!**
+
+This is a YouTube video:
+
+https://www.youtube.com/watch?v=aoLhACqJCUg
+
+This is a photo:
+
+https://www.flickr.com/photos/pedrocaetano/27432477888
+
+This is another photo:
+
+http://www.23hq.com/mprove/photo/66422006

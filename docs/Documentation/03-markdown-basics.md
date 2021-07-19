@@ -123,12 +123,12 @@ There are two ways to create links:
 ```md
 Here's our logo (hover to see the title text):
 
-![Stoplight Logo](https://pbs.twimg.com/profile_images/641056907474538498/qIbg0pZP_bigger.png "Stoplight Logo")
+![Stoplight Logo](https://stoplight.io/images/home/logo-blue-black.png "Stoplight Logo")
 ```
 
 Here's our logo (hover to see the title text):
 
-![Stoplight Logo](https://pbs.twimg.com/profile_images/641056907474538498/qIbg0pZP_bigger.png "Stoplight Logo")
+![Stoplight Logo](https://stoplight.io/images/home/logo-blue-black.png "Stoplight Logo")
 
 ## Code and Syntax Highlighting
 
