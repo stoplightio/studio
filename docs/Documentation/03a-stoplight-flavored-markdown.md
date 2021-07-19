@@ -444,7 +444,7 @@ The contents of tab 2.
 
 ## HTML
 
-Most basic HTML is supported. **However, we highly recommend using the Markdown equivalent whenever possible.
+Most basic HTML is supported. **However, we highly recommend using the Markdown equivalent whenever possible.**
 **
 <table>
   <thead>
