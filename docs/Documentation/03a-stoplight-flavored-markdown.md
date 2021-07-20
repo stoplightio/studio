@@ -169,6 +169,8 @@ If you write multiple code blocks with no other content between them they will b
 group. This functionality is helpful for a variety of use cases, such as displaying code samples in a variety of
 languages.
 
+<!-- theme: warning -->
+
 > Note that code groups cannot be nested in other elements like tabs.
 
 ```js title="Code groups work with titles and other annotations!" lineNumbers
@@ -185,8 +187,6 @@ sudo gem install my-library
 # Install the PHP library via Composer
 composer require my-library
 ```
-
-<!-- theme: warning -->
 
 ## Images
 
@@ -265,6 +265,18 @@ bg: "#f78ae0"
 -->
 
 ![Studio project share](https://i.imgur.com/ueOOL8X.png)
+```
+
+**Good Old Plain Images**
+
+<!-- focus: false -->
+![Studio project share](https://i.imgur.com/ueOOL8X.png)
+
+
+```md title="Try it out!"
+<!--
+focus: false
+-->
 ```
 
 ## Graphs and Diagrams
