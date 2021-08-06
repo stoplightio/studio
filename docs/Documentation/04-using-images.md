@@ -9,7 +9,7 @@ Using images in Stoplight is now easier than ever. Add images to your project to
 
 ## Add Images
 
-Drag and drop image or copy and paste an image into a markdown article to upload it. 
+Drag and drop image or copy and paste an image into a Markdown article to upload it. 
 
 ![Create New Image](../../assets/images/image-upload.gif)
 
