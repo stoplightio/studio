@@ -130,6 +130,8 @@ Here's our logo (hover to see the title text):
 
 ![Stoplight Logo](https://stoplight.io/images/home/logo-blue-black.png "Stoplight Logo")
 
+To customize images like adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](03a-stoplight-flavored-markdown.md).
+
 ## Code and Syntax Highlighting
 
 Inline `code` has `back-ticks` around it.
