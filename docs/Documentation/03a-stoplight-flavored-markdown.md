@@ -192,7 +192,7 @@ composer require my-library
 
 Use annotations to frame up product images.
 
-**Default**
+### Default
 
 The default setting adds an outline and click to zoom for images. 
 
@@ -202,7 +202,7 @@ The default setting adds an outline and click to zoom for images.
 ![Stoplight Logo](https://stoplight.io/images/home/logo-blue-black.png)
 ```
 
-**Center Focus**
+### Center Focus
 
 Make screenshots pop out with a center focus and a default background image. 
 
@@ -216,7 +216,7 @@ Make screenshots pop out with a center focus and a default background image.
 ![Dev portal settings](https://i.imgur.com/YCb6MWI.png)
 ```
 
-**Add a Caption**
+### Add a Caption
 
 Add an optional caption to explain the screenshot further. 
 
@@ -230,7 +230,7 @@ Add an optional caption to explain the screenshot further.
 ![Studio project share](https://i.imgur.com/ueOOL8X.png 'Can add an optional caption')
 ```
 
-**Try a Different BG Color**
+### Try a Different BG Color
 
 <!--
 focus: top
@@ -248,7 +248,7 @@ bg: primary
 ![Studio project share](https://i.imgur.com/ueOOL8X.png 'Can add an optional caption')
 ```
 
-**Use a hex BG Color**
+### Use a hex BG Color
 
 <!--
 focus: top
@@ -267,7 +267,7 @@ bg: "#f78ae0"
 ![Studio project share](https://i.imgur.com/ueOOL8X.png)
 ```
 
-**Good Old Plain Images**
+### Good Old Plain Images
 
 <!-- focus: false -->
 ![Studio project share](https://i.imgur.com/ueOOL8X.png)
