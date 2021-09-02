@@ -477,18 +477,44 @@ Most basic HTML is supported. **However, we highly recommend using the Markdown 
 
 ## Embeds
 
-<!-- theme: warning -->
-
-> This hasn't been implemented yet. **[Vote for this feature](https://roadmap.stoplight.io/c/28-rich-embeds-such-as-code-samples-videos-etc)!**
-
 This is a YouTube video:
 
-https://www.youtube.com/watch?v=aoLhACqJCUg
+https://www.youtube.com/watch?v=VbSPeYo8dfM
 
-This is a photo:
+This is a Giphy Gif:
 
-https://www.flickr.com/photos/pedrocaetano/27432477888
+https://giphy.com/gifs/barkpost-barkpost-happy-wednesday-working-like-a-dog-eYilisUwipOEM
 
-This is another photo:
+We support audio too:
 
-http://www.23hq.com/mprove/photo/66422006
+https://open.spotify.com/episode/7jobY4wQXnt1T0E9iwVRte
+
+<!-- markdown-link-check-disable -->
+
+### Supported Websites
+
+- Coding
+  - [Github Gist](https://gist.github.com)
+  - [CodeSandbox](https://codesandbox.io)
+  - [Codepen](https://codepen.io)
+  - [Runkit](https://runkit.com)
+  - [Replit](https://replit.com)
+
+- Video
+  - [YouTube](https://www.youtube.com)
+  - [Vimeo](https://vimeo.com)
+  - [Grain](https://grain.co)
+  - [Giphy](https://giphy.com)
+
+- Audio
+  - [Spotify](https://www.spotify.com)
+  - [SoundCloud](https://soundcloud.com)
+
+- Design
+  - [Figma](https://www.figma.com)
+  - [Slideshare](https://www.slideshare.net)
+  - [SpeakerDeck](https://speakerdeck.com)
+
+- Social
+  - [Twitter](https://twitter.com)
+
