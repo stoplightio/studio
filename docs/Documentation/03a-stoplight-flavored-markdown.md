@@ -483,13 +483,25 @@ For example, this is a YouTube video:
 
 https://www.youtube.com/watch?v=VbSPeYo8dfM
 
+```md title="Try it out!" 
+https://www.youtube.com/watch?v=VbSPeYo8dfM
+```
+
 This is a Giphy Gif:
 
 https://giphy.com/gifs/barkpost-barkpost-happy-wednesday-working-like-a-dog-eYilisUwipOEM
 
+```md title="Try it out!" 
+https://giphy.com/gifs/barkpost-barkpost-happy-wednesday-working-like-a-dog-eYilisUwipOEM
+```
+
 We support audio too:
 
 https://open.spotify.com/episode/7jobY4wQXnt1T0E9iwVRte
+
+```md title="Try it out!" 
+https://open.spotify.com/episode/7jobY4wQXnt1T0E9iwVRte
+```
 
 <!-- markdown-link-check-disable -->
 
@@ -513,7 +525,7 @@ https://open.spotify.com/episode/7jobY4wQXnt1T0E9iwVRte
   - [SoundCloud](https://soundcloud.com)
 
 - Design
-  - [Figma](https://www.figma.com)
+  - Figma
   - [Slideshare](https://www.slideshare.net)
   - [SpeakerDeck](https://speakerdeck.com)
 
