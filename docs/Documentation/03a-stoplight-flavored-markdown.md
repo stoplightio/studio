@@ -477,7 +477,9 @@ Most basic HTML is supported. **However, we highly recommend using the Markdown 
 
 ## Embeds
 
-This is a YouTube video:
+We support embedding a variety of content from popular websites! To use an embed, just write out a link in its own paragraph.
+
+For example, this is a YouTube video:
 
 https://www.youtube.com/watch?v=VbSPeYo8dfM
 
