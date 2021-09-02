@@ -485,13 +485,13 @@ This is a Giphy Gif:
 
 https://giphy.com/gifs/barkpost-barkpost-happy-wednesday-working-like-a-dog-eYilisUwipOEM
 
-We support Audio too:
+We support audio too:
 
 https://open.spotify.com/episode/7jobY4wQXnt1T0E9iwVRte
 
 <!-- markdown-link-check-disable -->
 
-### Supported websites
+### Supported Websites
 
 - Coding
   - [Github Gist](https://gist.github.com)
