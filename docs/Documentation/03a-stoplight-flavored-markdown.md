@@ -13,6 +13,7 @@ Stoplight Flavored Markdown can be used to enhance existing Markdown documentati
 - [Images](#images)
 - [Graphs and Diagrams](#graphs-and-diagrams)
 - [JSON Schema](#json-schema)
+- [Try It](#try-it)
 - [Tabs](#tabs)
 - [HTML Support](#html)
 - [Embeds](#embeds)
@@ -411,6 +412,90 @@ Try it out with the example below:
   "required": ["id", "name"]
 }
 ```
+
+## Try It
+
+### Basics
+
+Writing a `json` code block with the `http` tag added results in displaying a "Try It" component.
+
+The simplest way to use it is to provide `method` and `url` parameters, both of which are obligatory:
+
+````json
+```json http
+{
+  "method": "GET",
+  "url": "https://todos.stoplight.io/todos",
+}
+```
+````
+
+This results in the following component being displayed:
+
+```json http
+{
+  "method": "GET",
+  "url": "https://todos.stoplight.io/todos",
+}
+```
+
+### Optional Parameters
+
+There are also optional parameters that you can provide to the component. 
+
+`query`, `headers`, and `body` parameters allow you to create a Try It component that supports sending requests with a query, header, and/or body content. Users can fill and edit those contents and then send the request.
+
+So, for example, if we wanted to use `query`, `headers` and `body` all at the same time, we would write:
+
+````json
+```json http
+{
+  "method": "POST",
+  "url": "https://todos.stoplight.io/todos",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "query": {
+    "name": "query value"
+  },
+  "body": {
+    "some parameter": "some value"
+  }
+}
+```
+````
+
+This would result in the following component:
+
+```json http
+{
+  "method": "POST",
+  "url": "https://todos.stoplight.io/todos",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "query": {
+    "name": "query value"
+  },
+  "body": {
+    "some parameter": "some value"
+  }
+}
+```
+
+If you prefer, for readability sake you might also want to use `baseUrl` parameter, which allows you to write the following.
+
+````json
+```json http
+{
+  "method": "GET",
+  "url": "todos",
+  "baseUrl": "https://todos.stoplight.io",
+}
+```
+````
+
+Currently, it doesn't affect the functionality in any way, but can be used for readability purposes. In the future, we might introduce features in Try It, that actually utilize this parameter.
 
 ## Tabs
 
