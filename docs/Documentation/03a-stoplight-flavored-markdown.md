@@ -6,17 +6,34 @@ Stoplight Flavored Markdown can be used to enhance existing Markdown documentati
 
 ### Components
 
-- [Callouts](#callouts)
-- [Task Lists](#task-lists)
-- [Code Blocks](#code-blocks)
-- [Code Groups](#code-groups)
-- [Images](#images)
-- [Graphs and Diagrams](#graphs-and-diagrams)
-- [JSON Schema](#json-schema)
-- [Try It](#try-it)
-- [Tabs](#tabs)
-- [HTML Support](#html)
-- [Embeds](#embeds)
+- [Stoplight Flavored Markdown (SMD)](#stoplight-flavored-markdown-smd)
+  - [Overview](#overview)
+    - [Components](#components)
+    - [The Two Laws](#the-two-laws)
+    - [The Approach](#the-approach)
+  - [Callouts](#callouts)
+    - [Danger](#danger)
+    - [Warning](#warning)
+    - [Success](#success)
+    - [Info](#info)
+  - [Task Lists](#task-lists)
+  - [Code Blocks](#code-blocks)
+    - [Markdown Annotations](#markdown-annotations)
+    - [Meta Tag Annotations](#meta-tag-annotations)
+  - [Code Groups](#code-groups)
+  - [Images](#images)
+  - [Graphs and Diagrams](#graphs-and-diagrams)
+    - [Flowchart](#flowchart)
+    - [Sequence](#sequence)
+    - [Journey](#journey)
+  - [JSON Schema](#json-schema)
+  - [Try It](#try-it)
+    - [Basics](#basics)
+    - [Optional Parameters](#optional-parameters)
+  - [Tabs](#tabs)
+  - [HTML](#html)
+  - [Embeds](#embeds)
+    - [Supported Websites](#supported-websites)
 
 ### The Two Laws
 
@@ -282,7 +299,9 @@ focus: false
 
 ## Graphs and Diagrams
 
-You can add graphs and diagrams in your Markdown via the `mermaid` code block language tag. Here are some examples:
+You can add graphs and diagrams in your Markdown using [Mermaid syntax](https://mermaid-js.github.io/mermaid/#/flowchart). They support all sorts of common UML diagrams, like sequence diagrams, class diagrams, state diagrams, ERDs, User Journey, Gantt, pie charts, etc. 
+
+Wrap any Mermaid syntax with a `mermaid` code block. 
 
 <!-- theme: warning -->
 
@@ -616,4 +635,3 @@ https://open.spotify.com/episode/7jobY4wQXnt1T0E9iwVRte
 
 - Social
   - [Twitter](https://twitter.com)
-
