@@ -1,4 +1,5 @@
 # Generating Code Snippets
+**Recommend removing this topic since all of the content is in Try It topicXXX**
 
 When you are happy with the requests you've made in [Request Maker](./05-request-maker.md) (our HTTP client), you can turn the requests into actual code for pasting into your codebase.
 
