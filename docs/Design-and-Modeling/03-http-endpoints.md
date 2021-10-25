@@ -12,10 +12,10 @@ used by your API. The schema editor is especially useful for:
 
 There are two different methods for generating a CRUD model:
 
-- Using the JSON Schema **editor**, which allows you to create data structures
+- Using the JSON Schema **Form** editor, which allows you to create data structures
   in an easy-to-use, graphical format.
 
-- Using the **Raw Schema** editor, if you would prefer to modify the data
+- Using the **Code** editor, if you would prefer to modify the data
   structure with raw JSON Schema.
 
 While each method can be used individually, you will most likely find yourself
@@ -24,6 +24,9 @@ responses.
 
 ## Using the Editor
 
+<!--
+focus: false
+-->
 ![JSON Schema Editor](../../assets/images/crud-builder.png)
 
 We created the JSON Schema editor to make data structure creation as simple as
@@ -86,7 +89,7 @@ While not for the faint hearted, you can also edit the raw JSON schema directly
 if you are familiar with the format, or have a pre-existing JSON schema
 representation of your data structure.
 
-To edit the raw JSON schema, [switch to the **Write View** tab](../ui-overview.md) next to the **Form View**
+To edit the raw JSON schema, [switch to the **Code** tab](../ui-overview.md) next to the **Form**
 tab. This will switch you over to the Write view which will allow you to make edits directly in the raw schema.
 
 ## Try it Out
