@@ -6,7 +6,7 @@ For each request, you can:
 
 - Provide authorization and parameters as part of each request.
 - Choose to send the request from any server defined in the API description.
-- Automatically generate a request [code snippet](05a-generating-code-snippets.md) for your preferred language type.
+- Get a [request sample](05a-generating-code-snippets.md) for your preferred language type.
 - Enable mocking and choose to generate static or dynamic URLs. See [Mock Servers](06-mock-servers.md).  
 
 ## Send Requests
