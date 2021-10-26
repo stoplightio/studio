@@ -85,11 +85,11 @@ To start utilizing the editor:
 
 ![Write View](../../assets/images/write-view.png)
 
-While not for the faint hearted, you can also edit the raw JSON schema directly
-if you are familiar with the format, or have a pre-existing JSON schema
+While not for the faint hearted, you can also edit the raw JSON Schema directly
+if you are familiar with the format, or have a pre-existing JSON Schema
 representation of your data structure.
 
-To edit the raw JSON schema, [switch to the **Code** tab](../ui-overview.md) next to the **Form**
+To edit the raw JSON Schema, [switch to the **Code** tab](../ui-overview.md) next to the **Form**
 tab. This will switch you over to the Write view which will allow you to make edits directly in the raw schema.
 
 ## Try it Out
