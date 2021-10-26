@@ -1,25 +1,39 @@
-# Request Maker
+# Try It
 
-Stoplight Studio has a built in HTTP client which we call Request Maker. It appears in a few places throughout our ecosystem, and in Studio you will see it under the "Try it Now" button in **Preview**.
+Stoplight Studio enables you to preview and test your API operations as you work or as people read your documentation.
 
-![](../../assets/images/request-maker.png)
+For each request, you can:
 
-The request maker is very much like many other HTTP clients out there, but it knows all about your APIs. It knows every endpoint defined in the API description, it knows what headers need are required or optional, what content type you should send, and if the API description has defined servers, it will let you pick from those. 
+- Provide authorization and parameters as part of each request.
+- Choose to send the request from any server defined in the API description.
+- Get a [request sample](05a-generating-code-snippets.md) for your preferred language type.
+- Enable mocking and choose to generate static or dynamic URLs. See [Mock Servers](06-mock-servers.md).  
 
-When you edit the API description, this Try it Now tab will update as you save. This lets you make requests to your development server whilst you work on it, without needing to jump between multiple applications and update things in multiple places.
+## Send Requests
 
-## Design-First
+1. Open Try It:
+    - From published API documentation, select an operation. 
+    - In Edit mode, select an operation, select **Preview**, and then select the **Try It** tab. 
 
-If you are following the design-first workflow, you can make requests to a [mock server](./06-mock-servers.md). This helps you get a feel for how the API will work, before writing any code.
+<!--
+focus: false
+-->
+  ![](../../assets/images/open_try_it.png)
 
-## Code-First
+2. Provide Auth and parameters as required by the operation. 
 
-If you are following the code-first workflow, you can make requests to your existing servers to get an idea of how they look, and speed up the creation of your API descriptions.
+3. Select a server for the request, if multiple servers are defined in your API description.
 
-## Contract Violations
+<!--
+focus: false
+-->
+![](../../assets/images/send-request.png)
 
-When you've got both a running server, and an API description for an API, request maker will be able to report any discrepencies between the two.
+4. Select **Send Request**.
 
-![](../../assets/images/request-maker-results.png)
+The response is returned.
 
-Sending it a parameter it doesn't know about, sending data of the wrong type, even getting a response from the server with properties not mentioned in the API description, will all trigger a little warning like the one above.
+<!-- theme: info -->
+> Try It requests from browsers will be blocked for APIs that do not have appropriate [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) set up for *.http://stoplight.io.
+
+

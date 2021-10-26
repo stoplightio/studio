@@ -6,9 +6,9 @@ tags: [Mocking]
 
 A mock API is a fake API based on your API descriptions. It returns realistic data, validates incoming data, checks for the existence of headers, security schemes, and does everything it can other than try to guess internal business logic.
 
-Having a mock server can be really handy throughout the design phase of an API for making sure API descriptions contain the right sort of information.
+Having a mock server can be handy throughout the design phase of an API for making sure API descriptions contain the right sort of information.
 
-Stoplight Studio's mock API simulates a real API by providing endpoints and validation rules described in your API description document. This allows client developers to begin writing code for frontend services like web, mobile, or other backend applications, whilst the API developers are still writing their code. This can help find and solve problems early on, before the API is built, because changing all that code can be expensive (time is money).
+Stoplight Studio's mock API simulates a real API by providing endpoints and validation rules described in your API description document. This allows client developers to begin writing code for frontend services like web, mobile, or other backend applications while API developers are still writing their code. This can help find and solve problems before the API is built.
 
 ## Questions a Mock Server can help answer:
 
@@ -22,17 +22,17 @@ Stoplight Studio's mock API simulates a real API by providing endpoints and vali
 
 - If the feedback spawns large enough work, will the client have time implement this API once it's done?
 
-> Avoid all of these problems by getting a free API to play with without spending a month building it all.
+> Avoid all of these problems by getting a free API to play with without spending a month building it all. 
 
 ## Local Mock Server
 
-If you are building the client application and the API design, you can run a mock server locally by clicking the Mocks button in Studio. This allows you to interact with the mock server to try it out, without needing to write any code.
+If you are building the client application and the API design, you can run a mock server locally by clicking the **Mocks** button in Studio Desktop. This allows you to interact with the mock server to try it out, without needing to write any code.
 
 ![Mock Server](../../assets/images/mocking-studio.png)
 
-The mock server is built on top of our open-source mocking solution: [Prism](https://stoplight.io/prism/), so you can learn more about how it works over there.
+The mock server uses a local host built on top of our open-source mocking solution [Prism](https://stoplight.io/prism/).
 
-Catching problems early on while you're still just tweaking the API descriptions in Studio, means you can avoid making costly changes to the production API, deprecating old things, or creating whole new global versions which add a huge workload to every single client.
+See [Request Validation](https://meta.stoplight.io/docs/prism/ZG9jOjk2-request-validation) to learn about the types of validation you get from Mock Servers.
 
 ## Stoplight Mock Servers
 
