@@ -2,31 +2,38 @@
 
 ## Creating Your First Project
 
-The quickest way to get up and running with Studio is to clone an existing Git repository. If you're running Studio Desktop then this could be choosing a location on your computer where a repository already exists, or you could copy the URL to any GitHub, Bitbucket, GitLab, Gitea, or other Git repository.
+The quickest way to get up and running with Studio is to clone an existing Git repository. If you're running Studio Desktop, you can choose a location on your computer where a repository already exists. In Studio Web or Desktop, you can copy the URL to any GitHub, Bitbucket, GitLab, Gitea, or other Git repository. 
 
-Give it a shot with our sample project: 
+Give it a shot with our sample project:
 
-```
-https://github.com/stoplightio/studio-demo
-```
+1. In Studio Web, select the **Add Project** icon at the top of the left navigation pane. 
+   ![](../assets/images/add-project.png)
+2. Select **Add from GitHub**, add the studio-demo URL, and then select **Add Git Project**.
+   ```
+   https://github.com/stoplightio/studio-demo
 
-Paste the URL above into the "Open Git Project" form when you open Studio, and click "Clone".
+   ```
+   ![](../assets/images/add-demo-project-web.png)
 
-![Start from an existing Git repo](../assets/images/studio-open-git-project-pre-filled.png)
+   In Studio Desktop, paste the URL into the Open Git Project page, and then select **Clone**.
+   ![](../assets/images/studio-open-git-project-pre-filled.png)
 
-Assuming everything went to plan, you should now see a page resembling the one below.
+3. Explore the demo documentation, APIs, and schemas. 
 
-![Overview of the Studio landing page](../assets/images/studio-web-landing.png)
+   ![Overview of the Studio landing page](../assets/images/studio-web-landing.png)
 
-> Note that the screenshot above is of Studio Web, so there may be some slight differences if you are using Studio Desktop.
+> Note that the screenshot above is of Studio Web. There are slight differences in Studio Desktop.
 
-You have just created your first project! Be sure to review the [UI Overview](./ui-overview.md) for quick highlights on the Studio user interface.
+4. Select **Edit** to begin working with API designs, documentation, models, and more.
+
 
 ## Creating an API
 
-To create a new API, use the menu immediately next to the project name and select "API".
+To create a new API:
 
-![How to create an API from the Studio UI](../assets/images/studio-web-create-api.png)
+1. Select the **Add** icon, and then select **API**.
+
+![Create an API from Studio Web](../assets/images/studio-web-create-api.png)
 
 From there you can name your API, and then optionally set the specification version (OpenAPI v2 or v3) and storage format (JSON or YAML).
 
