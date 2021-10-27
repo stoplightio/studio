@@ -33,12 +33,20 @@ To create a new API:
 
 1. Select the **Add** icon, and then select **API**.
 
+<!-- 
+focus: false
+ -->
 ![Create an API from Studio Web](../assets/images/studio-web-create-api.png)
 
-From there you can name your API, and then optionally set the specification version (OpenAPI v2 or v3) and storage format (JSON or YAML).
+2. From the New OpenAPI pages, name your API, and then select the OpenAPI version and storage format (YAML or JSON). You can also choose to import an existing YAML or JSON file.
 
-![New API menu](../assets/images/studio-new-api.png)
+<!-- 
+focus: false
+ -->
+![New API page](../assets/images/studio-new-api.png)
 
-After clicking "Create", a new API description document will be created and added to the project. From there you can then set the global information about the API and get started adding your first operation.
+3. Click **Create**. A new API description document is added to your project. 
 
-Continue on to the [API Design Guide](./Design-and-Modeling/01-getting-started.md) to get started designing APIs.
+4. Add global information about the API (summary, description, servers, and more). 
+
+5. Continue on to the [API Design Guide](./Design-and-Modeling/01-getting-started.md) to get started designing APIs.
