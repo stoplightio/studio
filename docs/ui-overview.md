@@ -4,12 +4,7 @@ Use projects to manage APIs, documentation, and related files. Projects work and
 
 To open a project:
 
-1. From the **Home** page:
-   - Select the project from the side panel on the left
-
-     Or
-
-   - Select **Projects** from the tab.
+1. From the **Home** page, select the project from the project sidebar (left pane) or select **Projects** from the tab.
 
 2. Project owners, admins, and editors can select **Edit** to manage the project. Viewers can navigate and read project content. 
 
@@ -58,33 +53,14 @@ Select an item on any tab to open it in the Editor panel.
 
 # Editor Panel
 
-**Primary Panel**: Main editor panel. Can switch between different "views" via the toggle in the top right of the panel (not shown, must hover over panel for toggle to appear).
+Use the main editor panel to design APIs and write documentation. Choose different views:
+ - **Form**: Offers an intiutive editor for APIs, endpoints, and models. 
+ - **Code**: Enables the code view for applicable files. 
+ - **Preview**: Provides a preview of what the selected file will look like when it is published. For API operations, the [Try It](Design-and-Modeling/03-http-endpoints.md) feature is available in Preview mode. 
 
-**Secondary Panel**: Additional editor panel, which is only available on larger screens (width > 1400px). Can switch between view types via the view toggle in the top right of the panel, just like the Primary panel.
+ **Validation and Linting** displays issues related to your API Specification (powered by Spectral). Select to expand window and view error and warning details and locations.
 
-6. **Mock Server**: Run mock servers (powered by [Prism](https://stoplight.io/prism)) and view mock server logs.
+A **Secondary Panel** is available on larger screens (width > 1400px). Switch between view types via the view toggle in the top right of the panel.
 
-7. **Validation and Linting**: Displays issues related to your API Specification (powered by Spectral). Click to expand window and view error and warning details and locations.
+![Validation and Linting Toggle](../assets/images/spectral-view.png)
 
-
-
-
-
-## Customizing the Interface Panels
-
-![Panel Overview](../assets/images/panel-overview.png)
-
-1. **File tree Panel**: Displays API Specifications, Endpoints, & Models (APIs Tab), Markdown & Image Files (Docs Tab), All Files (Files Tab)
-2. **Main Panel**: Displays Form View, Read View, or Write View
-3. **View Toggle**: Switch between Form View, Read View, or Write View
-4. **Secondary Panel**: Displays Form View, Read View, or Write View (Only available for larger screens)
-
-### What
-
-Studio provides a customizable two panel (smaller screens) or three panel (larger screens) layout to give you control over what information you would like to display and where. Expand windows when focused on a single task. Switch between Read, Write, and Form Views for individual panels to maximize efficiency.
-
-### How
-
-1. Select an endpoint, model, or Markdown file.
-2. Hover over the **Main** or **Secondary Panel**
-3. Switch between view modes via the **View Toggle** buttons in the top right of the panel
