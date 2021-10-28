@@ -14,7 +14,7 @@ Once you are editing a project, there are three key areas of the interface:
 2. Project toolbar
 3. Editor panel
 
-![Projects Overview](../assets/images/ui-overview.png)
+![Projects Overview](../../assets/images/ui-overview.png)
 
 ## Project Sidebar
 
@@ -56,11 +56,11 @@ Select an item on any tab to open it in the Editor panel.
 Use the main editor panel to design APIs and write documentation. Choose different views:
  - **Form**: Offers an intiutive editor for APIs, endpoints, and models. 
  - **Code**: Enables the code view for applicable files. 
- - **Preview**: Provides a preview of what the selected file will look like when it is published. For API operations, the [Try It](Design-and-Modeling/03-http-endpoints.md) feature is available in Preview mode. 
+ - **Preview**: Provides a preview of what the selected file will look like when it is published. For API operations, the [Try It](../Design-and-Modeling/03-http-endpoints.md) feature is available in Preview mode. 
 
  **Validation and Linting** displays issues related to your API Specification (powered by Spectral). Select to expand window and view error and warning details and locations.
 
 A **Secondary Panel** is available on larger screens (width > 1400px). Switch between view types via the view toggle in the top right of the panel.
 
-![Validation and Linting Toggle](../assets/images/spectral-view.png)
+![Validation and Linting Toggle](../../assets/images/spectral-view.png)
 
