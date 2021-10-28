@@ -16,7 +16,7 @@ Once you are editing a project, there are three key areas of the interface:
 
 ![Projects Overview](../assets/images/ui-overview.png)
 
-# Project Sidebar
+## Project Sidebar
 
 Switch between three tabs to view project content:
 
@@ -26,7 +26,7 @@ Switch between three tabs to view project content:
 
 Select an item on any tab to open it in the Editor panel. 
 
-# Project Toolbar
+## Project Toolbar
 
 **Project Options**: Select the hamburger menu to work with these options:
 
@@ -51,7 +51,7 @@ Select an item on any tab to open it in the Editor panel.
 
 **Project Name**: Shows the name of the current project. If the project is connected to a repository, the name of the burrent branch is also shown. Select the down arrow to pull changes into your project or to switch branches. 
 
-# Editor Panel
+## Editor Panel
 
 Use the main editor panel to design APIs and write documentation. Choose different views:
  - **Form**: Offers an intiutive editor for APIs, endpoints, and models. 
