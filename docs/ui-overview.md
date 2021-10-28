@@ -1,12 +1,30 @@
-# UI Overview
+# Project UI Overview
 
-This article provides a high-level overview of the Stoplight Studio User Interface (or UI). Below is a screenshot of the UI with the different sections labeled below.
+Use projects to manage APIs, documentation, and related files. Projects work and look the same in Studio Web and Studio Desktop. This topic describes projects in Studio Web. 
 
-![Overview of the Studio User Interface](../assets/images/ui-overview.png)
+To open a project:
 
-1. **Project Name/Selector**: Displays the name of the current project. Click the drop-down to select a different project, search for an existing project, or create a new one.
+1. From the **Home** page:
+   - Select the project from the side panel on the left
 
-2. **Project Actions**: Contains actions to help you add new assets to your project. This includes creating new: APIs, Endpoints, Models, Articles, Images, Files, Folders, and Projects.
+     Or
+
+   - Select **Projects** from the tab.
+
+2. Project owners, admins, and editors can select **Edit** to manage the project. Viewers can navigate and read project content. 
+
+Once you are editing a project, there are three key areas of the interface:
+
+1. Project sidebar
+2. Project toolbar
+3. Code and Preview modes
+
+
+![Projects Overview](../assets/images/ui-overview.png)
+
+1. **Project Name**: Shows the name of the current project. 
+
+2. **Project Actions**: Select to you add new assets to your project. This includes APIs, Endpoints, Models, Articles, Images, Files, Folders, and Projects.
 
 3. **Project Sidebar**: Displays an overview of the project in different menu formats. Can toggle between **APIs** (displays APIs, endpoints, and models), **Docs** (for Markdown and image files), **Files** (displaying all project files), and **Git** (for pushing/pulling changes to the connected Git repository).
 
