@@ -17,28 +17,37 @@ Once you are editing a project, there are three key areas of the interface:
 
 1. Project sidebar
 2. Project toolbar
-3. Code and Preview modes
-
+3. Editor panel
 
 ![Projects Overview](../assets/images/ui-overview.png)
 
-1. **Project Name**: Shows the name of the current project. 
+# Project Sidebar
 
-2. **Project Actions**: Select to you add new assets to your project. This includes APIs, Endpoints, Models, Articles, Images, Files, Folders, and Projects.
+**Project Sidebar**: Displays an overview of the project in different menu formats. Can toggle between **APIs** (displays APIs, endpoints, and models), **Docs** (for Markdown and image files), **Files** (displaying all project files), and **Git** (for pushing/pulling changes to the connected Git repository).
 
-3. **Project Sidebar**: Displays an overview of the project in different menu formats. Can toggle between **APIs** (displays APIs, endpoints, and models), **Docs** (for Markdown and image files), **Files** (displaying all project files), and **Git** (for pushing/pulling changes to the connected Git repository).
+# Project Toolbar
 
-4. **Primary Panel**: Main editor panel. Can switch between different "views" via the toggle in the top right of the panel (not shown, must hover over panel for toggle to appear).
+**Project Name**: Shows the name of the current project. 
 
-5. **Secondary Panel**: Additional editor panel, which is only available on larger screens (width > 1400px). Can switch between view types via the view toggle in the top right of the panel, just like the Primary panel.
+**Project Actions**: Select to you add new assets to your project. This includes APIs, Endpoints, Models, Articles, Images, Files, Folders, and Projects.
+
+8. **Publish**: Click to publish documentation. 
+
+9. **Search**: Search through all Project specific files.
+
+# Editor Panel
+
+**Primary Panel**: Main editor panel. Can switch between different "views" via the toggle in the top right of the panel (not shown, must hover over panel for toggle to appear).
+
+**Secondary Panel**: Additional editor panel, which is only available on larger screens (width > 1400px). Can switch between view types via the view toggle in the top right of the panel, just like the Primary panel.
 
 6. **Mock Server**: Run mock servers (powered by [Prism](https://stoplight.io/prism)) and view mock server logs.
 
 7. **Validation and Linting**: Displays issues related to your API Specification (powered by Spectral). Click to expand window and view error and warning details and locations.
 
-8. **Publish**: Click to publish documentation. 
 
-9. **Search**: Search through all Project specific files.
+
+
 
 ## Customizing the Interface Panels
 
