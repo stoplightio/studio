@@ -23,17 +23,38 @@ Once you are editing a project, there are three key areas of the interface:
 
 # Project Sidebar
 
-**Project Sidebar**: Displays an overview of the project in different menu formats. Can toggle between **APIs** (displays APIs, endpoints, and models), **Docs** (for Markdown and image files), **Files** (displaying all project files), and **Git** (for pushing/pulling changes to the connected Git repository).
+Switch between three tabs to view project content:
+
+- **APIs** lists APIs, endpoints, and models
+-  **Docs** lists Markdown and image files
+- **Files** lists all project files
+
+Select an item on any tab to open it in the Editor panel. 
 
 # Project Toolbar
 
-**Project Name**: Shows the name of the current project. 
+**Project Options**: Select the hamburger menu to work with these options:
 
-**Project Actions**: Select to you add new assets to your project. This includes APIs, Endpoints, Models, Articles, Images, Files, Folders, and Projects.
+* **Back to Workspace**: Select to leave edit mode and return to the workspace home.
+* **Preferences**: 
+  - Autosave
+  - Show empty directories
+  - Theme (Dark, Light, or the default set in Workspace settings)
+  - Git (Auto-pull and Auto-translate SSH URLs)
+  - Reclone Project
+  - Download Project zip
+   <!-- issues created to better document above list at a later time -->
 
-8. **Publish**: Click to publish documentation. 
+**Search**: Find anything in your project files. 
 
-9. **Search**: Search through all Project specific files.
+**Add to Project**: Select to add new assets to your project. This includes APIs, endpoints, dodels, articles, style guides, images, table of contents, files and directories. You can also import files and import directories.
+
+**Project Actions**: Changes depending on your state:
+  - **Back to workspace**: Shows when no changes have been made to the project.
+  - **Publish**: When the project is not connected to a repository, shows when at least one change has been made in the project. Select the down arrow to discard changes. 
+  - **Commit and Publish**: When the project is connection to a repository, shows when at least one change has been made in the project. Select the down arrow to discard changes. 
+
+**Project Name**: Shows the name of the current project. If the project is connected to a repository, the name of the burrent branch is also shown. Select the down arrow to pull changes into your project or to switch branches. 
 
 # Editor Panel
 
