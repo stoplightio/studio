@@ -30,7 +30,7 @@ focus: false
 ![JSON Schema Editor](../../assets/images/crud-builder.png)
 
 We created the JSON Schema editor to make data structure creation as simple as
-possible. You can find the JSON Schema editor within any model or endpoint while [**Form View**](../ui-overview.md) is selected.
+possible. You can find the JSON Schema editor within any model or endpoint while [**Form View**](../Basics/ui-overview.md) is selected.
 
 To start utilizing the editor:
 
