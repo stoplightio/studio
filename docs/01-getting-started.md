@@ -1,13 +1,13 @@
 # Getting Started
 
-## Creating Your First Project
+## Create Your First Project
 
 The quickest way to get up and running with Studio is to clone an existing Git repository. If you're running Studio Desktop, you can choose a location on your computer where a repository already exists. In Studio Web or Desktop, you can copy the URL to any GitHub, Bitbucket, GitLab, Gitea, or other Git repository. 
 
-Give it a shot with our sample project:
+Try it with our sample project:
 
-1. In Studio Web, select the **Add Project** icon at the top of the left navigation pane. 
-   ![](../assets/images/add-project.png)
+1. In Studio Web, select the **Add Project** icon at the top of the left navigation pane. ![](../assets/images/add-project.png)
+
 2. Select **Add from GitHub**, add the studio-demo URL, and then select **Add Git Project**.
    ```
    https://github.com/stoplightio/studio-demo
@@ -27,7 +27,7 @@ Give it a shot with our sample project:
 4. Select **Edit** to begin working with API designs, documentation, models, and more.
 
 
-## Creating an API
+## Create an API
 
 To create a new API:
 
