@@ -1,10 +1,12 @@
 # Project UI Overview
 
-Use projects to manage APIs, documentation, and related files. Projects work and look the same in Studio Web and Studio Desktop. This topic describes projects in Studio Web. 
+Use projects to manage APIs, documentation, and related files. Projects work and look the same in Studio Web and Studio Desktop, with a few differences. This topic describes projects in Studio Web. 
 
 To open a project:
 
-1. From the **Home** page, select the project from the project sidebar (left pane) or select **Projects** from the tab.
+1. From the **Home** page:
+   - Select the project from the project sidebar (left pane), or 
+   - Select **Projects** from the tab the top of the page, and then click the name link for a project. 
 
 2. Project owners, admins, and editors can select **Edit** to manage the project. Viewers can navigate and read project content. 
 
@@ -18,11 +20,11 @@ Once you are editing a project, there are three key areas of the interface:
 
 ## Project Sidebar
 
-Switch between three tabs to view project content:
+Switch between three tabs to work with project content:
 
-- **APIs** lists APIs, endpoints, and models
--  **Docs** lists Markdown and image files
-- **Files** lists all project files
+- **APIs** lists APIs, endpoints, and models.
+- **Docs** lists Markdown and image files.
+- **Files** lists all project files.
 
 Select an item on any tab to open it in the Editor panel. 
 
@@ -30,21 +32,27 @@ Select an item on any tab to open it in the Editor panel.
 
 **Project Options**: Select the hamburger menu to work with these options:
 
-* **Back to Workspace**: Select to leave edit mode and return to the workspace home.
+* **Back to Workspace**: Leaves edit mode and returns you to the workspace home.
 * **Preferences**: 
   - Autosave
   - Show empty directories
-  - Theme (Dark, Light, or the default set in Workspace settings)
-  - Git (Auto-pull and Auto-translate SSH URLs)
-  - Reclone Project
-  - Download Project zip
-   <!-- issues created to better document above list at a later time -->
+  - Theme (dark, light, or the default set in Workspace settings)
+* **Git**:
+  - Auto-pull 
+  - Auto-translate SSH URLs)
+  <!-- https://github.com/stoplightio/platform-docs/issues/159 created to better document Git settings at a later time -->
+* **Reclone Project**
+* [**Download Project ZIP**](download-project.md)
+
+
+<!-- focus: center -->
+![Project options](../../assets/images/project-preferences.png)
 
 **Search**: Find anything in your project files. 
 
-**Add to Project**: Select to add new assets to your project. This includes APIs, endpoints, dodels, articles, style guides, images, table of contents, files and directories. You can also import files and import directories.
+**Add to Project**: Use to add new assets to your project. This includes APIs, endpoints, models, articles, style guides, images, table of contents, files and directories. You can also import files and import directories and add a [Stoplight Config file](03-stoplight-config.md) to your project. 
 
-**Project Actions**: Changes depending on your state:
+**Project Actions** (Changes depending on your state):
   - **Back to workspace**: Shows when no changes have been made to the project.
   - **Publish**: When the project is not connected to a repository, shows when at least one change has been made in the project. Select the down arrow to discard changes. 
   - **Commit and Publish**: When the project is connection to a repository, shows when at least one change has been made in the project. Select the down arrow to discard changes. 
