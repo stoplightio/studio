@@ -40,7 +40,7 @@ Open the Markdown folder and select **Markdown Basics**. The main panel will swi
 
 ![Toggle View Modes](../../assets/images/main-panel-view-toggle.png)
 
-> For more on panel customization, check out [Panels](../ui-overview.md)
+> For more on panel customization, check out [Panels](../Basics/ui-overview.md)
 
 ## 5. Docs Preview (Web App Only)
 
