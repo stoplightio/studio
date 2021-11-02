@@ -18,7 +18,7 @@ Once you have created a New Personal Project, the first thing you will see is th
 
 ![Welcome Screen](../../assets/images/panel-general.png)
 
-The file tree to the left is where all of Stoplight’s Design files (API Specification: endpoints, models, paths, etc.) are stored and the main panel contains the [Table of Contents, API Design GUI, Read View, and Write View](../ui-overview.md). For more on API design, check out the [API Design Quick Start Guide](../Design-and-Modeling/01-getting-started.md).
+The file tree to the left is where all of Stoplight’s Design files (API Specification: endpoints, models, paths, etc.) are stored and the main panel contains the [Table of Contents, API Design GUI, Read View, and Write View](../Basics/ui-overview.md). For more on API design, check out the [API Design Quick Start Guide](../Design-and-Modeling/01-getting-started.md).
 
 ## 2. Directory Structure
 
@@ -40,7 +40,7 @@ Open the Markdown folder and select **Markdown Basics**. The main panel will swi
 
 ![Toggle View Modes](../../assets/images/main-panel-view-toggle.png)
 
-> For more on panel customization, check out [Panels](../ui-overview.md)
+> For more on panel customization, check out [Panels](../Basics/ui-overview.md)
 
 ## 5. Docs Preview (Web App Only)
 
