@@ -4,36 +4,23 @@ tags: [Mocking]
 
 # Mock Servers
 
-A mock API is a fake API based on your API descriptions. It returns realistic data, validates incoming data, checks for the existence of headers, security schemes, and does everything it can other than try to guess internal business logic.
+Mock servers can be handy throughout the design phase of an API for making sure API descriptions contain the right sort of information. 
 
-Having a mock server can be handy throughout the design phase of an API for making sure API descriptions contain the right sort of information.
+Stoplight mock servers are powered by our open-source mock server, [Prism](https://stoplight.io/open-source/prism/). They return realistic data, validate incoming data, check for the existence of headers, security schemes, and more. 
 
-Stoplight Studio's mock API simulates a real API by providing endpoints and validation rules described in your API description document. This allows client developers to begin writing code for frontend services like web, mobile, or other backend applications while API developers are still writing their code. This can help find and solve problems before the API is built.
+[Stoplight Platform](https://stoplight.io/welcome) users can enjoy the same built-in mocking functionality as well as free hosted mock servers.
 
-## Questions a Mock Server can help answer:
+> #### Learn more about mock servers
+>
+>- [In Studio Web](https://meta.stoplight.io/studio/platform?node=ZG9jOjIwMTI4MA-working-with-mock-servers#studio-web)
+>- [In any HTTP Client](https://meta.stoplight.io/studio/platform?node=ZG9jOjIwMTI4MA-working-with-mock-servers#any-http-client)
+>- [In Studio Desktop](https://meta.stoplight.io/studio/platform?node=ZG9jOjIwMTI4MA-working-with-mock-servers#studio-desktop) 
 
-- Does the API contain the information the client needs?
+> #### Learn more about Prism
+>
+>- [Response Generation](https://meta.stoplight.io/docs/prism/ZG9jOjk1-http-mocking#response-examples)
+>- [Static Generation](https://meta.stoplight.io/docs/prism/ZG9jOjk1-http-mocking#static-response-generation)
+>- [Dynamic Generation](https://meta.stoplight.io/docs/prism/ZG9jOjk1-http-mocking#dynamic-response-generation) 
+>- [Request Validation](https://meta.stoplight.io/docs/prism/ZG9jOjk2-request-validation)
+>- [Help with Errors](https://meta.stoplight.io/docs/prism/ZG9jOjE2MDY1NjY5-errors)
 
-- Is that data in the format the client needs?
-
-- Are the resources too "normalized" and data-centric (instead of being use-case centric) that the client has to 3292375 calls to get all the data?
-
-- Is there enough time left for feedback to be implemented?
-
-- If the feedback spawns large enough work, will the client have time implement this API once it's done?
-
-> Avoid all of these problems by getting a free API to play with without spending a month building it all. 
-
-## Local Mock Server
-
-If you are building the client application and the API design, you can run a mock server locally by clicking the **Mocks** button in Studio Desktop. This allows you to interact with the mock server to try it out, without needing to write any code.
-
-![Mock Server](../../assets/images/mocking-studio.png)
-
-The mock server uses a local host built on top of our open-source mocking solution [Prism](https://stoplight.io/prism/).
-
-See [Request Validation](https://meta.stoplight.io/docs/prism/ZG9jOjk2-request-validation) to learn about the types of validation you get from Mock Servers.
-
-## Stoplight Mock Servers
-
-[Stoplight Platform](https://stoplight.io/welcome) users can enjoy the same built-in mocking functionality as well as [free hosted mock servers](https://meta.stoplight.io/docs/platform/3.-design/d.setting-up-a-mock-server.md).
