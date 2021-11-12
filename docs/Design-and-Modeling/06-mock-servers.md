@@ -12,9 +12,9 @@ Stoplight mock servers are powered by our open-source mock server, [Prism](https
 
 > #### Learn more about mock servers
 >
->- [In Studio Web](https://meta.stoplight.io/studio/platform?node=ZG9jOjIwMTI4MA-working-with-mock-servers#studio-web)
->- [In any HTTP Client](https://meta.stoplight.io/studio/platform?node=ZG9jOjIwMTI4MA-working-with-mock-servers#any-http-client)
->- [In Studio Desktop](https://meta.stoplight.io/studio/platform?node=ZG9jOjIwMTI4MA-working-with-mock-servers#studio-desktop) 
+>- [In Studio Web](https://meta.stoplight.io/docs/platform/ZG9jOjIwMTI4MA-working-with-mock-servers#studio-web)
+>- [In any HTTP Client](https://meta.stoplight.io/docs/platform/ZG9jOjIwMTI4MA-working-with-mock-servers#any-http-client)
+>- [In Studio Desktop](https://meta.stoplight.io/docs/platform/ZG9jOjIwMTI4MA-working-with-mock-servers#studio-desktop) 
 
 > #### Learn more about Prism
 >
