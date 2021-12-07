@@ -14,7 +14,7 @@ tags: []
 
 ### Files Created Within Studio
 
-Stoplight Studio’s directory structure (aka file tree structure) organizes and displays accessible files in Studio. Documentation specific files (Markdown and image files) can be viewed within the File tree **Docs** tab and all files can be viewed within the **Files** tab.
+Stoplight Studio’s directory structure organizes and displays accessible files in Studio. Documentation specific files (Markdown and image files) can be viewed within the File tree **Docs** tab and all files can be viewed within the **Files** tab.
 
 ### Files Uploaded to Studio
 

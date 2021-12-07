@@ -2,91 +2,42 @@
 tags: []
 ---
 
-# Working with Files
+# Work with Files
 
-![Create New File](../../assets/images/create-file.png)
+Studio supports API design and documentation files in multiple formats:
 
-1. **+**: Create New File
-2. **Create New File Menu**
-3. **Alternate Create New File Menu**: Only displays when no file is selected
+- **API**: API description documents (YAML or JSON)
+- **Endpoint**: Individual paths and operations (YAML or JSON)
+- **Model**: Reusable API components (YAML or JSON)
+- **Article**: Supplemental Markdown files (Markdown)
+- **Image**: Supplemental images (JPEG, JPG, PNG, and GIF)
+- **Style Guides**: For customizing the [validation and linting](../Design-and-Modeling/08-validation-style-guide.md)
 
-## What
+<!-- theme: Warning -->
+>**Warning**: You may be able to upload other file types, but they may not be rendered in Studio or in published documentation.
 
-Studio supports 5 key API Design and Documentation files in multiple formats. The general categories for these files are located within the file creation dropdown (**+**). They include:
+You can also add configuration files used by Stoplight:
 
-- **API:** API Description Documents
-- **Endpoint:** Individual Paths & Operations
-- **Model:** Reusable API Components
-- **Article:** Supplemental Markdown Files
-- **Image:** Supplemental Images
+- **Stoplight Config**: Used to control file locations and exclude locations from being analyzed by Stoplight. See [Configure Projects](https://meta.stoplight.io/docs/platform/ZG9jOjE4ODEyNA-configure-projects).
+- **Table of Contents**: Used to configure the project sidebar. See [Project Sidebar](https://meta.stoplight.io/docs/platform/ZG9jOjIxOTkxNTkz-project-sidebar).
 
-There are also three other categories of files listed in the file creation dropdown:
+There are other categories of files listed in the file creation dropdown:
 
-- **File:** Generic file creation
-- **Folder:** For organizing content in your Git repository and Studio
-- **Style Guides:** For customizing the [validation and linting](../Design-and-Modeling/08-validation-style-guide.md)
+- **File**: Create a generic file.
+- **Folder**: Use to organize content. 
+- **Import File**: Use to add images and other files.
+- **Import Directory**: Import a directory of files to your project.  
 
-## How
+## Add a File
 
-1. **Create a New Project** or **Open an Existing Project**
-2. Click the **+** button
+1. Edit a project.
+2. Select**Add ( + )** .
+3. Choose one of these options:
+    * **API**: Provide a name and the OpenAPI version. Choose YAML or JSON format or select **Import Existing** to add an existing YAML or JSON OpenAPI file.
+    * **Endpoint**: Select the API to add the endpoint. Select or create a tag to group similar endpoints together. Provide a path. 
+    * **Model**: Provide a name, then select or create a tag to group similar models together. Select a scope. (Common models are accessible to all APIs within your project.) Choose YAML or JSON format or select **Import Existing** to add an existing YAML or JSON OpenAPI file.
+    * **Article**: Provide a short title and a tag to group similar articles together.
+    * **Image**: If your project is connected to a public Git repository, use the **Import File** option to add images. Otherwise, drag-and-drop images onto Markdown files to add them to Stoplight. See [adding images](https://meta.stoplight.io/docs/platform/ZG9jOjc3MTg0NjE-add-images) for details.
 
-### API
 
-1. Input a **Name** for your API
-2. Select **Show Advanced** to select between OpenAPI version and Format
-3. Click **Create**
 
-### Endpoint
-
-1. Select an **API** to add the endpoint to
-2. Add a **Tag** to group similar endpoints together (Recommended)
-3. Input the endpoint’s **Path**
-4. Click **Create**
-
-### Model
-
-1. Input a **Name** for your model
-2. Add a **Tag** to group similar models together (Recommended)
-3. Choose the **Scope** for your model
-
-> Common models are accessible across all APIs within that Project.
-
-4. Select **Show Advanced** to input a Version and select the Format
-5. Click **Create**
-
-### Article
-
-1. Input a **Title** for your Markdown file
-2. Add a **Tag** to group similar Markdown files together
-3. Click **Create**
-
-### Image
-
-1. Select an image file from local disk
-
-### File
-
-1. Input a filename
-2. Press Enter
-
-### Folder
-
-1. Input a folder name
-2. Press Enter
-
-### New Project
-
-#### New Personal Project
-
-1. Input a **Project Name**
-2. Click **Create**
-
-#### Open Git Project
-
-1. Input Git URL
-2. Click **Clone**
-
-#### Open Existing Folder
-
-1. Select a folder from local disk
