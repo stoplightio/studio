@@ -34,6 +34,6 @@ focus: false
 The response is returned.
 
 <!-- theme: info -->
-> Try It requests from browsers will be blocked for APIs that do not have appropriate [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) set up for *.http://stoplight.io.
+> **Try It** requests from browsers will be blocked for APIs that do not have appropriate [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) set up for *.//stoplight.io.
 
 

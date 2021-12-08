@@ -30,7 +30,7 @@ Select an item on any tab to open it in the Editor panel.
 
 You can customize the [project sidebar](https://meta.stoplight.io/docs/platform/ZG9jOjIxOTkxNTkz-project-sidebar) to:
 
-- Customizing the order of files
+- Customize the order of files
 - Override the title of files
 - Selectively expose or hide files
 

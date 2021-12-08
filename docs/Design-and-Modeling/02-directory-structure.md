@@ -1,12 +1,18 @@
 # Project Structure
 
-![](../../assets/images/directory-structure-design.png)
+Projects are organized into three areas:
+
+- APIs
+- Docs
+- Files
+
+You can create files without Studio or upload them from a local folder structure or a Git repository.
 
 ## What
 
 ### Files Created Within Studio
 
-Stoplight Studio’s directory structure (aka file tree structure) organizes and displays accessible files in Studio. API specific files (API description and models) can be viewed within the **APIs** file tree tab and all files can be viewed within the **Files** tab.
+Stoplight Studio’s directory structure organizes and displays accessible files in Studio. API specific files (API description and models) can be viewed within the **APIs** file tree tab and all files can be viewed within the **Files** tab.
 
 ### Files Uploaded to Studio
 
