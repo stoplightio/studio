@@ -10,6 +10,4 @@ This is done with a few keywords such as `"exclude"` to blacklist certain files/
 
 ![](../../assets/images/create-api-with-config.gif)
 
-The config file should go in the root of your project, and be named `.stoplight.json`. It can be regular JSON or [JSONC](https://github.com/microsoft/node-jsonc-parser) (i.e JSON with comments, and trailing commas allowed).
-
-**Read more about [Configuring Projects](https://meta.stoplight.io/docs/platform/2.-workspaces/c.config.md) in the Platform Documentation.**
+Read more about [Configuring Projects](https://meta.stoplight.io/docs/platform/2.-workspaces/c.config.md) in the Platform Documentation.

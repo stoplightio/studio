@@ -4,7 +4,9 @@ tags: []
 
 # Work with Files
 
-Studio supports API design and documentation files in multiple formats:
+Once you create a project, add files to start designing APIs and documentation. 
+
+Studio supports files in multiple formats:
 
 - **API**: API description documents (YAML or JSON)
 - **Endpoint**: Individual paths and operations (YAML or JSON)
@@ -19,11 +21,13 @@ Studio supports API design and documentation files in multiple formats:
 
 ## Directory Structure
 
-Projects are organized into three areas:
+Projects created in Studio Desktop default to using a specific structure to not interfere with existing files.
 
-- **APIs**: Lists API descriptions and models.
-- **Docs**: Lists Markdown and image files.
-- **Files**: List all files.
+- `/docs` - Where articles (Markdown files) are stored
+- `/reference` - Where API descriptions documents (OpenAPI and JSON Schema) are stored
+- `/assets/images` - Where images are stored
+
+If you have an existing repository with Markdown, image, or API description documents that do not adhere to the format above, you will need to move the files to their corresponding directories in order for Studio to recognize them, or create a [Stoplight Configuration file](../Basics/03-stoplight-config.md) to change them.
 
 ## Add a File
 
