@@ -21,10 +21,11 @@ Studio supports files in multiple formats:
 
 ## Directory Structure
 
-Projects created in Studio Desktop default to using a specific structure to not interfere with existing files.
+Projects use a default file directory structure. 
 
-- `/docs` - Where articles (Markdown files) are stored
 - `/reference` - Where API descriptions documents (OpenAPI and JSON Schema) are stored
+- `models` - Where shared modles are stored
+- `/docs` - Where articles (Markdown files) are stored
 - `/assets/images` - Where images are stored
 
 If you have an existing repository with Markdown, image, or API description documents that do not adhere to the format above, you will need to move the files to their corresponding directories for Studio to recognize them, or create a [Stoplight Configuration file](../Basics/03-stoplight-config.md) to change them.
@@ -55,11 +56,16 @@ Used to control file locations and exclude locations from being analyzed by Stop
 ### Table of Contents
 Used to configure the project sidebar. See [Project Sidebar](https://meta.stoplight.io/docs/platform/ZG9jOjIxOTkxNTkz-project-sidebar).
 
-
 ### File
-Create a generic file. 
-- **Folder**: Use to organize content. 
-- **Import File**: Use to add images and other files.
-- **Import Directory**: Import a directory of files to your project.  
+Adds a generic file to the tree. Unsupported file types will not be rendered in published documentation, but you can add information that may be useful to your project.
+
+### Folder
+Adds a folder that you can use to organize content. This is especially useful for documentation files. Keep in mind that if you want to use a custom folder structure, you must use a [project configuration file](https://meta.stoplight.io/docs/platform/ZG9jOjE4ODEyNA-configure-projects).
+
+### Import File 
+Use to add images and other files. Files are automatically organized by type. For example, Markdown files are automatically added to the `Docs` directory; image files are automatically added to the `assets` folder. 
+
+### Import Directory
+Imports a directory of files to your project. This is useful for migrating content into Stoplight. 
 
 
