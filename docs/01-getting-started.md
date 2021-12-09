@@ -59,7 +59,7 @@ focus: false
 
 > #### Learn more about API designs
 >
->- [Understanding the Directory Structure](./Design-and-Modeling/02-directory-structure.md)
+>- [Understanding the Directory Structure](./Basics/02-working-with-files.md#directory-structure)
 >- [Working with Models](./Design-and-Modeling/03-http-endpoints.md)
 >- [Shared Components](./Design-and-Modeling/04-shared-components.md)
 >- [Using References](./Design-and-Modeling/07-using-references.md)
