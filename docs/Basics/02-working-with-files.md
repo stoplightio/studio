@@ -2,6 +2,8 @@
 tags: []
 ---
 
+<!-- Ready for platform migration -->
+
 # Work with Files
 
 Once you create a project, add files to start designing APIs and documentation. 

@@ -28,7 +28,7 @@ Job done! You should now be able to push to GitHub.
 
 ## Other Git Providers
 
-The instructions are pretty similar for all the other Git providers we support: GitLab, BitBucket Cloud, BitBucket Server, Gitea, Azure, etc. Generally you want to point your Host URL to the main host of the server, so for GitLab that'll be `https://gitlab.com/` 
+The instructions are pretty similar for all the other Git providers we support: GitLab, BitBucket Cloud, BitBucket Server, Azure, etc. Generally you want to point your Host URL to the main host of the server, so for GitLab that'll be `https://gitlab.com/` 
 
 If they support personal access tokens you can use that instead of entering your actual password, but not every provider supports this.
 

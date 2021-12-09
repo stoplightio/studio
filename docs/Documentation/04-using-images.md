@@ -1,19 +1,18 @@
 ---
 tags: []
-summary: "Using images in Stoplight is now easier than ever. Add images to your project to create beautiful documentation layouts that supplement text content."
----
 
-# Using Images
+# Add Images
 
-Using images in Stoplight is now easier than ever. Add images to your project to create beautiful documentation layouts that supplement text content.
+<!-- Ready for platform migration -->
 
-## Add Images
+There are two ways to add images to a project:
 
-Drag and drop image or copy and paste an image into a Markdown article to upload it. 
+- **Drag-and-drop**: This is the easiest and preferred method of adding images, which are stored in Stoplight and respect project permissions (private vs. internal).
+- **Import**: For projects connected to Git or another version control system, import files. Use this method if tracking changes to images is important to you or if the image is shared with another publishing tool.
 
-![Create New Image](../../assets/images/image-upload.gif)
+You can add multiple images to any documentation file. Supported  image formats include: **JPEG,** **JPG**, **PNG**, and **GIF**.
 
-> These images are stored in Stoplight and respect project permissions i.e. Private vs Internal.
+For guidance, see [Add Images](https://meta.stoplight.io/docs/platform/ZG9jOjc3MTg0NjE-add-images)
 
 ## Customize Images
 
