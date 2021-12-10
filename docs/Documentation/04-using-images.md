@@ -1,5 +1,6 @@
 ---
 tags: []
+---
 
 # Add Images
 
@@ -12,8 +13,8 @@ There are two ways to add images to a project:
 
 You can add multiple images to any documentation file. Supported  image formats include: **JPEG,** **JPG**, **PNG**, and **GIF**.
 
-For guidance, see [Add Images](https://meta.stoplight.io/docs/platform/ZG9jOjc3MTg0NjE-add-images)
+For guidance, see [Add Images](https://meta.stoplight.io/docs/platform/ZG9jOjc3MTg0NjE-add-images).
 
 ## Customize Images
 
-To customize images like adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](03a-stoplight-flavored-markdown.md).
+To customize images, such as adding backgrounds, captions or focus, see [images in Stoplight Flavored Markdown](03a-stoplight-flavored-markdown.md).
