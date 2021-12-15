@@ -24,7 +24,7 @@ The file tree to the left is where all of Stoplight’s Design files (API Specif
 
 Studio has some conventions around where API files and documentation files should live.
 
-Learn about [Studio Directory Structure](./Basics/02-working-with-files.md#directory-structure).
+Learn about [Studio Directory Structure](./Basics/02-working-with-files.md).
 
 ## 3. Select Docs
 
