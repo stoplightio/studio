@@ -34,7 +34,7 @@ From Studio, select the file tree’s **Docs** tab to switch from the API Design
 
 ## 4. Modify Existing Markdown Files
 
-> Learn [how to create new Markdown files](../Basics/02-working-with-files.md)
+> Learn [how to create new Markdown files](./Basics/02-working-with-files.md)
 
 Open the Markdown folder and select **Markdown Basics**. The main panel will switch to the Markdown editor where you can modify existing content and create new content. Select Save to make changes permanent. You can switch to Read View to preview the file you have selected by selecting Read View in the top right toggle of the main panel.
 
