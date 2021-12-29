@@ -48,6 +48,8 @@ You can also create projects from an existing directory/folder on your computer.
 
 You can then select the folder you would like to use as a project.
 
+To learn more about publishing from local projects, see [Work with Local Projects](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxMw-work-with-local-projects).
+
 ## Delete Projects
 
 ![Delete Project](../../assets/images/delete-project.png)
