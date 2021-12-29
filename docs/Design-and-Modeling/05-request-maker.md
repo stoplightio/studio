@@ -2,6 +2,9 @@
 
 Stoplight Studio enables you to preview and test your API operations as you work or as people read your documentation.
 
+<!-- theme: info -->
+> **Try It** requests from browsers will be blocked for APIs that do not have appropriate [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) set up for *.//stoplight.io.
+
 For each request, you can:
 
 - Provide authorization and parameters as part of each request.
@@ -32,8 +35,5 @@ focus: false
 4. Select **Send Request**.
 
 The response is returned.
-
-<!-- theme: info -->
-> **Try It** requests from browsers will be blocked for APIs that do not have appropriate [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) set up for *.//stoplight.io.
 
 
