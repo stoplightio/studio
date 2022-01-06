@@ -1,18 +1,24 @@
 # Documentation Quickstart Guide
 
-Want to publish documentation? This quick start guide will provide you with the necessary steps to get you from API Specification to ready-to-publish API Documentation in 5 minutes flat.
+Want to publish documentation? This quick start guide will provide you with the necessary steps to use Studio Desktop to quickly get you from API Specification to ready-to-publish API Documentation.
 
-## 1. Open Stoplight Studio
+## 1. Open Studio Desktop
 
-The opening page of Stoplight Studio contains three options: create a **New Personal Project**, Open Git Project, and Open Existing Folder.
+The opening page of Stoplight Studio contains three options: 
 
-## 2. Create a New Personal Project
+* New Local Project 
+* Open Git Project
+* Open Existing Folder
+
+## 2. Create a New Local Project
 
 Create a New Personal Project by inputting a **Name**, select **Include Tutorial Files**, and then click **Create**.
 
 > “Include Tutorial Files” will populate your Project with example files to help get you started
 
 ![New Project Menu](../../assets/images/initial-onboarding-screen.png)
+
+
 
 Once you have created a New Personal Project, the first thing you will see is the APIs file tree on the left and the design panel taking up the bulk of the screen space to the right.
 
@@ -42,8 +48,4 @@ Open the Markdown folder and select **Markdown Basics**. The main panel will swi
 
 > For more on panel customization, check out [Panels](../Basics/ui-overview.md)
 
-## 5. Docs Preview (Web App Only)
 
-To preview your documentation in its entirety, select the **Docs** toggle in the top right of the web application.
-
-![Docs Preview](../../assets/images/publishing.png)
