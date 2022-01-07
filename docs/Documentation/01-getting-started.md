@@ -1,10 +1,12 @@
 # Documentation Quickstart Guide
 
+
+
 Want to publish documentation? This quick start guide will provide you with the necessary steps to use Studio Desktop to quickly get you from API Specification to ready-to-publish API Documentation.
 
 ## 1. Open Studio Desktop
 
-The opening page of Stoplight Studio contains three options: 
+The Studio Desktop start page contains three options: 
 
 * New Local Project 
 * Open Git Project
@@ -40,13 +42,13 @@ Select the **Docs** tab to switch from the API Design workspace to the documenta
 
 > Learn [how to create new Markdown files](../Basics/02-working-with-files.md)
 
-From the Markdown folder, select **basic-syntax**. The Markdown editor opens in the main panel so you can modify existing content and create new content. Use the **Code** and **Preview** options to switch between edit and preview modes. 
+From the Markdown folder, select **basic-syntax**. The **Markdown Bascis** article opens in the main panel. You can modify existing content and create new content. Use the **Code** and **Preview** options to switch between edit and preview modes. 
 
 > For more on panel customization, check out [Panels](../Basics/ui-overview.md)
 
 ## 5. Use the Stoplight CLI to Publish
 
-For local projects, use the Stoplight CLI to publish your documentation.  
+For local projects, use the [Stoplight CLI](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxMw-publish-with-the-stoplight-cli) to publish your documentation.  
 
 Learn about [publishing options](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxNA-publishing). 
 
