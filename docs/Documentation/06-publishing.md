@@ -17,5 +17,3 @@ Note that nodeJS version 12 or greater is required to run the Stoplight CLI. You
 > [Add Projects in Studio Web](https://meta.stoplight.io/docs/platform/ZG9jOjE4ODEyMw-add-projects)
 > 
 >[Add Projects in Studio Desktop](../Basics/01-working-with-projects.md)
-
-
