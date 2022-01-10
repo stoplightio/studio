@@ -10,10 +10,7 @@ The publishing method you use depends on your project type:
 
 Note that nodeJS version 12 or greater is required to run the Stoplight CLI. You can verify your version using the command: `node --version`
 
-> **Learn More**
-> 
-> [Publish Overview](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxNA-publishing)
-> 
-> [Add Projects in Studio Web](https://meta.stoplight.io/docs/platform/ZG9jOjE4ODEyMw-add-projects)
-> 
->[Add Projects in Studio Desktop](../Basics/01-working-with-projects.md)
+## Learn More
+* [Publish Overview](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxNA-publishing) 
+* [Add Projects in Studio Web](https://meta.stoplight.io/docs/platform/ZG9jOjE4ODEyMw-add-projects)
+* [Add Projects in Studio Desktop](../Basics/01-working-with-projects.md)
