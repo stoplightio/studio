@@ -17,14 +17,13 @@ _All of the notes, descriptions, and content fields in the Stoplight editors sup
 - [Headers](#headers)
 - [Emphasis](#emphasis)
 - [Lists](#lists)
+- [Links](#links)
 - [Images](#images)
 - [Code and Syntax Highlighting](#code-and-syntax-highlighting)
 - [Tables](#tables)
 - [Blockquotes](#blockquotes)
 - [Inline HTML](#inline-html)
 - [Horizontal Rule](#horizontal-rule)
-- [Line Breaks](#line-breaks)
-- [Videos](#videos)
 
 ## Headers
 

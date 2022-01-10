@@ -1,49 +1,53 @@
 # Documentation Quickstart Guide
 
-Want to publish documentation? This quick start guide will provide you with the necessary steps to get you from API Specification to ready-to-publish API Documentation in 5 minutes flat.
+Want to publish documentation? This quick start guide will provide you with the necessary steps to use Studio Desktop to quickly get you from API Specification to ready-to-publish API Documentation.
 
-## 1. Open Stoplight Studio
+## 1. Open Studio Desktop
 
-The opening page of Stoplight Studio contains three options: create a **New Personal Project**, Open Git Project, and Open Existing Folder.
+The Studio Desktop start page contains three options: 
 
-## 2. Create a New Personal Project
+* New Local Project 
+* Open Git Project
+* Open Existing Folder
 
-Create a New Personal Project by inputting a **Name**, select **Include Tutorial Files**, and then click **Create**.
+For now, create a local project.
 
-> “Include Tutorial Files” will populate your Project with example files to help get you started
+## 2. Create a New Local Project
 
-![New Project Menu](../../assets/images/initial-onboarding-screen.png)
+1. Provide a name for your project.
+2. Select **Include Tutorial Files** to add example files to your project to help you get started. 
+3. Select **Create**.
 
-Once you have created a New Personal Project, the first thing you will see is the APIs file tree on the left and the design panel taking up the bulk of the screen space to the right.
+![New Local Project](https://stoplight.io/api/v1/projects/cHJqOjU/images/wOCkrVsW1ds)
 
-![Welcome Screen](../../assets/images/panel-general.png)
+The new local project opens. API files and directories listed in the left panel, and the design panel is shown on the right.
 
-The file tree to the left is where all of Stoplight’s Design files (API Specification: endpoints, models, paths, etc.) are stored and the main panel contains the [Table of Contents, API Design GUI, Read View, and Write View](../Basics/ui-overview.md). For more on API design, check out the [API Design Quick Start Guide](../Design-and-Modeling/01-getting-started.md).
+![panel-general.png](https://stoplight.io/api/v1/projects/cHJqOjU/images/iuOo2YCJf4g)
 
-## 2. Directory Structure
+## 3. Directory Structure
 
 Studio has some conventions around where API files and documentation files should live.
 
 Learn about [Studio Directory Structure](../Basics/02-working-with-files.md#directory-structure).
 
-## 3. Select Docs
+## 4. Select Docs
 
-![Select Docs tab](../../assets/images/docs-tab-markdown-folder.png)
+![Select Docs tab](https://stoplight.io/api/v1/projects/cHJqOjU/images/Tfqz2ZXG65k)
 
-From Studio, select the file tree’s **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation related files (Markdown files and image files) can be created, managed, modified, and deleted. Since you selected “Include Tutorial Files,” the left hand file tree will be populated by two folders: Markdown and welcome and an Assets folder: Images.
+Select the **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation-related files (Markdown files and image files) can be created, managed, modified, and deleted. Because you added tutorial files, the **Docs** tab includes samples of Markdown and image files.
 
-## 4. Modify Existing Markdown Files
+## 5. Modify Existing Markdown Files
 
 > Learn [how to create new Markdown files](../Basics/02-working-with-files.md)
 
-Open the Markdown folder and select **Markdown Basics**. The main panel will switch to the Markdown editor where you can modify existing content and create new content. Select Save to make changes permanent. You can switch to Read View to preview the file you have selected by selecting Read View in the top right toggle of the main panel.
-
-![Toggle View Modes](../../assets/images/main-panel-view-toggle.png)
+From the Markdown folder, select **basic-syntax**. The **Markdown Bascis** article opens in the main panel. You can modify existing content and create new content. Use the **Code** and **Preview** options to switch between edit and preview modes. 
 
 > For more on panel customization, check out [Panels](../Basics/ui-overview.md)
 
-## 5. Docs Preview (Web App Only)
+## 6. Use the Stoplight CLI to Publish
 
-To preview your documentation in its entirety, select the **Docs** toggle in the top right of the web application.
+For local projects, use the [Stoplight CLI](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxMw-publish-with-the-stoplight-cli) to publish your documentation.  
 
-![Docs Preview](../../assets/images/publishing.png)
+Learn about [publishing options](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxNA-publishing). 
+
+
