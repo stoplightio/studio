@@ -1,17 +1,22 @@
 # Downloading Projects
 
-Download a zip file of the current project if you need to save the contents of your project without pushing to a Git repository. 
+Download a zip file of your current project if you need to save your project without pushing to a Git repository. 
 
+### Use Studio Web
 To download a project in Studio Web:
+1. Log in to your workspace, then open a project in **Edit** mode. 
+[add screenshot]
 
-1. Open a project in Edit mode.
-2. From the Project Options hamburger menu, select **Download Project Zip**.
+2. From the **Project Options** menu, select **Download Project Zip**.
+[add screenshot]
 
+### Use Studio Desktop
 To download a project in Studio Desktop:
-
-1. Open a project.
-2. From the Project Options hamburger menu, select **Open project folder**.
+1. Log in to your workspace, then open a project.
+2. From the **Project Options** menu, select **Open project folder**.
+[add screenshot]
 3. Select **Open** to navigate to the folder.
-4. Create a zip file of the foder contents. 
+4. Create a zip file of the folder contents.
+[add screenshot] 
 
-> The download process resolves $ref's in OpenAPI or JSON Schema files, so users of the design library will still see references to the models in the design library. For that, the [Export API](https://meta.stoplight.io/docs/platform/c.troubleshooting.md) option might be more appropriate.
+> Downloading projects resolves the $refs in Open API or JSON Schema files. Design library users can view references to models in the design library. [Export API](https://meta.stoplight.io/docs/platform/c.troubleshooting.md) option might be more appropriate.
