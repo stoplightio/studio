@@ -1,12 +1,10 @@
-# Git Credentials
+# Git Credentials 
 
-Studio Web will use the Git Credentials associated with your Stoplight account depending on the Git provider being used. That means if you connect a GitHub and a BitBucket account, and work on a Git Project which is hosted on BitBucket, it's going to know to use the BitBucket credentials. You don't need to think about it at all.
+<!-- Move this topic to platform -->
 
-Studio Desktop v1.x used to ask you to log in to your Stoplight account in order to use Git functionality for things like commits, pushing, pulling, etc. but you no longer need to bother with that. You can work with any VCS provider by adding your Git credentials for that provider.
+Studio Web uses the Git Credentials associated with your Stoplight account, depending on the Git provider being used. That means if you connect a GitHub and a BitBucket account, and work on a Git Project which is hosted on BitBucket, it's going to know to use the BitBucket credentials. You don't need to think about it at all.
 
-You should be asked to add credentials for a provider the first time you add that project, but if for some reason that doesn't work, or you need to change them, here's how it works.
-
-## Adding Credentials for Github
+## Adding Github Credentials in Studio Desktop
 
 1. Create a [new personal access token](https://github.com/settings/tokens/new) (more information in the [creating personal access tokens guide on Github](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
 
@@ -14,15 +12,15 @@ You should be asked to add credentials for a provider the first time you add tha
 
 ![image](../assets/images/git-creds-github-token.png)
 
-3. Click the Cog icon bottom left to open Project Settings, click Project Settings, and click the "+ Credential" button.
+3. In Studio Desktop, open a Git project.
+
+4. From the hamburger menu, select **Git > Manage Credentials**, and then add:
 
 - **Host URL:** `https://github.com/`
 - **Username:** Your GitHub username, e.g.: `janesmith123`
 - **Password:** The Personal Access Token you just created
 - **Author Name:** A display name, usually a full name, e.g.: `Jane Smith`
 - **Author Email:** Your GitHub email address
-
-Job done! You should now be able to push to GitHub.
 
 > Keep in mind that these credentials are stored on your local computer as a security measure, so if you switch computers you'll need to repeat this step.
 
