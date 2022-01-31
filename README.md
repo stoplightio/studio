@@ -38,7 +38,7 @@ When it comes to API modeling, avoiding duplication of effort can be the differe
 
 Studio allows you to quickly and easily find and reuse the objects you need, as you need them. No more recreating models for different endpoints, no more having to update dozens of different endpoints because a new field was added.
 
-To find out more about how you can leverage references to scale your API consistency, see [here](./docs/Design-and-Modeling/07-using-references.md).
+To find out more about how you can leverage references to scale your API consistency, see [here](https://meta.stoplight.io/docs/platform/branches/pam-215-doc-overview-updates/ZG9jOjM2OTM3Mjk0-use-references).
 
 ### Technical Documentation
 
@@ -58,7 +58,7 @@ Enforce correctness and best practices with the native [Spectral](https://stopli
 
 Clicking on errors or warnings also brings you to exactly where they are located in the document, making it easy to fix errors at the source.
 
-To find out more about Spectral and how validations can improve your API design workflow, see [here](./docs/Design-and-Modeling/08-validation-style-guide.md).
+To find out more about Spectral and how validations can improve your API design workflow, see [here](https://meta.stoplight.io/docs/platform/branches/pam-215-doc-overview-updates/ZG9jOjMwMDI3MjA2-overview).
 
 ### Built-in Mocking
 
@@ -66,7 +66,7 @@ When running locally, Studio will automatically start a local [Prism mock server
 
 ![Mocking allows you to quickly test the look and feel of your API before jumping into the code](assets/images/studio-mocking.png)
 
-To find out more about Prism and how mocking can be used to streamline your API development process, see [here](./docs/Design-and-Modeling/06-mock-servers.md).
+To find out more about Prism and how mocking can be used to streamline your API development process, see [here](https://meta.stoplight.io/docs/platform/branches/pam-215-doc-overview-updates/ZG9jOjM2OTM3Mjg4-work-with-mock-servers).
 
 ### Bring Your Own Repository
 

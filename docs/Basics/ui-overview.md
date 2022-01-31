@@ -70,7 +70,7 @@ You can customize the [project sidebar](https://meta.stoplight.io/docs/platform/
 Use the main editor panel to design APIs and write documentation. Choose different views:
  - **Form**: Offers an intiutive editor for APIs, endpoints, and models. 
  - **Code**: Enables the code view for applicable files. 
- - **Preview**: Provides a preview of what the selected file will look like when it is published. For API operations, the [Try It](../Design-and-Modeling/03-http-endpoints.md) feature is available in Preview mode. 
+ - **Preview**: Provides a preview of what the selected file will look like when it is published. For API operations, the [Try It](https://meta.stoplight.io/docs/platform/ZG9jOjM2OTM3Mjky-try-it) feature is available in Preview mode. 
 
  **Validation and Linting** displays issues related to your API Specification (powered by [Spectral](https://meta.stoplight.io/docs/spectral/ZG9jOjYx-overview)). Select to expand window and view error and warning details and locations.
 

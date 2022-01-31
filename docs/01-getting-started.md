@@ -55,12 +55,4 @@ focus: false
 
 4. Add global information about the API (summary, description, servers, and more). 
 
-5. Continue on to the [API Design Guide](./Design-and-Modeling/01-getting-started.md) to get started designing APIs.
 
-> #### Learn more about API designs
->
->- [Understanding the Directory Structure](Basics/02-working-with-files.md#directory-structure)
->- [Working with Models](./Design-and-Modeling/03-http-endpoints.md)
->- [Shared Components](./Design-and-Modeling/04-shared-components.md)
->- [Using References](./Design-and-Modeling/07-using-references.md)
->- [Validation and Linting](./Design-and-Modeling/08-validation-style-guide.md)

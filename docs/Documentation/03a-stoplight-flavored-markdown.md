@@ -2,6 +2,8 @@
 
 ## Overview
 
+>This topic has a [new home](https://meta.stoplight.io/docs/platform/ZG9jOjM3MTUxNjgw-stoplight-flavored-markdown). Update your bookmarks for future reference.
+
 Stoplight Flavored Markdown can be used to enhance existing Markdown documentation with necessary documentation components like code blocks, images, diagrams e.t.c. 
 
 ### Components
