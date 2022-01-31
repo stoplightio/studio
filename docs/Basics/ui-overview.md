@@ -48,7 +48,7 @@ You can customize the [project sidebar](https://meta.stoplight.io/docs/platform/
   - Auto-translate SSH URLs)
   <!-- https://github.com/stoplightio/platform-docs/issues/159 created to better document Git settings at a later time -->
 * **Reclone Project**
-* [**Download Project ZIP**](download-project.md)
+* **Download Project ZIP**
 
 
 <!-- focus: center -->
