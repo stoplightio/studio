@@ -56,7 +56,7 @@ You can customize the [project sidebar](https://meta.stoplight.io/docs/platform/
 
 **Search**: Find anything in your project files. 
 
-**Add to Project**: Use to add new assets to your project. This includes APIs, endpoints, models, articles, style guides, images, table of contents, files and directories. You can also import files and import directories and add a [Stoplight Config file](03-stoplight-config.md) to your project. 
+**Add to Project**: Use to add new assets to your project. This includes APIs, endpoints, models, articles, style guides, images, table of contents, files and directories. You can also import files and import directories and add a [Stoplight Config file](https://meta.stoplight.io/docs/platform/ZG9jOjE4ODEyNA-configure-projects) to your project. 
 
 **Project Actions** (Changes depending on your state):
   - **Back to workspace**: Shows when no changes have been made to the project.
