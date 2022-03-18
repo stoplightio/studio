@@ -22,7 +22,7 @@ Form-based designing means you don't need to be an OpenAPI expert to get started
 
 ![Graphical Design for OpenAPI](assets/images/form-editor.png)
 
-To find out more about how you can quickly design and prototype APIs without writing a single line of JSON or YAML, see [here](./docs/Design-and-Modeling/01-getting-started.md).
+To find out more about how you can quickly design and prototype APIs without writing a single line of JSON or YAML, see [here](https://meta.stoplight.io/docs/platform/ZG9jOjM2OTM3Mjg5-overview).
 
 ### JSON Schema Modeling
 
@@ -38,7 +38,7 @@ When it comes to API modeling, avoiding duplication of effort can be the differe
 
 Studio allows you to quickly and easily find and reuse the objects you need, as you need them. No more recreating models for different endpoints, no more having to update dozens of different endpoints because a new field was added.
 
-To find out more about how you can leverage references to scale your API consistency, see [here](https://meta.stoplight.io/docs/platform/branches/pam-215-doc-overview-updates/ZG9jOjM2OTM3Mjk0-use-references).
+To find out more about how you can leverage references to scale your API consistency, see [here](https://meta.stoplight.io/docs/platform/ZG9jOjIyNTY5MzIw-shared-components).
 
 ### Technical Documentation
 
@@ -48,17 +48,17 @@ Mix API Reference Documentation and Markdown-based guides, how-tos, getting star
 
 You can even host the files in your own Git repository, and then publish when you're ready to show off your latest and greatest.
 
-To find out more about writing technical documentation in Studio, see our getting started guide [here](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/01-getting-started.md).
+To find out more about writing technical documentation in Studio, see our getting started guide [here](https://meta.stoplight.io/docs/platform/ZG9jOjU4NzU5Mg-types-of-documentation).
 
 ### Style Guides and Validation
 
-Enforce correctness and best practices with the native [Spectral](https://stoplight.io/spectral/) integration that alerts you to errors the moment they are created.
+Enforce correctness and best practices with Style Guides, powered by the native [Spectral](https://stoplight.io/spectral/) integration that alerts you to errors the moment they are created.
 
 ![Spectral validates and lints your APIs to ensure they are correct and functional](assets/images/spectral1.png)
 
 Clicking on errors or warnings also brings you to exactly where they are located in the document, making it easy to fix errors at the source.
 
-To find out more about Spectral and how validations can improve your API design workflow, see [here](https://meta.stoplight.io/docs/platform/branches/pam-215-doc-overview-updates/ZG9jOjMwMDI3MjA2-overview).
+To find out more about Stoplight Style Guides and how validations can improve your API design workflow, see [here](https://meta.stoplight.io/docs/platform/ZG9jOjMwMDI3MjA2-overview).
 
 ### Built-in Mocking
 
@@ -66,11 +66,11 @@ When running locally, Studio will automatically start a local [Prism mock server
 
 ![Mocking allows you to quickly test the look and feel of your API before jumping into the code](assets/images/studio-mocking.png)
 
-To find out more about Prism and how mocking can be used to streamline your API development process, see [here](https://meta.stoplight.io/docs/platform/branches/pam-215-doc-overview-updates/ZG9jOjM2OTM3Mjg4-work-with-mock-servers).
+To find out more about Prism and how mocking can be used to streamline your API development process, see [here](https://meta.stoplight.io/docs/platform/ZG9jOjM2OTM3Mjg4-work-with-mock-servers).
 
 ### Bring Your Own Repository
 
-Since Studio works with your local filesystem, you can open up your API projects and start adding docs and designs alongside the actual implementation they are meant to describe. Once you're done, check it all into Git with your favorite Git client!
+Since Studio works with your local files ystem, you can open up your API projects and start adding docs and designs alongside the actual implementation they are meant to describe. Once you're done, check it all into Git with your favorite Git client!
 
 ## License
 
