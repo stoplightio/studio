@@ -29,7 +29,7 @@ Try it with our sample project:
 > #### Learn more about projects
 >
 >- [Working with Projects](Basics/01-working-with-projects.md)
->- [Working with Files](Basics/02-working-with-files.md)
+>- [Working with Files](https://meta.stoplight.io/docs/platform/ZG9jOjMxMjkzMTQ1-work-with-files)
 >- [Explore Projects](Basics/ui-overview.md) 
 
 

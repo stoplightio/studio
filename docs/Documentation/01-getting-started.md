@@ -28,7 +28,7 @@ The new local project opens. API files and directories listed in the left panel,
 
 Studio has some conventions around where API files and documentation files should live.
 
-Learn about [Studio Directory Structure](../Basics/02-working-with-files.md#directory-structure).
+Learn about [Studio Directory Structure](https://meta.stoplight.io/docs/platform/ZG9jOjMxMjkzMTQ1-work-with-files#directory-structure).
 
 ## 4. Select Docs
 
@@ -38,7 +38,7 @@ Select the **Docs** tab to switch from the API Design workspace to the documenta
 
 ## 5. Modify Existing Markdown Files
 
-> Learn [how to create new Markdown files](../Basics/02-working-with-files.md)
+> Learn [how to create new Markdown files](https://meta.stoplight.io/docs/platform/ZG9jOjMxMjkzMTQ1-work-with-files)
 
 From the Markdown folder, select **basic-syntax**. The **Markdown Bascis** article opens in the main panel. You can modify existing content and create new content. Use the **Code** and **Preview** options to switch between edit and preview modes. 
 
