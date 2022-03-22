@@ -28,8 +28,8 @@ Try it with our sample project:
 
 > #### Learn more about projects
 >
->- [Working with Projects](Basics/01-working-with-projects.md)
->- [Working with Files](https://meta.stoplight.io/docs/platform/ZG9jOjMxMjkzMTQ1-work-with-files)
+>- [Work with Projects](https://meta.stoplight.io/docs/platform/ZG9jOjE4ODEyMw-add-projects)
+>- [Work with Files](https://meta.stoplight.io/docs/platform/ZG9jOjMxMjkzMTQ1-work-with-files)
 >- [Explore Projects](Basics/ui-overview.md) 
 
 
