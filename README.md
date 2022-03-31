@@ -52,13 +52,11 @@ To find out more about writing technical documentation in Studio, see our gettin
 
 ### Style Guides and Validation
 
-Enforce correctness and best practices with Style Guides, powered by the native [Spectral](https://stoplight.io/spectral/) integration that alerts you to errors the moment they are created.
+Enforce correctness and best practices with [Style Guides](https://meta.stoplight.io/docs/platform/ZG9jOjMwMDI3MjA2-style-guide-overview), powered by the native [Spectral](https://stoplight.io/spectral/) integration that alerts you to errors the moment they are created.
 
 ![Spectral validates and lints your APIs to ensure they are correct and functional](assets/images/spectral1.png)
 
 Clicking on errors or warnings also brings you to exactly where they are located in the document, making it easy to fix errors at the source.
-
-To find out more about Stoplight Style Guides and how validations can improve your API design workflow, see [here](https://meta.stoplight.io/docs/platform/ZG9jOjMwMDI3MjA2-overview).
 
 ### Built-in Mocking
 
@@ -70,7 +68,7 @@ To find out more about Prism and how mocking can be used to streamline your API 
 
 ### Bring Your Own Repository
 
-Since Studio works with your local files ystem, you can open up your API projects and start adding docs and designs alongside the actual implementation they are meant to describe. Once you're done, check it all into Git with your favorite Git client!
+Since Studio works with your local file system, you can open up your API projects and start adding docs and designs alongside the actual implementation they are meant to describe. Once you're done, check it all into Git with your favorite Git client!
 
 ## License
 
