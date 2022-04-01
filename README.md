@@ -8,6 +8,10 @@ To report a bug, please go to https://support.stoplight.io/hc/en-us/requests/new
 
 Studio is Stoplight's next generation application for API design, modeling, and technical writing. A primary goal of Studio is to enrich, not replace, your existing workflows. When running locally it works fully offline, with folders and files on your computer just like your favorite IDE. When running in the browser, the web-native Git support allows you to effortlessly work with your existing repositories safely and efficiently.
 
+## Documentation
+
+To learn more about Studio and the Stoplight platform, see our [Platform Documentation](https://meta.stoplight.io/).
+
 ## Features
 
 ### Full Support for OpenAPI v2 and v3
