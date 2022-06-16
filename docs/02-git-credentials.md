@@ -6,8 +6,9 @@ Studio Web uses the Git Credentials associated with your Stoplight account, depe
 
 ## Adding Github Credentials in Studio Desktop
 
+<!-- markdown-link-check-disable -->
 1. Create a [new personal access token](https://github.com/settings/tokens/new) (more information in the [creating personal access tokens guide on Github](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
-
+<!-- markdown-link-check-enable -->
 2. Choose "repo" permissions to allow enable read/writing files in your Git repository then generate the token.
 
 ![image](../assets/images/git-creds-github-token.png)

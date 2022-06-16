@@ -2,7 +2,9 @@
 
 Projects using Git as the source of truth have a bunch of extra functionality enabled, as Stoplight Studio has first-class support for common Git tasks like pushing, pulling, creating/switching branches, comparing differences, etc.
 
+<!-- markdown-link-check-disable -->
 If you are new to Git, it's a version control system which can help a bunch of developers collaborate on a bunch of different things without clobbering each others work, or it can help just one developer keep track of various in-progress changes. GitHub is one popular Git repository hosting provider of many. They have written a nice [introduction to Git](https://guides.github.com/introduction/git-handbook/) which you might want to check out if you're new to Git entirely.
+<!-- markdown-link-check-enable -->
 
 You don't need to know too much about the complexities of Git in order to get things done in Studio, but the following actions are worth knowing about.
 
