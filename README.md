@@ -50,7 +50,7 @@ To find out more about writing technical documentation in Studio, see our gettin
 
 ### Style Guides and Validation
 
-Enforce correctness and best practices with [Style Guides](https://meta.stoplight.io/docs/platform/ZG9jOjMwMDI3MjA2-style-guide-overview), powered by the native [Spectral](https://stoplight.io/spectral/) integration that alerts you to errors the moment they are created.
+Enforce correctness and best practices with [Style Guides](https://meta.stoplight.io/docs/platform/ZG9jOjMwMDI3MjA2-style-guide-overview), powered by the native [Spectral](https://stoplight.io/spectral/?utm_source=github.com&utm_medium=referral&utm_campaign=github_repo_studio) integration that alerts you to errors the moment they are created.
 
 ![Spectral validates and lints your APIs to ensure they are correct and functional](assets/images/spectral1.png)
 
@@ -58,7 +58,7 @@ Clicking on errors or warnings also brings you to exactly where they are located
 
 ### Built-in Mocking
 
-When running locally, Studio will automatically start a local [Prism mock server](https://stoplight.io/prism/) for every API defined in your project, and keep that mock server up to date as you change your designs.
+When running locally, Studio will automatically start a local [Prism mock server](https://stoplight.io/prism/?utm_source=github.com&utm_medium=referral&utm_campaign=github_repo_studio) for every API defined in your project, and keep that mock server up to date as you change your designs.
 
 ![Mocking allows you to quickly test the look and feel of your API before jumping into the code](assets/images/studio-mocking.png)
 
@@ -70,4 +70,4 @@ Since Studio works with your local file system, you can open up your API project
 
 ## License
 
-<a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Stoplight Studio</span> by <a xmlns:cc="https://creativecommons.org/ns#" href="https://stoplight.io/studio" property="cc:attributionName" rel="cc:attributionURL">Stoplight.io</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+<a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Stoplight Studio</span> by <a xmlns:cc="https://creativecommons.org/ns#" href="https://stoplight.io/studio?utm_source=github.com&utm_medium=referral&utm_campaign=github_repo_studio" property="cc:attributionName" rel="cc:attributionURL">Stoplight.io</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
